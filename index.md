@@ -1,7 +1,7 @@
 ---
 ---
 
-# Charlz-Nithin-JeroldDESCRIPTION=An engaging 1-3 sentence description of your lab.'s Website
+# Gomez Lab Website
 
 
 
