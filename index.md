@@ -1,16 +1,22 @@
 ---
 ---
 
-Our lab brings together a diverse group of researchers with expertise in clinical, computational, molecular, and mathematical disciplines, all united by a shared interest in understanding the genomic underpinnings of cancer. We focus specifically on Hodgkin and non-Hodgkin lymphomas, as well as multiple myeloma, investigating how acquired genetic mutations influence the clinical manifestations of these diseases and their responses to treatment.
+Our lab consists of researchers focused on understanding the genetic drivers of Hodgkin and non-Hodgkin lymphomas, as well as multiple myeloma. We explore how somatic mutations shape disease characteristics and influence treatment responses.
 
-Classic Hodgkin lymphoma (cHL) presents a unique challenge, accounting for 10% of all lymphomas in the Western world and remaining a significant clinical concern. While many patients respond well to standard therapies, a subset faces relapse or resistance. The disease is characterized by the rare malignant B cells known as Hodgkin-Reed-Sternberg (HRS) cells, which constitute only a small fraction of the tumor environment. Despite advancements in next-generation sequencing, detecting somatic mutations in cancers dominated by these rare cell populations remains difficult, largely due to low signal-to-noise ratios and a lack of sophisticated algorithms designed to handle low variant allele frequency (VAF) variants.
+Key Research Areas:
 
-Our research seeks to address these challenges through two main avenues of inquiry:
+	•	Genomics of Hodgkin and Non-Hodgkin lymphomas and multiple myeloma.
+	•	Somatic variation in diverse human populations.
+	•	Deep sequencing of Hodgkin Lymphoma genomes, linking genetic variation with survival and disease progression.
 
-	1.	Can ultra-deep exome-wide sequencing, combined with tailored filtering and analysis techniques, successfully identify somatic mutations in cHL?
-	2.	Do these low VAF somatic mutations, identified from HRS cells using our refined analytical strategies, correlate with disease outcomes in cHL?
+Classic Hodgkin lymphoma (cHL), responsible for 10% of all lymphomas in the Western world, remains challenging due to relapse and treatment resistance in some patients. The rarity of malignant Hodgkin-Reed-Sternberg (HRS) cells in cHL complicates the detection of somatic mutations, demanding advanced sequencing and analysis techniques.
 
-Our lab’s mission is to conduct research that directly informs and improves clinical practices in oncology. We are recognized for our strengths in genomic profiling, the development of advanced high-throughput laboratory and bioinformatics methods, and our ability to manage and interpret extensive and complex genomic data. Through our extensive network of research and clinical partnerships, we strive to push the boundaries of cancer research, ultimately enhancing patient care and outcomes.
+We address these challenges by:
+
+	•	Utilizing ultra-deep exome-wide sequencing paired with customized filtering and analysis strategies to detect somatic mutations in cHL.
+	•	Investigating the association between low variant allele frequency (VAF) mutations in HRS cells and clinical outcomes.
+
+Our mission is to advance oncology by integrating genome profiling with cutting-edge laboratory and bioinformatics techniques, driving research that impacts clinical practices and improves patient care.
 
 {% include section.html %}
 
