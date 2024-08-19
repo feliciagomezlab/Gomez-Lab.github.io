@@ -2,7 +2,7 @@
 name: Felicia Gomez
 image: images/Felicia-Gomez-280x386-1.png
 role: PI
-affiliation: Washington University in St.Louis
+affiliation: Assistant Professor of Medicine
 aliases:
   - F. Gomez
   - Felicia
