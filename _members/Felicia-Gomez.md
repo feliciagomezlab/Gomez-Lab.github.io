@@ -1,14 +1,14 @@
 ---
-name: Jane Smith
-image: images/photo.jpg
-role: pi
-affiliation: University of Colorado
+name: Felicia Gomez
+image: images/Felicia-Gomez-280x386-1.png
+role: PI
+affiliation: Washington University in St.Louis
 aliases:
-  - J. Smith
-  - J Smith
+  - F. Gomez
+  - Felicia
 links:
-  home-page: https://janesmith.com
-  orcid: 0000-0001-8713-9213
+  home-page: https://profiles.wustl.edu/en/persons/felicia-gomez
+  orcid: 0000-0003-4884-7510
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
