@@ -1,5 +1,5 @@
 
-# Charlz-Nithin-JeroldDESCRIPTION=An engaging 1-3 sentence description of your lab.'s Website
+# Gomez Lab Website
 
 Visit **[charlz-nithin-jerold.github.io/Gomez-Lab.github.io](https://charlz-nithin-jerold.github.io/Gomez-Lab.github.io)** 🚀
 
