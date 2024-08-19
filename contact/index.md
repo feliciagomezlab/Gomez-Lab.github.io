@@ -27,7 +27,7 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
   include button.html
   type="address"
   tooltip="Our location on Google Maps for easy navigation"
-  link="https://g.co/kgs/MAUoj2c"
+link="https://www.google.com/maps/place/Mid+Campus+Center/@38.6362236,-90.2619309,15z/data=!4m6!3m5!1s0x87d8b4df564ad7d1:0xddebd7786d830554!8m2!3d38.6362236!4d-90.2619309!16s%2Fg%2F11dxqfct18?entry=ttu"
 %}
 
 {% include section.html %}
