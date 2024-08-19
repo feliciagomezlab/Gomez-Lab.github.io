@@ -1,7 +1,7 @@
 ---
 name: Felicia Gomez
 image: images/Felicia-Gomez-280x386-1.png
-role: PI
+role: pi
 affiliation: Assistant Professor of Medicine
 aliases:
   - F. Gomez
