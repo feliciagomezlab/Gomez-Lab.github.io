@@ -23,4 +23,7 @@ Explore our extensive range of publications to gain deeper insights into our wor
 
 {% include search-info.html %}
 
-{% include list.html data="citations" component="citation" %}
+{% assign papers = site.data.citations | where_exp: "item", "item.type == 'journal-article' or item.type == 'conference-paper'" %}
+{% for citation in papers %}
+  {% include list.html data="citations" component="citation" %}
+{% endfor %}
