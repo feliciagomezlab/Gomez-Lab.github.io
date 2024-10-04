@@ -1,4 +1,2 @@
 - orcid: 0000-0003-4884-7510
   felicia-gomez: true
-
-{% include list.html data="citations" component="citation" filters="felicia-gomez: true" %}
