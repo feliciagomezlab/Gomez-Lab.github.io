@@ -39,6 +39,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dv9
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.c.6931622.v1
@@ -80,6 +81,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dwb
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566169.v1
@@ -121,6 +123,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dwc
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566169
@@ -162,6 +165,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dwd
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566166.v1
@@ -203,6 +207,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dwf
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566166
@@ -244,6 +249,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dwg
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566163.v1
@@ -285,6 +291,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dwh
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566163
@@ -326,6 +333,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dwj
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566160.v1
@@ -367,6 +375,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dwk
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566160
@@ -408,6 +417,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dwm
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566157.v1
@@ -449,6 +459,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dwn
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566157
@@ -490,6 +501,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dwp
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566154.v1
@@ -531,6 +543,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dwq
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566154
@@ -572,6 +585,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dwr
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566151.v1
@@ -613,6 +627,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dws
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566151
@@ -654,6 +669,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dwt
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566148.v1
@@ -695,6 +711,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dwv
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566148
@@ -736,6 +753,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dww
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566145.v1
@@ -777,6 +795,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dwx
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566145
@@ -818,6 +837,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dwz
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566142.v1
@@ -859,6 +879,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dw2
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566142
@@ -900,6 +921,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dw3
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566139.v1
@@ -941,6 +963,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dw4
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566139
@@ -982,6 +1005,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dw5
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566136
@@ -1023,6 +1047,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dw6
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566136.v1
@@ -1064,6 +1089,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dw7
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566133.v1
@@ -1105,6 +1131,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dw8
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566133
@@ -1146,6 +1173,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dw9
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566130.v1
@@ -1187,6 +1215,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dxb
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566130
@@ -1228,6 +1257,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dxc
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566127.v1
@@ -1269,6 +1299,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dxd
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566127
@@ -1310,6 +1341,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dxf
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566124
@@ -1351,6 +1383,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dxg
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566124.v1
@@ -1392,6 +1425,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dxh
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566121.v1
@@ -1433,6 +1467,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dxj
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566121
@@ -1474,6 +1509,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dxk
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566118.v1
@@ -1515,6 +1551,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dxm
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566118
@@ -1556,6 +1593,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dxn
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566115.v1
@@ -1597,6 +1635,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dxp
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566115
@@ -1638,6 +1677,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dxq
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566112.v1
@@ -1679,6 +1719,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dxr
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566112
@@ -1720,6 +1761,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dxs
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566109.v1
@@ -1761,6 +1803,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dxt
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566109
@@ -1802,6 +1845,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dxv
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566106.v1
@@ -1843,6 +1887,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dxw
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566106
@@ -1884,6 +1929,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dxx
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566103.v1
@@ -1925,6 +1971,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dxz
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566103
@@ -1966,6 +2013,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dx2
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566100.v1
@@ -2007,6 +2055,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dx3
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566100
@@ -2048,6 +2097,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dx4
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566097.v1
@@ -2089,6 +2139,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dx5
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566097
@@ -2130,6 +2181,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dx6
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566094
@@ -2171,6 +2223,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dx7
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566094.v1
@@ -2212,6 +2265,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dx8
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566091.v1
@@ -2253,6 +2307,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dx9
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566091
@@ -2294,6 +2349,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dzb
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566088.v1
@@ -2335,6 +2391,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dzc
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.24566088
@@ -2376,6 +2433,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dzd
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1158/2767-9764.CRC-23-0140
@@ -2417,6 +2475,7 @@
   date: '2023-11-15'
   link: https://doi.org/gt7dzf
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1182/bloodadvances.2023010779
@@ -2450,6 +2509,7 @@
   date: '2023-09-15'
   link: https://doi.org/gt7dzg
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1182/blood.2021011894
@@ -2480,6 +2540,7 @@
   date: '2022-03-31'
   link: https://doi.org/gq32c8
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1101/2021.06.25.21258374
@@ -2519,6 +2580,7 @@
   date: '2021-07-04'
   link: https://doi.org/gt7dzh
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1101/266262
@@ -2546,6 +2608,7 @@
   date: '2018-02-16'
   link: https://doi.org/gkwxnp
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1182/blood-2016-07-729954
@@ -2572,5 +2635,6 @@
   date: '2017-01-26'
   link: https://doi.org/f9vqnt
   orcid: 0000-0003-4884-7510
+  felicia-gomez: true
   plugin: sources.py
   file: sources.yaml
