@@ -22,6 +22,5 @@ Explore our extensive range of publications to gain deeper insights into our wor
 {% include search-box.html %}
 
 {% include search-info.html %}
-{% for citation in site.data.sources %}
-  {% include list.html data="sources" component="citation" %}
-{% endfor %}
+
+{% include list.html data="citations" component="citation" style="rich" %}
