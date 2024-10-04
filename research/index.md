@@ -11,11 +11,7 @@ Explore our extensive range of publications to gain deeper insights into our wor
 
 {% include section.html %}
 
-## Highlighted
 
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
-
-{% include section.html %}
 
 ## All
 
