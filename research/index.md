@@ -23,4 +23,4 @@ Explore our extensive range of publications to gain deeper insights into our wor
 
 {% include search-info.html %}
 
-{% include list.html data="citations" component="citation" style="rich" %}
+{% include list.html data="citations" component="citation" %}
