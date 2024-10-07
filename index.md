@@ -58,8 +58,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
+Code, Cells, and Breakthroughs: Meet the Innovators Behind Our Computational Lab
 {%
   include button.html
   link="team"
