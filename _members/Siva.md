@@ -1,6 +1,6 @@
 ---
 name: Sivasankar Annamalai Sharavanan 
-image: images/20231217_135431~3.png
+image: images/Siva.png
 description: Bioinformatics Research Assistant
 role: programmer
 links:
