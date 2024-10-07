@@ -9,7 +9,8 @@ Our Lab brings together specialists in medical, data-driven, genetic research to
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Explore our extensive range of publications to gain deeper insights into our work.
+
 
 {%
   include button.html
