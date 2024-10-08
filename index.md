@@ -58,7 +58,7 @@ Page under Construction
 
 {% capture text %}
 
-Code, Cells, and Breakthroughs: Meet the Innovators Behind Our Computational Lab
+Code, Cells,and Breakthroughs: Meet the Innovators Behind Our Computational Lab
 
 {%
   include button.html
