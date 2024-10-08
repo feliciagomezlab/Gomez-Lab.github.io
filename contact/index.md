@@ -33,8 +33,8 @@ link="https://www.google.com/maps/place/Mid+Campus+Center/@38.6362236,-90.261930
 
 {%
   include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
+  image="images/MCC.jpg"
+  caption="Mid Campus Center – the vibrant core of our Lab’s innovation and discovery"
 %}
 
 {% endcapture %}
