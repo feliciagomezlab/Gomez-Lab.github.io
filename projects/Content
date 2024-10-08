@@ -1201,11 +1201,13 @@ Explore our extensive range of publications to gain deeper insights into our wor
       class="button"
       href="https://oncology.wustl.edu/people/felicia-i-gomez-phd/"
       
+        data-tooltip="Website"
+      
       data-style="bare"
       
-      aria-label="button"
+      aria-label="Website"
     >
-      
+      <i class="icon fa-solid fa-globe"></i>
       
     </a>
   </div>
