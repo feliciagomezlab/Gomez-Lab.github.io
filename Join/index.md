@@ -42,4 +42,5 @@ We offer internships each year, which may be conducted in-person or remotely. Op
 {% include search-info.html %}
 
 {% include list.html data="positions" component="position" style="rich" %}
+
 {% endraw %}
