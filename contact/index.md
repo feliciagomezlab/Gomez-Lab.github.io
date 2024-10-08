@@ -34,7 +34,7 @@ link="https://www.google.com/maps/place/Mid+Campus+Center/@38.6362236,-90.261930
 {%
   include figure.html
   image="images/MCC.jpg"
-  caption="Mid Campus Center – the vibrant core of our Lab’s innovation and discovery"
+  caption="Mid Campus Center – the single cell of our lab’s research, where each idea is cultivated and multiplied."
 %}
 
 {% endcapture %}
@@ -43,8 +43,8 @@ link="https://www.google.com/maps/place/Mid+Campus+Center/@38.6362236,-90.261930
 
 {%
   include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
+  image="images/IMG_4047.jpg"
+  caption="Suite 10200 – the nucleus within, driving the key mutations and insights that power our cancer research."
 %}
 
 {% endcapture %}
