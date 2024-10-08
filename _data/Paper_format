@@ -1,0 +1,11 @@
+- id: doi:YOUR_DOI_HERE
+  image: PATH_TO_YOUR_IMAGE_HERE
+  tags:
+    - YOUR_TAG_HERE
+  buttons:
+    - type: source
+      text: YOUR_BUTTON_TEXT_HERE
+      link: YOUR_LINK_HERE
+    - type: data
+      text: YOUR_DATA_TEXT_HERE
+      link: YOUR_DATA_LINK_HERE
