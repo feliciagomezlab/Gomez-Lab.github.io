@@ -15,13 +15,14 @@ Page Under Construction!
 
 
 {% raw %}
+<!--
 ### Open Positions
 
 None at the moment.
 
 ### Independent Research Fellows
 
-Our lab welcomes independent research fellows who are interested in exploring innovative ideas and cutting-edge research. If you are considering applying for an independent research fellowship with our support, please send us a rough proposal, your potential funding sources, and your CV [via email](#).
+Our lab welcomes independent research fellows who are interested in exploring innovative ideas and cutting-edge research. If you are considering applying for an independent research fellowship with our support, please send us a rough proposal, your potential funding sources, and your CV via email.
 
 ### Postdoctoral Researchers
 
@@ -42,5 +43,5 @@ We offer internships each year, which may be conducted in-person or remotely. Op
 {% include search-info.html %}
 
 {% include list.html data="positions" component="position" style="rich" %}
-
+-->
 {% endraw %}
