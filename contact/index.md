@@ -17,8 +17,8 @@ nav:
 {%
   include button.html
   type="phone"
-  text="(555) 867-5309"
-  link="+1-555-867-5309"
+  text="Phone Number"
+  link=""
 %}
 {%
   include button.html
