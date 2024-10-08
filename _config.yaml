@@ -5,6 +5,7 @@ description:
 header: images/logo.jpg
 footer: images/background.jpg
 proofer: false
+header-dark: true
 
 # site social media and other links
 links:
