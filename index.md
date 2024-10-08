@@ -33,7 +33,7 @@ Explore our extensive range of publications to gain deeper insights into our wor
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Page under Construction
 
 {%
   include button.html
