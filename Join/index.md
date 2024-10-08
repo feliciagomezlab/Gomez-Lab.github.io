@@ -7,8 +7,6 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-handshake-angle" %}Join the Team
 
-{% include section.html %}
-
 Excuse the Digital Dust! We’re busy building something awesome. Stay tuned!
 
 
