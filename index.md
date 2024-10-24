@@ -48,7 +48,7 @@ Page under Construction
 
 {%
   include feature.html
-  image="images/BGA-66_Hodgkins_all-figures_v1l_F1.png"
+  image="images/photo.jpg"
   link="projects"
   title="Our Projects"
   flip=true
