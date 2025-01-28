@@ -3,9 +3,12 @@ title: Projects
 nav:
   order: 2
   tooltip: Software, datasets, and more
+  image: "images/BGA-66_Hodgkins_all-figures_v1l_F1.png"  # Background image path
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Projects
+<div class="background" style="--image: url('{{ page.image }}');">
+  
+# {% include icon.html icon="fa-solid fa-wrench" %} Projects
 
 ## Hodgkin Lymphoma Research Project
 
@@ -23,3 +26,5 @@ We will use new technologies and various sources of DNA and RNA to explore somat
 
 **Potential Impact**  
 The knowledge generated from this project will provide a foundational understanding of the biological processes underlying Hodgkin lymphoma. This could pave the way for innovative treatment options for patients with limited secondary therapy options.
+
+</div>
