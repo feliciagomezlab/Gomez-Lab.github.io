@@ -2,13 +2,9 @@ name: build-preview
 run-name: build pull request preview
 
 on:
-  # run when called from another workflow
   workflow_call:
-
-  # run if user manually requests it
   workflow_dispatch:
 
-# variables
 env:
   PREVIEWS_FOLDER: preview
 
@@ -30,14 +26,23 @@ jobs:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           ref: ${{ github.head_ref }}
 
-      - name: Install Ruby packages
-        if: github.event.action != 'closed'
-        uses: ruby/setup-ruby@v1.172.0
-        with:
-          ruby-version: "3.1"
-          bundler-cache: true
+      - name: Install Ruby using rbenv
+        run: |
+          sudo apt update
+          sudo apt install -y rbenv
+          rbenv install 3.1.4
+          rbenv global 3.1.4
+          echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+          echo 'eval "$(rbenv init -)"' >> ~/.bashrc
+          source ~/.bashrc
+          ruby -v  # Verify Ruby installation
 
-      - name: Get Pages url
+      - name: Install Bundler and Dependencies
+        run: |
+          gem install bundler
+          bundle install
+
+      - name: Get Pages URL
         if: github.event.action != 'closed'
         id: pages
         uses: actions/configure-pages@v4
