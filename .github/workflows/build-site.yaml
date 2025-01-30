@@ -2,13 +2,10 @@ name: build-site
 run-name: build live site
 
 on:
-  # run when called from another workflow
   workflow_call:
-
-  # run if user manually requests it
   workflow_dispatch:
 
-# variables
+# Variables
 env:
   PREVIEWS_FOLDER: preview
 
@@ -20,27 +17,37 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # for debugging
+      # Debugging
       - uses: crazy-max/ghaction-dump-context@v2
 
       - name: Checkout branch contents
         uses: actions/checkout@v4
 
-      - name: Install Ruby packages
-        uses: ruby/setup-ruby@v1.172.0
-        with:
-          ruby-version: "3.1"
-          bundler-cache: true
+      - name: Install Ruby using rbenv
+        run: |
+          sudo apt update
+          sudo apt install -y rbenv
+          rbenv install 3.1.4
+          rbenv global 3.1.4
+          echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+          echo 'eval "$(rbenv init -)"' >> ~/.bashrc
+          source ~/.bashrc
+          ruby -v  # Verify Ruby installation
 
-      - name: Get Pages url
+      - name: Install Bundler and Dependencies
+        run: |
+          gem install bundler
+          bundle install
+
+      - name: Get Pages URL
         id: pages
         uses: actions/configure-pages@v4
 
-      # for debugging
+      # Debugging
       - if: runner.debug == '1'
         uses: mxschmitt/action-tmate@v3
 
-      - name: Set root url
+      - name: Set root URL
         run: |
           printf "\n\nurl: ${{ steps.pages.outputs.origin }}" >> _config.yaml
 
