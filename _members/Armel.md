@@ -2,9 +2,7 @@
 name: Armel Batchi
 image: images/Batchi_Armel.jpg
 description: Postdoctoral Research Associate
-postdoc:
-  icon: fa-solid fa-glasses
-  description: Postdoctoral Researcher
+role: postdoc
 links:
   email: a.batchi-bouyou@wustl.edu
   icon: fa-solid fa-envelope
