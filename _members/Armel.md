@@ -12,7 +12,6 @@ links:
   google-scholar:
   icon: fa-brands fa-google
   text: Google Scholar
-  tooltip: Google Scholar
   link: https://scholar.google.com/citations?user=ZNnklUsAAAAJ&hl=en
 ---
 
