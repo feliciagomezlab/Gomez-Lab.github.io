@@ -9,6 +9,6 @@ links:
   text: Email
   tooltip: Email
   link: mailto:a.batchi-bouyou@wustl.edu
-  google-scholar:ZNnklUsAAAAJ
+  google-scholar: ZNnklUsAAAAJ
 ---
 
