@@ -33,7 +33,7 @@ Explore our extensive range of publications to gain deeper insights into our wor
 
 {% capture text %}
 
-Page under Construction
+Science in Progress: Cool Stuff We’re Figuring Out
 
 {%
   include button.html
