@@ -1,6 +1,3 @@
-Visit **[cnithin7.github.io/Gomez-Lab.github.io](https://cnithin7.github.io/Gomez-Lab.github.io)** 🚀
-
-
 # Gomez Lab Website
 
 Welcome to the Gomez Lab GitHub!
@@ -18,3 +15,5 @@ We’re a research lab dedicated to cutting-edge discoveries, collaboration, and
 	•	Reach out if you’re interested in collaborating!
 
  Let’s push the boundaries of science together!
+
+Visit **[cnithin7.github.io/Gomez-Lab.github.io](https://cnithin7.github.io/Gomez-Lab.github.io)** 🚀
