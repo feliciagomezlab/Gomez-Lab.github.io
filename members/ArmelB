@@ -638,7 +638,7 @@
   <a class="portrait" data-style="" aria-label="Armel Batchi">
     
 
-    <img src="/Gomez-Lab.github.io/images/Batchi_Armel_444-2644%202.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/Gomez-Lab.github.io/images/fallback.svg'; this.onerror = null;" />
+    <img src="/Gomez-Lab.github.io/images/Batchi_Armel.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/Gomez-Lab.github.io/images/fallback.svg'; this.onerror = null;" />
 
     
       <span class="portrait-name">
@@ -664,15 +664,6 @@
 
 
 
-  <div class="button-wrapper">
-    <a class="button" href="mailto:a.batchi-bouyou@wustl.edu" data-tooltip="Email" data-style="bare" aria-label="Email">
-      <i class="icon fa-solid fa-envelope"></i>
-      
-        <span>Email</span>
-      
-    </a>
-  </div>
-
 <br />
   
     
@@ -680,13 +671,6 @@
     
 
 
-
-  <div class="button-wrapper">
-    <a class="button" href="https://scholar.google.com/citations?user=ZNnklUsAAAAJ&amp;hl=en" data-style="bare" aria-label="button">
-      
-      
-    </a>
-  </div>
 
 <br />
   
