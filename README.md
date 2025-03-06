@@ -3,8 +3,6 @@ Visit **[cnithin7.github.io/Gomez-Lab.github.io](https://cnithin7.github.io/Gome
 
 # Gomez Lab Website
 
-Gomez Lab 
-
 Welcome to the Gomez Lab GitHub!
 
 We’re a research lab dedicated to cutting-edge discoveries, collaboration, and innovation. Our work spans clinical research and precision medicine, and we’re committed to sharing resources, code, and insights to advance scientific knowledge.
