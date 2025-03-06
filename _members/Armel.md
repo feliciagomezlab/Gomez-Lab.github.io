@@ -9,6 +9,10 @@ links:
   text: Email
   tooltip: Email
   link: mailto:a.batchi-bouyou@wustl.edu
-  google-scholar: https://scholar.google.com/citations?user=ZNnklUsAAAAJ&hl=en
+  google-scholar:
+  icon: fa-brands fa-google
+  text: Google Scholar
+  tooltip: Google Scholar
+  link: https://scholar.google.com/citations?user=ZNnklUsAAAAJ&hl=en
 ---
 
