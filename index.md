@@ -25,7 +25,7 @@ Explore our extensive range of publications to gain deeper insights into our wor
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/CancerAi.jpg"
   link="research"
   title="Our Research"
   text=text
