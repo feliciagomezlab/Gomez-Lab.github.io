@@ -4,8 +4,8 @@ image: images/FG.jpg
 description: Principal Investigator 
 role: pi
 aliases: 
-F.Gomez
-Felicia
+  F.Gomez
+  Felicia
 links:
   email: fgomez@wustl.edu
   website: https://profiles.wustl.edu/en/persons/felicia-gomez
