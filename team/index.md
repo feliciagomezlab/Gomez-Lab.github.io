@@ -27,4 +27,4 @@ Our lab is more than just a place of work—it’s a vibrant community where inn
 [![American Grants Research Society](/images/ACS-1.png)](https://www.americanresearchgrants.org/)
 {% endcapture %}
 
-{% include grid.html style="square" content=content %}
+{% include grid.html content=content %}
