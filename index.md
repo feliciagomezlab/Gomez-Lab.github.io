@@ -48,7 +48,7 @@ Science in Progress: Cool Stuff We’re Figuring Out
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/Sequencer.jpg"
   link="projects"
   title="Our Projects"
   flip=true
