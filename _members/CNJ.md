@@ -7,4 +7,5 @@ links:
   email: jerold@wustl.edu
   linkedin: https://www.linkedin.com/in/charlz-nithin/
   website: https://cnithin7.github.io
+  google-scholar: qU4svkkAAAAJ
 ---
