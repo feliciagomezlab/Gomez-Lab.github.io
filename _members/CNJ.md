@@ -5,5 +5,6 @@ description: Bioinformatics Research Analyst
 role: programmer
 links:
   email: jerold@wustl.edu
-  LinkedIn: https://www.linkedin.com/in/charlz-nithin/
+  linkedin: https://www.linkedin.com/in/charlz-nithin/
+  website: https://cnithin7.github.io
 ---
