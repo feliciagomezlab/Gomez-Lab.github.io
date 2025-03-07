@@ -69,6 +69,7 @@
   orcid: 0000-0003-4884-7510
   plugin: sources.py
   file: sources.yaml
+  image: images/BGA-66_Hodgkins_all-figures_v1l_F1.png
 - id: doi:10.1182/bloodadvances.2023010779
   title: 'Mutations associated with progression in follicular lymphoma predict inferior
     outcomes at diagnosis: Alliance A151303'
@@ -222,8 +223,5 @@
   date: '2017-01-26'
   link: https://doi.org/f9vqnt
   orcid: 0000-0003-4884-7510
-  plugin: sources.py
-  file: sources.yaml
-- image: images/BGA-66_Hodgkins_all-figures_v1l_F1.png
   plugin: sources.py
   file: sources.yaml
