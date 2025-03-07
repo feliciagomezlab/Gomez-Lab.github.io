@@ -9,7 +9,7 @@ aliases:
 links:
   home-page: https://profiles.wustl.edu/en/persons/felicia-gomez
   orcid: 0000-0003-4884-7510
-  external: images/Felicia Gomez WUSM CV 12.17.24.docx
+  CV: images/Felicia Gomez WUSM CV 12.17.24.docx
 
 ---
 
