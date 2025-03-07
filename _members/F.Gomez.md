@@ -1,6 +1,6 @@
 ---
 name: Felicia Gomez
-image: images/Felicia-Gomez-280x386-1.png
+image: images/FG.jpg
 role: pi
 affiliation:
 aliases:
