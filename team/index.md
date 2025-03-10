@@ -20,11 +20,11 @@ Our lab is more than just a place of work—it’s a vibrant community where inn
 ## Funding
 
 {% capture content %}
-[![National Cancer Institute](/images/nci-logo.png)](https://www.cancer.gov/)
+[![National Cancer Institute]({{ site.baseurl }}/images/nci-logo.png)](https://www.cancer.gov/)
 
-[![Washington University School of Medicine](/images/Washu_medicine.png)](https://medicine.wustl.edu/)
+[![Washington University School of Medicine]({{ site.baseurl }}/images/Washu_medicine.png)](https://medicine.wustl.edu/)
 
-[![American Grants Research Society](/images/ACS-1.png)](https://www.americanresearchgrants.org/)
+[![American Grants Research Society]({{ site.baseurl }}/images/ACS-1.png)](https://www.americanresearchgrants.org/)
 {% endcapture %}
 
 {% include grid.html content=content %}
