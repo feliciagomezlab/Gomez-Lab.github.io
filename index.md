@@ -25,7 +25,7 @@ Explore our extensive range of publications to gain deeper insights into our wor
 
 {%
   include feature.html
-  image="images/CancerAi.jpg"
+  image="images/stock_image/CancerAi.jpg"
   link="research"
   title="Our Research"
   text=text
@@ -48,7 +48,7 @@ Science in Progress: Cool Stuff We’re Figuring Out
 
 {%
   include feature.html
-  image="images/Sequencer.jpg"
+  image="images/stock_image/Sequencer.jpg"
   link="projects"
   title="Our Projects"
   flip=true
@@ -73,7 +73,7 @@ Code, Cells, and Breakthroughs: Meet the Innovators Behind Our Lab
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/stock_image/photo.jpg"
   link="team"
   title="Our Team"
   text=text
