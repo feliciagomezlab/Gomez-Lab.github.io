@@ -4,16 +4,12 @@ nav:
   order: 6
   tooltip: Tutorials & Workflows
 ---
+# {% include icon.html icon="fa-solid fa-feather-pointed" %}Tutorial
 
-# {% include icon.html icon="fa-solid fa-handshake-angle" %} Tutorials & Workflows
+{% include search-box.html %}
 
+{% include tags.html tags=site.tags %}
 
-{% include section.html %}
+{% include search-info.html %}
 
-{%
-  include list.html
-  data="posts"
-  component="post-excerpt"
-  filter="tags contains 'tutorial'"
-  style="rich"
-%}
+{% include list.html data="posts" component="post-excerpt" %}
