@@ -1,6 +1,6 @@
 ---
 name: Charlz Nithin Jerold
-image: images/Charlz.jpeg
+image: images/team/Charlz.jpeg
 description: Bioinformatics Research Analyst
 role: programmer
 links:
