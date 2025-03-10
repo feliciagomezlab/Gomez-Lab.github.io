@@ -4,6 +4,7 @@ nav:
   order: 7
   tooltip: Tutorials & workflows
 ---
+# {% include icon.html icon="fa-solid fa-circle-question" %} Tutorials
 
 ## Tutorial Sections
 
