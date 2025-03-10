@@ -1,6 +1,6 @@
 ---
 name: Felicia Gomez
-image: images/FG.jpg
+image: images/team/FG.jpg
 description: Principal Investigator 
 role: pi
 aliases: 
