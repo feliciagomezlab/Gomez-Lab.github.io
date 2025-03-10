@@ -1,8 +1,8 @@
 ---
 title: Tutorial
 nav:
-  order: 6
-  tooltip: Galaxy
+  order: 7
+  tooltip: Tutorials & workflows
 ---
 
 ## Tutorial Sections
