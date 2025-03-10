@@ -14,17 +14,17 @@ Our lab is more than just a place of work—it’s a vibrant community where inn
 {% include list.html data="members" component="portrait" filters="role: pi" %}
 {% include list.html data="members" component="portrait" filters="role: ^(?!pi$)" %}
 
-{% include section.html background="images/background.jpg" dark=true %}
+{% include section.html background="images/stock_image/background.jpg" dark=true %}
 
 {% include section.html %}
 ## Funding
 
 {% capture content %}
-[![NCI](https://feliciagomezlab.github.io/Gomez-Lab.github.io/images/nci-logo.png)](https://www.cancer.gov/)
+[![NCI](https://feliciagomezlab.github.io/Gomez-Lab.github.io/images/funding/nci-logo.png)](https://www.cancer.gov/)
 
-[![WashU](https://feliciagomezlab.github.io/Gomez-Lab.github.io/images/Washu_medicine.png)](https://medicine.wustl.edu/)
+[![WashU](https://feliciagomezlab.github.io/Gomez-Lab.github.io/images/funding/Washu_medicine.png)](https://medicine.wustl.edu/)
 
-[![AGRS](https://feliciagomezlab.github.io/Gomez-Lab.github.io/images/ACS-1.png)](https://www.americanresearchgrants.org/)
+[![AGRS](https://feliciagomezlab.github.io/Gomez-Lab.github.io/images/funding/ACS-1.png)](https://www.americanresearchgrants.org/)
 {% endcapture %}
 
 {% include grid.html content=content %}
