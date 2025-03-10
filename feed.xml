@@ -1,23 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://feliciagomezlab.github.io/Gomez-Lab.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://feliciagomezlab.github.io/Gomez-Lab.github.io/" rel="alternate" type="text/html" /><updated>2025-03-10T22:39:35+00:00</updated><id>https://feliciagomezlab.github.io/Gomez-Lab.github.io/feed.xml</id><title type="html">Gomez Lab</title><entry><title type="html">Galaxy Pipeline</title><link href="https://feliciagomezlab.github.io/Gomez-Lab.github.io/2025/03/10/Galaxy.html" rel="alternate" type="text/html" title="Galaxy Pipeline" /><published>2025-03-10T00:00:00+00:00</published><updated>2025-03-10T22:38:29+00:00</updated><id>https://feliciagomezlab.github.io/Gomez-Lab.github.io/2025/03/10/Galaxy</id><content type="html" xml:base="https://feliciagomezlab.github.io/Gomez-Lab.github.io/2025/03/10/Galaxy.html"><![CDATA[<!-- excerpt start -->
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://feliciagomezlab.github.io/Gomez-Lab.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://feliciagomezlab.github.io/Gomez-Lab.github.io/" rel="alternate" type="text/html" /><updated>2025-03-10T22:47:29+00:00</updated><id>https://feliciagomezlab.github.io/Gomez-Lab.github.io/feed.xml</id><title type="html">Gomez Lab</title><entry><title type="html">Galaxy Pipeline</title><link href="https://feliciagomezlab.github.io/Gomez-Lab.github.io/2025/03/10/Galaxy.html" rel="alternate" type="text/html" title="Galaxy Pipeline" /><published>2025-03-10T00:00:00+00:00</published><updated>2025-03-10T22:46:26+00:00</updated><id>https://feliciagomezlab.github.io/Gomez-Lab.github.io/2025/03/10/Galaxy</id><content type="html" xml:base="https://feliciagomezlab.github.io/Gomez-Lab.github.io/2025/03/10/Galaxy.html"><![CDATA[<!-- excerpt start -->
 <p>The Galaxy exercise makes use of raw targeted next-generation sequencing data from a clinical oncology specimen from the Clinical and Translational Genomics Laboratory (CaTG) at Washington University.
 <!-- excerpt end --></p>
 
 <h2 id="tutorial-sections">Tutorial Sections</h2>
 
 <ul>
-  <li><a href="#overview">Overview</a></li>
-  <li><a href="#galaxy-exercise">Galaxy Exercise</a></li>
-  <li><a href="#credits">Credits</a></li>
-  <li><a href="#scenario">Scenario</a></li>
-  <li><a href="#softwarewebsites-needed">Software/websites needed</a></li>
-  <li><a href="#start-using-galaxy">Start Using Galaxy</a></li>
-  <li><a href="#understand-the-data">Understand the Data</a></li>
-  <li><a href="#work-with-the-data-align-reads">Work with the Data—Align Reads</a></li>
-  <li><a href="#working-with-the-data-call-variants">Working with the Data—Call Variants</a></li>
-  <li><a href="#working-with-the-data-annotate-variants">Working with the Data—Annotate Variants</a></li>
-  <li><a href="#working-with-the-data-viewing-variants">Working with the Data—Viewing Variants</a></li>
-  <li><a href="#analyze-and-interpret-your-clinical-case">Analyze and Interpret Your Clinical Case</a></li>
-  <li><a href="#assessment">Assessment</a></li>
+  <li><a href="overview.md" target="_blank">Overview</a></li>
+  <li><a href="galaxy-exercise.md" target="_blank">Galaxy Exercise</a></li>
+  <li><a href="credits.md" target="_blank">Credits</a></li>
+  <li><a href="scenario.md" target="_blank">Scenario</a></li>
+  <li><a href="software-websites.md" target="_blank">Software/websites needed</a></li>
+  <li><a href="start-using-galaxy.md" target="_blank">Start Using Galaxy</a></li>
+  <li><a href="understand-the-data.md" target="_blank">Understand the Data</a></li>
+  <li><a href="work-with-the-data-align-reads.md" target="_blank">Work with the Data—Align Reads</a></li>
+  <li><a href="working-with-the-data-call-variants.md" target="_blank">Working with the Data—Call Variants</a></li>
+  <li><a href="working-with-the-data-annotate-variants.md" target="_blank">Working with the Data—Annotate Variants</a></li>
+  <li><a href="working-with-the-data-viewing-variants.md" target="_blank">Working with the Data—Viewing Variants</a></li>
+  <li><a href="analyze-and-interpret-your-clinical-case.md" target="_blank">Analyze and Interpret Your Clinical Case</a></li>
+  <li><a href="assessment.md" target="_blank">Assessment</a></li>
 </ul>
 
 <h2 id="overview">Overview</h2>
