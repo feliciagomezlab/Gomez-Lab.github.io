@@ -2,7 +2,7 @@
 title: Tutorial
 nav:
   order: 6
-  tooltip: Join the Team
+  tooltip: Galaxy
 ---
 
 # {% include icon.html icon="fa-solid fa-handshake-angle" %} Join the Team
