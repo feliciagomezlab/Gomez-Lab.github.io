@@ -68,3 +68,6 @@ exclude:
   - README.md
   - LICENSE.md
   - CITATION.cff
+
+
+baseurl: "/Gomez-Lab.github.io"
