@@ -1,6 +1,6 @@
 ---
 name: Armel Batchi
-image: images/Batchi_Armel.jpg
+image: images/team/Batchi_Armel.jpg
 description: Postdoctoral Research Associate
 role: postdoc
 links:
