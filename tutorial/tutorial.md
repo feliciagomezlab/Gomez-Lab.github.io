@@ -13,7 +13,7 @@ nav:
 {%
   include list.html
   data="posts"
-  component="2025-03-10-Galaxy"
+  component="post-excerpt"
   filter="tags contains 'tutorial'"
   style="rich"
 %}
