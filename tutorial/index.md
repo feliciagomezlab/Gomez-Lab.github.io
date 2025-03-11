@@ -4,7 +4,7 @@ nav:
   order: 6
   tooltip: Tutorials & Workflows
 ---
-# {% include icon.html icon="fa-solid fa-feather-pointed" %} Tutorial
+# {% include icon.html icon="fa-solid fa-feather-pointed" %}Tutorial
 
 {% include search-box.html %}
 
@@ -13,6 +13,3 @@ nav:
 {% include search-info.html %}
 
 {% include list.html data="posts" component="post-excerpt" %}
-
-## Additional Resources
-- [Galaxy Pipeline Tutorial]({% post_url 2025-03-10-Galaxy %})
