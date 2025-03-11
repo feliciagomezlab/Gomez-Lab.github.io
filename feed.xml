@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://feliciagomezlab.github.io/Gomez-Lab.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://feliciagomezlab.github.io/Gomez-Lab.github.io/" rel="alternate" type="text/html" /><updated>2025-03-11T18:23:48+00:00</updated><id>https://feliciagomezlab.github.io/Gomez-Lab.github.io/feed.xml</id><title type="html">Gomez Lab</title><entry><title type="html">Galaxy Pipeline</title><link href="https://feliciagomezlab.github.io/Gomez-Lab.github.io/2025/03/10/Galaxy.html" rel="alternate" type="text/html" title="Galaxy Pipeline" /><published>2025-03-10T00:00:00+00:00</published><updated>2025-03-11T18:22:20+00:00</updated><id>https://feliciagomezlab.github.io/Gomez-Lab.github.io/2025/03/10/Galaxy</id><content type="html" xml:base="https://feliciagomezlab.github.io/Gomez-Lab.github.io/2025/03/10/Galaxy.html"><![CDATA[<!-- excerpt start -->
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://feliciagomezlab.github.io/Gomez-Lab.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://feliciagomezlab.github.io/Gomez-Lab.github.io/" rel="alternate" type="text/html" /><updated>2025-03-11T18:28:07+00:00</updated><id>https://feliciagomezlab.github.io/Gomez-Lab.github.io/feed.xml</id><title type="html">Gomez Lab</title><entry><title type="html">Galaxy Pipeline</title><link href="https://feliciagomezlab.github.io/Gomez-Lab.github.io/2025/03/10/Galaxy.html" rel="alternate" type="text/html" title="Galaxy Pipeline" /><published>2025-03-10T00:00:00+00:00</published><updated>2025-03-11T18:27:02+00:00</updated><id>https://feliciagomezlab.github.io/Gomez-Lab.github.io/2025/03/10/Galaxy</id><content type="html" xml:base="https://feliciagomezlab.github.io/Gomez-Lab.github.io/2025/03/10/Galaxy.html"><![CDATA[<!-- excerpt start -->
 
 <p>This guide provides a flexible workflow for analyzing next-generation sequencing (NGS) data using Galaxy. Customize placeholders (e.g., <code class="language-plaintext highlighter-rouge">[SPECIMEN_TYPE]</code>, <code class="language-plaintext highlighter-rouge">[DISEASE_TYPE]</code>) for your project.
 <!-- excerpt end --></p>
@@ -344,20 +344,6 @@
   <li><strong>Tools</strong>: Swap tools (e.g., GATK) or references (e.g., hg38).</li>
   <li><strong>Output</strong>: Modify deliverables (e.g., research paper).</li>
 </ul>
-
-<p><a href="#tutorial-sections">Back to Tutorial Sections</a></p>
-
-<hr />
-
-<h2 id="suggested-illustrations">Suggested Illustrations</h2>
-
-<ol>
-  <li><strong>Galaxy Interface</strong>: Screenshot with Tools/History annotations.</li>
-  <li><strong>FASTQ Breakdown</strong>: Diagram of FASTQ entry with labels.</li>
-  <li><strong>Pipeline Flow</strong>: Flowchart from FASTQ to interpretation.</li>
-  <li><strong>IGV View</strong>: Alignment with variant highlighted.</li>
-  <li><strong>Annotation Table</strong>: Excel screenshot with filters.</li>
-</ol>
 
 <p><a href="#tutorial-sections">Back to Tutorial Sections</a></p>
 
