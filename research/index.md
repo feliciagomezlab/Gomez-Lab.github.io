@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-Explore our extensive range of publications to gain deeper insights into our work. 
+Explore our extensive range of publications to gain deeper insights into our work.
 
 {% include section.html %}
 
@@ -20,11 +20,7 @@ Explore our extensive range of publications to gain deeper insights into our wor
 {% include list.html data="citations" component="citation" style="rich" %}
 
 ## Altmetric Badges
-
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
-
 {% for citation in site.data.citations %}
-  {% if citation.id contains "doi:" %}
-    <div class='altmetric-embed' data-badge-type='donut' data-doi='{{ citation.id | remove: "doi:" }}'></div>
-  {% endif %}
+- {{ citation.title }}
+  <div class='altmetric-embed' data-doi='{{ citation.id }}'></div>
 {% endfor %}
