@@ -1,12 +1,11 @@
-# Updated Paper_format.txt with Altmetric badges
-- id: doi:10.1158/2767-9764.CRC-23-0140
-  image: images/BGA-66_Hodgkins_all-figures_v1l_F1.png
+- id: doi:YOUR_DOI_HERE
+  image: PATH_TO_YOUR_IMAGE_HERE
   tags:
-    - Cancer Research
+    - YOUR_TAG_HERE
   buttons:
     - type: source
-      text: View Source
-      link: https://doi.org/10.1158/2767-9764.CRC-23-0140
+      text: YOUR_BUTTON_TEXT_HERE
+      link: YOUR_LINK_HERE
     - type: data
-      text: Altmetric Score
-      link: <div class='altmetric-embed' data-doi='10.1158/2767-9764.CRC-23-0140'></div>
+      text: YOUR_DATA_TEXT_HERE
+      link: YOUR_DATA_LINK_HERE
