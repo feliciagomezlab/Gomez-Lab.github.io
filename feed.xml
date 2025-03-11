@@ -1,21 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://feliciagomezlab.github.io/Gomez-Lab.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://feliciagomezlab.github.io/Gomez-Lab.github.io/" rel="alternate" type="text/html" /><updated>2025-03-11T01:35:33+00:00</updated><id>https://feliciagomezlab.github.io/Gomez-Lab.github.io/feed.xml</id><title type="html">Gomez Lab</title><entry><title type="html">Galaxy Pipeline</title><link href="https://feliciagomezlab.github.io/Gomez-Lab.github.io/2025/03/10/Galaxy.html" rel="alternate" type="text/html" title="Galaxy Pipeline" /><published>2025-03-10T00:00:00+00:00</published><updated>2025-03-11T01:33:27+00:00</updated><id>https://feliciagomezlab.github.io/Gomez-Lab.github.io/2025/03/10/Galaxy</id><content type="html" xml:base="https://feliciagomezlab.github.io/Gomez-Lab.github.io/2025/03/10/Galaxy.html"><![CDATA[<!-- excerpt start -->
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://feliciagomezlab.github.io/Gomez-Lab.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://feliciagomezlab.github.io/Gomez-Lab.github.io/" rel="alternate" type="text/html" /><updated>2025-03-11T02:31:25+00:00</updated><id>https://feliciagomezlab.github.io/Gomez-Lab.github.io/feed.xml</id><title type="html">Gomez Lab</title><entry><title type="html">Galaxy Pipeline</title><link href="https://feliciagomezlab.github.io/Gomez-Lab.github.io/2025/03/10/Galaxy.html" rel="alternate" type="text/html" title="Galaxy Pipeline" /><published>2025-03-10T00:00:00+00:00</published><updated>2025-03-11T02:30:10+00:00</updated><id>https://feliciagomezlab.github.io/Gomez-Lab.github.io/2025/03/10/Galaxy</id><content type="html" xml:base="https://feliciagomezlab.github.io/Gomez-Lab.github.io/2025/03/10/Galaxy.html"><![CDATA[<!-- excerpt start -->
 <p>The Galaxy exercise makes use of raw targeted next-generation sequencing data from a clinical oncology specimen from the Clinical and Translational Genomics Laboratory (CaTG) at Washington University.
 <!-- excerpt end --></p>
 
 <h2 id="tutorial-sections">Tutorial Sections</h2>
 
 <ul>
-  <li><a href="/overview/" target="_blank">Overview</a></li>
-  <li><a href="/galaxy-exercise/" target="_blank">Galaxy Exercise</a></li>
-  <li><a href="/credits/" target="_blank">Credits</a></li>
-  <li><a href="/scenario/" target="_blank">Scenario</a></li>
-  <li><a href="/software-websites/" target="_blank">Software/websites needed</a></li>
-  <li><a href="/start-using-galaxy/" target="_blank">Start Using Galaxy</a></li>
-  <li><a href="/understand-the-data/" target="_blank">Understand the Data</a></li>
-  <li><a href="/work-with-the-data-align-reads/" target="_blank">Work with the Data—Align Reads</a></li>
-  <li><a href="/working-with-the-data-call-variants/" target="_blank">Working with the Data—Call Variants</a></li>
-  <li><a href="/working-with-the-data-annotate-variants/" target="_blank">Working with the Data—Annotate Variants</a></li>
-  <li><a href="/working-with-the-data-viewing-variants/" target="_blank">Working with the Data—Viewing Variants</a></li>
-  <li><a href="/analyze-and-interpret-your-clinical-case/" target="_blank">Analyze and Interpret Your Clinical Case</a></li>
-  <li><a href="/assessment/" target="_blank">Assessment</a></li>
+  <li><a href="/overview/" title="Open Overview" target="_blank">Overview</a></li>
+  <li><a href="/galaxy-exercise/" title="Open Galaxy Exercise" target="_blank">Galaxy Exercise</a></li>
+  <li><a href="/credits/" title="Open Credits" target="_blank">Credits</a></li>
+  <li><a href="/scenario/" title="Open Scenario" target="_blank">Scenario</a></li>
+  <li><a href="/software-websites/" title="Open Software/Websites" target="_blank">Software/websites needed</a></li>
+  <li><a href="/start-using-galaxy/" title="Open Start Using Galaxy" target="_blank">Start Using Galaxy</a></li>
+  <li><a href="/understand-the-data/" title="Open Understand the Data" target="_blank">Understand the Data</a></li>
+  <li><a href="/work-with-the-data-align-reads/" title="Open Align Reads" target="_blank">Work with the Data—Align Reads</a></li>
+  <li><a href="/working-with-the-data-call-variants/" title="Open Call Variants" target="_blank">Working with the Data—Call Variants</a></li>
+  <li><a href="/working-with-the-data-annotate-variants/" title="Open Annotate Variants" target="_blank">Working with the Data—Annotate Variants</a></li>
+  <li><a href="/working-with-the-data-viewing-variants/" title="Open Viewing Variants" target="_blank">Working with the Data—Viewing Variants</a></li>
+  <li><a href="/analyze-and-interpret-your-clinical-case/" title="Open Analyze and Interpret" target="_blank">Analyze and Interpret Your Clinical Case</a></li>
+  <li><a href="/assessment/" title="Open Assessment" target="_blank">Assessment</a></li>
 </ul>]]></content><author><name>Armel</name></author><category term="tutorial" /><category term="Galaxy" /><category term="Variant Calling" /><summary type="html"><![CDATA[The Galaxy exercise makes use of raw targeted next-generation sequencing data from a clinical oncology specimen from the Clinical and Translational Genomics Laboratory (CaTG) at Washington University.]]></summary></entry></feed>
