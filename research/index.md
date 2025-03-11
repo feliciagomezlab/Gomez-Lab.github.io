@@ -7,11 +7,9 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-Explore our extensive range of publications to gain deeper insights into our work.
+Explore our extensive range of publications to gain deeper insights into our work. 
 
 {% include section.html %}
-
-<script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
 
 ## All
 
@@ -19,10 +17,13 @@ Explore our extensive range of publications to gain deeper insights into our wor
 
 {% include search-info.html %}
 
-{% for citation in citations %}
-  <div>
-    <h3><a href="{{ citation.link }}">{{ citation.title }}</a></h3>
-    <p>{{ citation.authors | join: ", " }}</p>
-    <div class="altmetric-embed" data-badge-type="donut" data-doi="{{ citation.id }}"></div>
-  </div>
-{% endfor %}
+<!-- Altmetric Embed Script -->
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+
+{% include list.html data="citations" component="citation" style="rich" filters="doi:10.1158/2767-9764.CRC-23-0140,doi:10.1182/bloodadvances.2023010779,doi:10.1182/blood.2021011894,doi:10.1182/blood-2016-07-729954,doi:10.1101/2021.06.25.21258374,doi:10.1101/266262" %}
+
+{% include section.html %}
+
+## Notes
+- Altmetric badges are embedded for each publication below. Hover over the badges to see attention details.
+- For more information on Altmetric badges, visit [Altmetric Badge Docs](https://badge-docs.altmetric.com/getting-started.html).
