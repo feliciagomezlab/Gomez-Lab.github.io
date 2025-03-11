@@ -11,8 +11,6 @@ Explore our extensive range of publications to gain deeper insights into our wor
 
 {% include section.html %}
 
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
-
 ## All
 
 {% include search-box.html %}
@@ -21,6 +19,12 @@ Explore our extensive range of publications to gain deeper insights into our wor
 
 {% include list.html data="citations" component="citation" style="rich" %}
 
+## Altmetric Badges
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+
 {% for citation in site.data.citations %}
-  <div class='altmetric-embed' data-badge-type='donut' data-doi='{{ citation.id }}'></div>
+  {% if citation.id contains "doi:" %}
+    <div class='altmetric-embed' data-badge-type='donut' data-doi='{{ citation.id | remove: "doi:" }}'></div>
+  {% endif %}
 {% endfor %}
