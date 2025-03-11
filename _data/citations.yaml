@@ -1,10 +1,227 @@
-# Updated citations.yaml with Altmetric badges
+# DO NOT EDIT, GENERATED AUTOMATICALLY
+
 - id: doi:10.1158/2159-8290.CD-24-1130
   title: 'A New Era of Data-Driven Cancer Research and Care: Opportunities and Challenges'
+  authors:
+  - Felicia Gomez
+  - Arpad M. Danos
+  - Guilherme Del Fiol
+  - Anant Madabhushi
+  - Pallavi Tiwari
+  - Joshua F. McMichael
+  - Spyridon Bakas
+  - Jiang Bian
+  - Christos Davatzikos
+  - Elana J. Fertig
+  - Jayashree Kalpathy-Cramer
+  - Johanna Kenney
+  - Guergana K. Savova
+  - Meliha Yetisgen
+  - Eliezer M. Van Allen
+  - Jeremy L. Warner
+  - Fred Prior
+  - Malachi Griffith
+  - Obi L. Griffith
+  publisher: Cancer Discovery
+  date: '2024-10-04'
   link: https://doi.org/g62727
-  altmetric: <div class='altmetric-embed' data-doi='10.1158/2159-8290.CD-24-1130'></div>
-
+  orcid: 0000-0003-4884-7510
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1158/2767-9764.CRC-23-0140
+  title: Ultra-Deep Sequencing Reveals the Mutational Landscape of Classical Hodgkin
+    Lymphoma
+  authors:
+  - Felicia Gomez
+  - Bryan Fisk
+  - Joshua F. McMichael
+  - Matthew Mosior
+  - Jennifer A. Foltz
+  - Zachary L. Skidmore
+  - Eric J. Duncavage
+  - Christopher A. Miller
+  - Haley Abel
+  - Yi-Shan Lee
+  - David A. Russler-Germain
+  - Kilannin Krysiak
+  - Marcus P. Watkins
+  - Cody A. Ramirez
+  - Alina Schmidt
+  - Fernanda Martins Rodrigues
+  - Lee Trani
+  - Ajay Khanna
+  - Julia A. Wagner
+  - Robert S. Fulton
+  - Catrina C. Fronick
+  - Michelle D. O'Laughlin
+  - Timothy Schappe
+  - Amanda F. Cashen
+  - Neha Mehta-Shah
+  - Brad S. Kahl
+  - Jason Walker
+  - Nancy L. Bartlett
+  - Malachi Griffith
+  - Todd A. Fehniger
+  - Obi L. Griffith
+  publisher: Cancer Research Communications
+  date: '2023-11-15'
+  link: https://doi.org/gt7dzf
+  orcid: 0000-0003-4884-7510
+  plugin: sources.py
+  file: sources.yaml
+  image: images/BGA-66_Hodgkins_all-figures_v1l_F1.png
 - id: doi:10.1182/bloodadvances.2023010779
-  title: 'Mutations associated with progression in follicular lymphoma predict inferior outcomes at diagnosis'
+  title: 'Mutations associated with progression in follicular lymphoma predict inferior
+    outcomes at diagnosis: Alliance A151303'
+  authors:
+  - David A. Russler-Germain
+  - Kilannin Krysiak
+  - Cody Ramirez
+  - Matthew Mosior
+  - Marcus P. Watkins
+  - Felicia Gomez
+  - Zachary L. Skidmore
+  - Lee Trani
+  - Feng Gao
+  - Susan Geyer
+  - Amanda F. Cashen
+  - Neha Mehta-Shah
+  - Brad S. Kahl
+  - Nancy L. Bartlett
+  - Juan P. Alderuccio
+  - Izidore S. Lossos
+  - Sarah L. Ondrejka
+  - Eric D. Hsi
+  - Peter Martin
+  - John P. Leonard
+  - Malachi Griffith
+  - Obi L. Griffith
+  - Todd A. Fehniger
+  publisher: Blood Advances
+  date: '2023-09-15'
   link: https://doi.org/gt7dzg
-  altmetric: <div class='altmetric-embed' data-doi='10.1182/bloodadvances.2023010779'></div>
+  orcid: 0000-0003-4884-7510
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1182/blood.2021011894
+  title: "Phase 1/dose expansion trial of brentuximab vedotin and\_lenalidomide in\
+    \ relapsed or refractory diffuse large B-cell lymphoma"
+  authors:
+  - Jeffrey P. Ward
+  - Melissa M. Berrien-Elliott
+  - Felicia Gomez
+  - Jingqin Luo
+  - Michelle Becker-Hapak
+  - Amanda F. Cashen
+  - Nina D. Wagner-Johnston
+  - Kami Maddocks
+  - Matthew Mosior
+  - Mark Foster
+  - Kilannin Krysiak
+  - Alina Schmidt
+  - Zachary L. Skidmore
+  - Sweta Desai
+  - Marcus P. Watkins
+  - Anne Fischer
+  - Malachi Griffith
+  - Obi L. Griffith
+  - Todd A. Fehniger
+  - Nancy L. Bartlett
+  publisher: Blood
+  date: '2022-03-31'
+  link: https://doi.org/gq32c8
+  orcid: 0000-0003-4884-7510
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1101/2021.06.25.21258374
+  title: Ultra-Deep Sequencing Reveals the Mutational Landscape of Classical Hodgkin
+    Lymphoma
+  authors:
+  - Felicia Gomez
+  - Matthew Mosior
+  - Joshua McMichael
+  - Zachary L. Skidmore
+  - Eric J. Duncavage
+  - Christopher A. Miller
+  - Haley J. Abel
+  - Yi-Shan Li
+  - Kilannin Krysiak
+  - David A. Russler-Germain
+  - Marcus P. Watkins
+  - Cody Ramirez
+  - Alina Schmidt
+  - Fernanda Martins Rodrigues
+  - Lee Trani
+  - Ajay Khanna
+  - Julia A. Wagner
+  - Robert S. Fulton
+  - Catrina Fronick
+  - "Michelle O\u2019Laughlin"
+  - Timothy Schappe
+  - Amanda Cashen
+  - Neha Mehta-Shah
+  - Brad S. Kahl
+  - Jason Walker
+  - Nancy L. Bartlett
+  - Malachi Griffith
+  - Todd A. Fehniger
+  - Obi L. Griffith
+  publisher: Cold Spring Harbor Laboratory
+  date: '2021-07-04'
+  link: https://doi.org/gt7dzh
+  orcid: 0000-0003-4884-7510
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1101/266262
+  title: Standard operating procedure for somatic variant refinement of tumor sequencing
+    data
+  authors:
+  - Erica K. Barnell
+  - Peter Ronning
+  - Katie M. Campbell
+  - Kilannin Krysiak
+  - Benjamin J. Ainscough
+  - Cody Ramirez
+  - Nick Spies
+  - Jason Kunisaki
+  - Jasreet Hundal
+  - Zachary L. Skidmore
+  - Felicia Gomez
+  - Lee Trani
+  - Matthew Matlock
+  - Alex H. Wagner
+  - S. Joshua Swamidass
+  - Malachi Griffith
+  - Obi L. Griffith
+  publisher: Cold Spring Harbor Laboratory
+  date: '2018-02-16'
+  link: https://doi.org/gkwxnp
+  orcid: 0000-0003-4884-7510
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1182/blood-2016-07-729954
+  title: Recurrent somatic mutations affecting B-cell receptor signaling pathway genes
+    in follicular lymphoma
+  authors:
+  - Kilannin Krysiak
+  - Felicia Gomez
+  - Brian S. White
+  - Matthew Matlock
+  - Christopher A. Miller
+  - Lee Trani
+  - Catrina C. Fronick
+  - Robert S. Fulton
+  - Friederike Kreisel
+  - Amanda F. Cashen
+  - Kenneth R. Carson
+  - Melissa M. Berrien-Elliott
+  - Nancy L. Bartlett
+  - Malachi Griffith
+  - Obi L. Griffith
+  - Todd A. Fehniger
+  publisher: Blood
+  date: '2017-01-26'
+  link: https://doi.org/f9vqnt
+  orcid: 0000-0003-4884-7510
+  plugin: sources.py
+  file: sources.yaml
