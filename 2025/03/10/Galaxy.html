@@ -62,10 +62,10 @@
 
   <meta name="author" content="Armel">
   <meta property="og:type" content="article">
-  <meta property="og:updated_time" content="2025-03-11T03:23:31+00:00">
+  <meta property="og:updated_time" content="2025-03-11T17:55:40+00:00">
   <meta property="article:published_time" content="2025-03-10T00:00:00+00:00">
-  <meta property="article:modified_time" content="2025-03-11T03:23:31+00:00">
-  <meta name="revised" content="2025-03-11T03:23:31+00:00">
+  <meta property="article:modified_time" content="2025-03-11T17:55:40+00:00">
+  <meta name="revised" content="2025-03-11T17:55:40+00:00">
 
 
 <script type="application/ld+json">
@@ -75,7 +75,7 @@
       "@type": "BlogPosting",
       "author": { "@type": "Person", "name": "Galaxy Pipeline" },
       "datePublished": "2025-03-10T00:00:00+00:00",
-      "dateModified": "2025-03-11T03:23:31+00:00",
+      "dateModified": "2025-03-11T17:55:40+00:00",
     
     "name": "Galaxy Pipeline",
     "description": "Division of Oncology. ",
@@ -498,78 +498,420 @@
 
 
 <!-- excerpt start -->
-<p>The Galaxy exercise makes use of raw targeted next-generation sequencing data from a clinical oncology specimen from the Clinical and Translational Genomics Laboratory (CaTG) at Washington University.
+
+<p>This guide provides a flexible workflow for analyzing next-generation sequencing (NGS) data using Galaxy. Customize placeholders (e.g., <code class="language-plaintext highlighter-rouge">[SPECIMEN_TYPE]</code>, <code class="language-plaintext highlighter-rouge">[DISEASE_TYPE]</code>) for your project.
 <!-- excerpt end --></p>
 
 <h2 id="tutorial-sections">Tutorial Sections</h2>
 
 <ul>
-  <li><a href="#overview">Overview</a></li>
-  <li><a href="#galaxy-exercise">Galaxy Exercise</a></li>
-  <li><a href="#credits">Credits</a></li>
-  <li><a href="#scenario">Scenario</a></li>
-  <li><a href="#softwarewebsites-needed">Software/websites needed</a></li>
-  <li><a href="#start-using-galaxy">Start Using Galaxy</a></li>
-  <li><a href="#understand-the-data">Understand the Data</a></li>
-  <li><a href="#work-with-the-data-align-reads">Work with the Data—Align Reads</a></li>
-  <li><a href="#working-with-the-data-call-variants">Working with the Data—Call Variants</a></li>
-  <li><a href="#working-with-the-data-annotate-variants">Working with the Data—Annotate Variants</a></li>
-  <li><a href="#working-with-the-data-viewing-variants">Working with the Data—Viewing Variants</a></li>
-  <li><a href="#analyze-and-interpret-your-clinical-case">Analyze and Interpret Your Clinical Case</a></li>
-  <li><a href="#assessment">Assessment</a></li>
+  <li><a href="#general-prerequisites">General Prerequisites</a></li>
+  <li><a href="#set-up-your-galaxy-environment">1. Set Up Your Galaxy Environment</a></li>
+  <li><a href="#understand-your-sequencing-data">2. Understand Your Sequencing Data</a></li>
+  <li><a href="#align-reads-to-a-reference-genome">3. Align Reads to a Reference Genome</a></li>
+  <li><a href="#call-variants">4. Call Variants</a></li>
+  <li><a href="#annotate-variants">5. Annotate Variants</a></li>
+  <li><a href="#visualize-variants">6. Visualize Variants</a></li>
+  <li><a href="#analyze-and-interpret-results">7. Analyze and Interpret Results</a></li>
+  <li><a href="#assessment-optional">8. Assessment (Optional)</a></li>
+  <li><a href="#tips-for-customization">Tips for Customization</a></li>
+  <li><a href="#suggested-illustrations">Suggested Illustrations</a></li>
 </ul>
 
-<h2 id="overview">Overview</h2>
+<hr>
 
-<p>You will use Galaxy to analyze sample data.</p>
+<h2 id="general-prerequisites">General Prerequisites</h2>
 
-<h2 id="galaxy-exercise">Galaxy Exercise</h2>
+<ul>
+  <li>
+<strong>Objective</strong>: Analyze NGS data to identify and interpret variants for <code class="language-plaintext highlighter-rouge">[SPECIFIC_PURPOSE, e.g., clinical reporting, research discovery]</code>.</li>
+  <li>
+<strong>Input Data</strong>:
+    <ul>
+      <li>Paired-end FASTQ files: <code class="language-plaintext highlighter-rouge">[SAMPLE_NAME]_R1.fq</code>, <code class="language-plaintext highlighter-rouge">[SAMPLE_NAME]_R2.fq</code>
+</li>
+      <li>BED file: <code class="language-plaintext highlighter-rouge">[TARGET_REGIONS].bed</code> (defines regions of interest)</li>
+    </ul>
+  </li>
+  <li>
+<strong>Tools Needed</strong>:
+    <ul>
+      <li>
+<a href="https://usegalaxy.org/">Galaxy</a> (Register, no download needed)</li>
+      <li>
+<a href="https://igv.org/">IGV</a> (Download required)</li>
+      <li>
+<a href="http://wannovar.wglab.org/">wANNOVAR</a> (Use institutional email)</li>
+      <li>
+<a href="http://grch37.ensembl.org/Homo_sapiens/Tools/VEP">VEP</a> (Web-based)</li>
+      <li>Word/PowerPoint for documentation</li>
+    </ul>
+  </li>
+  <li>
+<strong>Hardware</strong>: Computer with 100MB–1GB storage, large or dual-monitor setup recommended.</li>
+</ul>
 
-<p>Details on how to conduct the Galaxy exercise.</p>
+<hr>
 
-<h2 id="credits">Credits</h2>
+<h2 id="set-up-your-galaxy-environment">Set Up Your Galaxy Environment</h2>
 
-<p>The Galaxy exercise at WUSM was initially developed by Marcy Vana and adapted by Bijal Parikh.</p>
+<p><strong>Goal</strong>: Establish a workspace for data analysis.</p>
 
-<h2 id="scenario">Scenario</h2>
+<p><strong>Steps</strong>:</p>
+<ol>
+  <li>Visit <a href="https://usegalaxy.org/">https://usegalaxy.org/</a> and click “Login or Register” to create an account (use Firefox, Chrome, or Safari).</li>
+  <li>Request your instructor/collaborator to share the dataset (e.g., <code class="language-plaintext highlighter-rouge">[SAMPLE_NAME]_R1.fq</code>, <code class="language-plaintext highlighter-rouge">[SAMPLE_NAME]_R2.fq</code>, <code class="language-plaintext highlighter-rouge">[TARGET_REGIONS].bed</code>) within Galaxy.</li>
+  <li>Access shared data:
+    <ul>
+      <li>“History” panel (right) &gt; “Histories Shared with Me”</li>
+      <li>Select shared history &gt; “View” &gt; “Import History” &gt; “Start Using This History”</li>
+    </ul>
+  </li>
+</ol>
 
-<p>Description of the patient case for analysis.</p>
+<p><strong>Customization</strong>: Replace <code class="language-plaintext highlighter-rouge">[SAMPLE_NAME]</code> (e.g., <code class="language-plaintext highlighter-rouge">TumorSample1</code>) and <code class="language-plaintext highlighter-rouge">[TARGET_REGIONS]</code> (e.g., <code class="language-plaintext highlighter-rouge">CancerPanel.bed</code>).</p>
 
-<h2 id="softwarewebsites-needed">Software/websites needed</h2>
+<p><strong>Illustration</strong>: Screenshot of Galaxy homepage with arrows on “Login or Register” and “History” panel.</p>
 
-<p>A list of required software and web tools.</p>
+<p><a href="#table-of-contents">Back to TOC</a></p>
 
-<h2 id="start-using-galaxy">Start Using Galaxy</h2>
+<hr>
 
-<p>Instructions for setting up a Galaxy account and loading data.</p>
+<h2 id="understand-your-sequencing-data">Understand Your Sequencing Data</h2>
 
-<h2 id="understand-the-data">Understand the Data</h2>
+<p><strong>Goal</strong>: Assess the quality and structure of raw sequencing data.</p>
 
-<p>How to interpret and prepare data for analysis.</p>
+<p><strong>Steps</strong>:</p>
+<ol>
+  <li>
+<strong>View FASTQ Data</strong>:
+    <ul>
+      <li>In “History,” click the “eye” icon next to <code class="language-plaintext highlighter-rouge">[SAMPLE_NAME]_R1.fq</code>.</li>
+      <li>Examine FASTQ format:</li>
+      <li>
+        <ul>
+          <li>Record run number (e.g., 585).
+            <ul>
+              <li>Interpret quality scores using <a href="http://drive5.com/usearch/manual/quality_score.html">ASCII Phred table</a> (e.g., “5” = 1% error, “B” = 0.05% error).</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+<strong>Run Quality Control</strong>:
+    <ul>
+      <li>Tools &gt; “FASTQ Quality Control” &gt; “FastQC Read Quality Reports”</li>
+      <li>Input: <code class="language-plaintext highlighter-rouge">[SAMPLE_NAME]_R1.fq</code> &gt; “Run Tool.” Repeat for <code class="language-plaintext highlighter-rouge">[SAMPLE_NAME]_R2.fq</code>.</li>
+      <li>View “webpage” output and record:</li>
+      <li>Total sequences</li>
+      <li>Sequences flagged as poor quality</li>
+      <li>Sequence length</li>
+      <li>%GC content</li>
+      <li>Assess quality metrics for concerns (e.g., low base quality).</li>
+    </ul>
+  </li>
+</ol>
 
-<h2 id="work-with-the-dataalign-reads">Work with the Data—Align Reads</h2>
+<p><strong>Customization</strong>: Adjust quality thresholds based on project needs.</p>
 
-<p>Steps to align sequencing reads.</p>
+<p><strong>Illustration</strong>: FASTQ entry with annotations for each line, plus a FastQC plot with a red-flagged quality drop.</p>
 
-<h2 id="working-with-the-datacall-variants">Working with the Data—Call Variants</h2>
+<p><a href="#table-of-contents">Back to TOC</a></p>
 
-<p>Guidelines on variant calling.</p>
+<hr>
 
-<h2 id="working-with-the-dataannotate-variants">Working with the Data—Annotate Variants</h2>
+<h2 id="align-reads-to-a-reference-genome">Align Reads to a Reference Genome</h2>
 
-<p>Methods for annotating identified variants.</p>
+<p><strong>Goal</strong>: Map sequencing reads to a reference genome.</p>
 
-<h2 id="working-with-the-dataviewing-variants">Working with the Data—Viewing Variants</h2>
+<p><strong>Steps</strong>:</p>
+<ol>
+  <li>
+<strong>Align with BWA-MEM</strong>:
+    <ul>
+      <li>Tools &gt; “Mapping” &gt; “Map with BWA-MEM” (Version 0.7.17.1 or latest)</li>
+      <li>Settings:</li>
+      <li>Reference genome: <code class="language-plaintext highlighter-rouge">[REFERENCE_GENOME]</code> (e.g., <code class="language-plaintext highlighter-rouge">Human hg19</code>)</li>
+      <li>Paired-end: Yes</li>
+      <li>FASTQ files: <code class="language-plaintext highlighter-rouge">[SAMPLE_NAME]_R1.fq</code>, <code class="language-plaintext highlighter-rouge">[SAMPLE_NAME]_R2.fq</code>
+</li>
+      <li>Run Tool (5–15 min). Output: <code class="language-plaintext highlighter-rouge">[SAMPLE_NAME].bam</code>
+</li>
+      <li>Note size difference (e.g., 600MB vs. 1GB FASTQ due to compression).</li>
+    </ul>
+  </li>
+  <li>
+<strong>Sort the BAM File</strong>:
+    <ul>
+      <li>Tools &gt; “Genomics ToolKits” &gt; “Picard” &gt; “SortSam” (Version 2.18.2.1)</li>
+      <li>Input: <code class="language-plaintext highlighter-rouge">[SAMPLE_NAME].bam</code>
+</li>
+      <li>Sort order: “Coordinate”</li>
+      <li>Validation stringency: “Lenient”</li>
+      <li>Run Tool</li>
+    </ul>
+  </li>
+  <li>
+<strong>Mark Duplicates</strong>:
+    <ul>
+      <li>Tools &gt; “Picard” &gt; “MarkDuplicates” (Version 2.18.2.1)</li>
+      <li>Input: Sorted <code class="language-plaintext highlighter-rouge">[SAMPLE_NAME].bam</code>
+</li>
+      <li>Run Tool. Outputs: Marked BAM, metrics file</li>
+      <li>View metrics (e.g., % PCR duplicates).</li>
+    </ul>
+  </li>
+  <li>
+<strong>Remove Duplicates</strong>:
+    <ul>
+      <li>Tools &gt; “SAM/BAM” &gt; “RmDup” (Version 2.0.1)</li>
+      <li>Input: Original <code class="language-plaintext highlighter-rouge">[SAMPLE_NAME].bam</code>
+</li>
+      <li>Paired-end: Yes</li>
+      <li>Run Tool. Compare sizes (e.g., % reduction vs. % duplicates).</li>
+    </ul>
+  </li>
+</ol>
 
-<p>Using IGV and other tools for visualization.</p>
+<p><strong>Customization</strong>: Use a different genome (e.g., hg38) or aligner (e.g., Bowtie2).</p>
 
-<h2 id="analyze-and-interpret-your-clinical-case">Analyze and Interpret Your Clinical Case</h2>
+<p><strong>Illustration</strong>: Flowchart: FASTQ → BAM → Sorted BAM → Duplicate-removed BAM, with file size annotations.</p>
 
-<p>Guidance on applying the analysis to a real case.</p>
+<p><a href="#table-of-contents">Back to TOC</a></p>
 
-<h2 id="assessment">Assessment</h2>
+<hr>
 
-<p>Final project expectations and evaluation criteria.</p>
+<h2 id="call-variants">Call Variants</h2>
+
+<p><strong>Goal</strong>: Identify genetic variants from aligned reads.</p>
+
+<p><strong>Steps</strong>:</p>
+<ol>
+  <li>
+<strong>VarScan Workflow</strong>:
+    <ul>
+      <li>Tools &gt; “SAM/BAM” &gt; “Samtools mpileup” (Version 2.1.4)</li>
+      <li>Input: Duplicate-removed <code class="language-plaintext highlighter-rouge">[SAMPLE_NAME].bam</code>
+</li>
+      <li>Reference: <code class="language-plaintext highlighter-rouge">[REFERENCE_GENOME]</code>
+</li>
+      <li>Run Tool → Output: Pileup file</li>
+      <li>Tools &gt; “Variant Calling” &gt; “VarScan” (Version 2.4.2)</li>
+      <li>Input: Pileup file</li>
+      <li>Settings:</li>
+      <li>Min read depth: 20</li>
+      <li>Min supporting reads: 4</li>
+      <li>Min base quality: 20</li>
+      <li>Min variant frequency: 0.03</li>
+      <li>Ignore &gt;90% strand bias: Yes</li>
+      <li>Run Tool → Output: <code class="language-plaintext highlighter-rouge">[SAMPLE_NAME]_VarScan.vcf</code>
+</li>
+    </ul>
+  </li>
+  <li>
+<strong>FreeBayes Workflow</strong>:
+    <ul>
+      <li>Tools &gt; “Variant Calling” &gt; “FreeBayes” (Version 1.1.0.46-0)</li>
+      <li>Input: Duplicate-removed <code class="language-plaintext highlighter-rouge">[SAMPLE_NAME].bam</code>
+</li>
+      <li>Reference: <code class="language-plaintext highlighter-rouge">[REFERENCE_GENOME]</code>
+</li>
+      <li>Parameters: Simple diploid calling, Min coverage: 10</li>
+      <li>Run Tool → Output: <code class="language-plaintext highlighter-rouge">[SAMPLE_NAME]_FreeBayes.vcf</code>
+</li>
+    </ul>
+  </li>
+  <li>
+<strong>Limit to Target Regions</strong>:
+    <ul>
+      <li>Tools &gt; “VCF/BCF” &gt; “VCF-BEDintersect” (Version 1.0.0)</li>
+      <li>Inputs: Each VCF + <code class="language-plaintext highlighter-rouge">[TARGET_REGIONS].bed</code>
+</li>
+      <li>Run Tool (twice). Outputs: Filtered VCFs</li>
+    </ul>
+  </li>
+  <li>
+<strong>Compare Variant Callers</strong>:
+    <ul>
+      <li>Click VCF files in History to view line counts.</li>
+      <li>Record pre/post-BED intersect counts (e.g., VarScan: 9,535 → 48).</li>
+    </ul>
+  </li>
+</ol>
+
+<p><strong>Customization</strong>: Add tools (e.g., GATK) or adjust thresholds.</p>
+
+<p><strong>Illustration</strong>: Table of variant counts, Venn diagram of caller overlap.</p>
+
+<p><a href="#table-of-contents">Back to TOC</a></p>
+
+<hr>
+
+<h2 id="annotate-variants">Annotate Variants</h2>
+
+<p><strong>Goal</strong>: Add functional and clinical context to variants.</p>
+
+<p><strong>Steps</strong>:</p>
+<ol>
+  <li>
+<strong>wANNOVAR Annotation</strong>:
+    <ul>
+      <li>Download filtered VCFs (e.g., <code class="language-plaintext highlighter-rouge">[SAMPLE_NAME]_VarScan.bed.vcf</code>) via “disk” icon.</li>
+      <li>Visit <a href="http://wannovar.wglab.org/">http://wannovar.wglab.org/</a>, upload VCF (max 2 runs, use <code class="language-plaintext highlighter-rouge">[YOUR_EMAIL]</code>).</li>
+      <li>Download “genome” CSV.</li>
+      <li>In Excel:</li>
+      <li>Hide columns K:CM</li>
+      <li>Sort by <code class="language-plaintext highlighter-rouge">gnomad211_exome_AF</code>
+</li>
+      <li>Filter <code class="language-plaintext highlighter-rouge">ExonicFunc.refGeneWithVer</code> (exclude “Synonymous SNV”)</li>
+      <li>Filter <code class="language-plaintext highlighter-rouge">Func.refGeneWithVer</code> (exclude “intron”, “UTR3”)</li>
+    </ul>
+  </li>
+  <li>
+<strong>VEP Annotation</strong>:
+    <ul>
+      <li>Visit <a href="http://grch37.ensembl.org/Homo_sapiens/Tools/VEP">http://grch37.ensembl.org/Homo_sapiens/Tools/VEP</a>
+</li>
+      <li>Input: Paste variant (e.g., <code class="language-plaintext highlighter-rouge">chr7 55221822 55221822 C T</code>) or upload VCF</li>
+      <li>Run and review annotations.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Compare Results</strong>:
+    <ul>
+      <li>Identify shared and unique variants (e.g., TP53 hits).</li>
+    </ul>
+  </li>
+</ol>
+
+<p><strong>Customization</strong>: Use SnpEff or filter by ClinVar.</p>
+
+<p><strong>Illustration</strong>: wANNOVAR input screenshot, filtered Excel table.</p>
+
+<p><a href="#table-of-contents">Back to TOC</a></p>
+
+<hr>
+
+<h2 id="visualize-variants">Visualize Variants</h2>
+
+<p><strong>Goal</strong>: Inspect alignments and variants visually.</p>
+
+<p><strong>Steps</strong>:</p>
+<ol>
+  <li>
+<strong>Slice BAM File</strong>:
+    <ul>
+      <li>Tools &gt; “SAM/BAM” &gt; “Slice BAM by genomic regions”</li>
+      <li>Input: Original <code class="language-plaintext highlighter-rouge">[SAMPLE_NAME].bam</code> + <code class="language-plaintext highlighter-rouge">[TARGET_REGIONS].bed</code>
+</li>
+      <li>Run Tool → Download <code class="language-plaintext highlighter-rouge">.bam</code> and <code class="language-plaintext highlighter-rouge">.bai</code>
+</li>
+    </ul>
+  </li>
+  <li>
+<strong>View in IGV</strong>:
+    <ul>
+      <li>Install <a href="https://igv.org/">IGV</a>, load <code class="language-plaintext highlighter-rouge">[REFERENCE_GENOME]</code> (e.g., hg19)</li>
+      <li>Load <code class="language-plaintext highlighter-rouge">.bam</code> and <code class="language-plaintext highlighter-rouge">.bai</code> (same name/folder)</li>
+      <li>Zoom to variant (e.g., <code class="language-plaintext highlighter-rouge">7:140434574</code>)</li>
+      <li>Sort reads by base (right-click &gt; “Group by base”)</li>
+      <li>Check for artifacts (e.g., strand bias).</li>
+    </ul>
+  </li>
+</ol>
+
+<p><strong>Customization</strong>: Adjust coordinates or use UCSC Browser.</p>
+
+<p><strong>Illustration</strong>: IGV screenshot with sorted reads, artifact annotations.</p>
+
+<p><a href="#table-of-contents">Back to TOC</a></p>
+
+<hr>
+
+<h2 id="analyze-and-interpret-results">Analyze and Interpret Results</h2>
+
+<p><strong>Goal</strong>: Generate insights for <code class="language-plaintext highlighter-rouge">[SPECIFIC_PURPOSE]</code>.</p>
+
+<p><strong>Steps</strong>:</p>
+<ol>
+  <li>Apply pipeline to your dataset (e.g., <code class="language-plaintext highlighter-rouge">[YOUR_SAMPLE]_R1.fq</code>).</li>
+  <li>Identify key variants (e.g., somatic, actionable).</li>
+  <li>Compare with external data (e.g., COSMIC, clinical reports).</li>
+  <li>Document in a report/presentation.</li>
+</ol>
+
+<p><strong>Customization</strong>: Focus on your goal (e.g., cancer, rare disease).</p>
+
+<p><strong>Illustration</strong>: Pipeline flowchart with decision points.</p>
+
+<p><a href="#table-of-contents">Back to TOC</a></p>
+
+<hr>
+
+<h2 id="assessment-optional">Assessment (Optional)</h2>
+
+<p><strong>Goal</strong>: Present findings.</p>
+
+<p><strong>Steps</strong>:</p>
+<ol>
+  <li>Create a 15-minute presentation (e.g., PowerPoint):
+    <ul>
+      <li>Scenario and testing rationale</li>
+      <li>Quality metrics</li>
+      <li>Variant interpretation</li>
+      <li>Comparison with reference data</li>
+    </ul>
+  </li>
+  <li>Include variant details: <code class="language-plaintext highlighter-rouge">g.</code>, <code class="language-plaintext highlighter-rouge">c.</code>, <code class="language-plaintext highlighter-rouge">p.</code> positions, genome build.</li>
+</ol>
+
+<p><strong>Customization</strong>: Tailor to your audience.</p>
+
+<p><strong>Illustration</strong>: Sample slide with variant table, quality graph.</p>
+
+<p><a href="#table-of-contents">Back to TOC</a></p>
+
+<hr>
+
+<h2 id="tips-for-customization">Tips for Customization</h2>
+
+<ul>
+  <li>
+<strong>Scenario</strong>: Replace glioblastoma with your case (e.g., “Breast cancer study”).</li>
+  <li>
+<strong>Data</strong>: Use your FASTQ/BED files, adjust names/sizes.</li>
+  <li>
+<strong>Tools</strong>: Swap tools (e.g., GATK) or references (e.g., hg38).</li>
+  <li>
+<strong>Output</strong>: Modify deliverables (e.g., research paper).</li>
+</ul>
+
+<p><a href="#table-of-contents">Back to TOC</a></p>
+
+<hr>
+
+<h2 id="suggested-illustrations">Suggested Illustrations</h2>
+
+<ol>
+  <li>
+<strong>Galaxy Interface</strong>: Screenshot with Tools/History annotations.</li>
+  <li>
+<strong>FASTQ Breakdown</strong>: Diagram of FASTQ entry with labels.</li>
+  <li>
+<strong>Pipeline Flow</strong>: Flowchart from FASTQ to interpretation.</li>
+  <li>
+<strong>IGV View</strong>: Alignment with variant highlighted.</li>
+  <li>
+<strong>Annotation Table</strong>: Excel screenshot with filters.</li>
+</ol>
+
+<p><a href="#table-of-contents">Back to TOC</a></p>
+
+<hr>
+
+<p>For further assistance, adapt this pipeline and contact <code class="language-plaintext highlighter-rouge">fgomez@wustl.edu</code>!</p>
   </section>
 
   
