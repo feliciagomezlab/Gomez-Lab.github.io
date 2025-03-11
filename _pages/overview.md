@@ -4,7 +4,7 @@ author: Armel
 nav:
   parent: Galaxy Pipeline
   order: 1
-permalink: /overview/
+permalink: /overview/index.html
 ---
 
 # Overview
