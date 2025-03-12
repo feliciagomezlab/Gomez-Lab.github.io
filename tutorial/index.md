@@ -1,5 +1,5 @@
 ---
-title: Tutorial
+title: Tutorials
 nav:
   order: 6
   tooltip: Tutorials & Workflows
