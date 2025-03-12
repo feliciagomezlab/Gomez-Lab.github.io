@@ -23,16 +23,19 @@ Explore our extensive range of publications to gain deeper insights into our wor
 ## {{ group.name }}
 
 {% for item in group.items %}
-### {{ item.title }}
+<div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+  <div style="flex: 1;">
+    <h3>{{ item.title }}</h3>
+    <p><strong>Authors:</strong> {{ item.authors | join: ", " }}</p>
+    <p><strong>Published in:</strong> {{ item.publisher }} ({{ item.date }})</p>
+    <p><strong>DOI:</strong> <a href="{{ item.link }}">{{ item.id }}</a></p>
+  </div>
+  <div style="margin-left: 20px;">
+    <div data-badge-popover="right" data-badge-type="donut" data-doi="{{ item.id | remove: 'doi:' }}" class="altmetric-embed"></div>
+  </div>
+</div>
 
-**Authors:** {{ item.authors | join: ", " }}  
-**Published in:** {{ item.publisher }} ({{ item.date }})  
-**DOI:** [{{ item.id }}]({{ item.link }})  
-
-<div data-badge-popover="right" data-badge-type="donut" data-doi="{{ item.id | remove: 'doi:' }}" class="altmetric-embed"></div>
-
----
-
+<hr>
 {% endfor %}
 {% endfor %}
 
