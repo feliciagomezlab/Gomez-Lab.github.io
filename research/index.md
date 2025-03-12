@@ -11,12 +11,23 @@ Explore our extensive range of publications to gain deeper insights into our wor
 
 {% include section.html %}
 
-
-
 ## All
 
 {% include search-box.html %}
 
 {% include search-info.html %}
 
-{% include list.html data="citations" component="citation" style="rich" %}
+{% for item in site.data.citations %}
+### {{ item.title }}
+
+**Authors:** {{ item.authors | join: ", " }}  
+**Published in:** {{ item.publisher }} ({{ item.date }})  
+**DOI:** [{{ item.id }}]({{ item.link }})  
+
+<div data-badge-popover="right" data-badge-type="donut" data-doi="{{ item.id | remove: 'doi:' }}" class="altmetric-embed"></div>
+
+---
+
+{% endfor %}
+
+<script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
