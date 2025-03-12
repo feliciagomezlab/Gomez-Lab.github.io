@@ -20,12 +20,13 @@ nav:
 <div style="background: #f8f9fa; padding: 20px; border-radius: 10px; box-shadow: 0px 4px 8px rgba(0,0,0,0.1); margin-bottom: 24px; display: flex; justify-content: space-between; align-items: center;">
 
   <div style="flex: 1;">
-    <p style="margin: 0; font-size: 16px;">{{ item.authors | join: ", " }}</p>
-    <p style="margin: 0; font-size: 16px;"><strong><a href="{{ item.link }}" style="text-decoration: none; color: #0056b3;">{{ item.title }}</a></strong>. {{ item.publisher }}. {{ item.date }}</p>
-    <p style="margin: 0; font-size: 16px;"><strong>pmid:</strong> {{ item.pmid }}; <strong>doi:</strong> <a href="https://doi.org/{{ item.id | remove: 'doi:' }}" style="color: #007bff;">{{ item.id }}</a></p>
+    <h3 style="margin-top: 0; font-size: 20px;"><a href="{{ item.link }}" style="text-decoration: none; color: #0056b3;">{{ item.title }}</a></h3>
+    <p><strong>Authors:</strong> {{ item.authors | join: ", " }}</p>
+    <p><strong>Published in:</strong> {{ item.publisher }} ({{ item.date }})</p>
+    <p><strong>DOI:</strong> <a href="{{ item.link }}" style="color: #007bff;">{{ item.id }}</a></p>
   </div>
 
-  <div style="margin-left: 20px; display: flex; align-items: center;">
+  <div style="margin-left: 20px;">
     <div data-badge-popover="right" data-badge-type="donut" data-doi="{{ item.id | remove: 'doi:' }}" class="altmetric-embed"></div>
   </div>
 
