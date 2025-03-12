@@ -7,19 +7,9 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-Explore our extensive range of publications to gain deeper insights into our work. 
-
 {% include section.html %}
 
 ## Selected Publications
-
-{% assign available_years = site.data.citations | map: "date" | map: "slice: 0, 4" | uniq | sort | reverse %}
-<div style="display: flex; justify-content: center; gap: 20px; margin-bottom: 20px; font-size: 18px;">
-  {% for year in available_years %}
-  <a href="#{{ year }}" style="text-decoration: none; color: #333;">{{ year }}</a>
-  {% endfor %}
-  <a href="#all" style="text-decoration: none; color: #333;">All</a>
-</div>
 
 {% assign grouped_papers = site.data.citations | group_by_exp: "item", "item.date | slice: 0, 4" | sort: "name" | reverse %}
 
@@ -45,4 +35,3 @@ Explore our extensive range of publications to gain deeper insights into our wor
 {% endfor %}
 
 <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-</DOCUMENT>
