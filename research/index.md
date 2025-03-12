@@ -7,6 +7,8 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
+Explore our extensive range of publications to gain deeper insights into our work. 
+
 {% include section.html %}
 
 ## Selected Publications
