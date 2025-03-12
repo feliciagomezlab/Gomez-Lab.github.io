@@ -11,13 +11,18 @@ Explore our extensive range of publications to gain deeper insights into our wor
 
 {% include section.html %}
 
-## All
+## All Publications by Year
 
 {% include search-box.html %}
 
 {% include search-info.html %}
 
-{% for item in site.data.citations %}
+{% assign grouped_papers = site.data.citations | group_by_exp: "item", "item.date | slice: 0, 4" | sort: "name" | reverse %}
+
+{% for group in grouped_papers %}
+## {{ group.name }}
+
+{% for item in group.items %}
 ### {{ item.title }}
 
 **Authors:** {{ item.authors | join: ", " }}  
@@ -28,6 +33,7 @@ Explore our extensive range of publications to gain deeper insights into our wor
 
 ---
 
+{% endfor %}
 {% endfor %}
 
 <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
