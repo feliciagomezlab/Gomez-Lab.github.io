@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function () {
         let hasResults = false;
 
         items.forEach(item => {
-            let textContent = item.innerText.toLowerCase();
+            let textContent = item.textContent.toLowerCase();
             if (textContent.includes(query)) {
                 item.style.display = "flex";
                 hasResults = true;
@@ -74,14 +74,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Hide year headers if they have no visible publications
         yearHeaders.forEach(header => {
-            let nextElements = [];
-            let nextSibling = header.nextElementSibling;
-            while (nextSibling && nextSibling.classList.contains("searchable-item")) {
-                nextElements.push(nextSibling);
-                nextSibling = nextSibling.nextElementSibling;
+            let nextElement = header.nextElementSibling;
+            let hasVisibleItems = false;
+            while (nextElement && nextElement.classList.contains("searchable-item")) {
+                if (nextElement.style.display === "flex") {
+                    hasVisibleItems = true;
+                    break;
+                }
+                nextElement = nextElement.nextElementSibling;
             }
-            let visibleItems = nextElements.filter(item => item.style.display === "flex");
-            header.style.display = visibleItems.length ? "block" : "none";
+            header.style.display = hasVisibleItems ? "block" : "none";
         });
 
         if (!hasResults) {
