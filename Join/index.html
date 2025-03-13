@@ -445,13 +445,120 @@
   
   
 
-  <section class="background" data-size="page">
+  <section class="background" data-size="vertical">
     <h1 id="-join-the-team">
 <i class="icon fa-solid fa-handshake-angle"></i> Join the Team</h1>
 
-<h2 id="excuse-the-digital-dust-were-busy-building-something-awesome-stay-tuned">Excuse the Digital Dust! We’re busy building something awesome. Stay tuned!</h2>
+<div class="join-us-container">
+  <div class="contact-info">
+    <h2>Felicia Gomez Lab</h2>
+    <p><strong>Washington University School of Medicine</strong></p>
+    <p>Division of Oncology</p>
+    <p>Campus Box 8007</p>
+    <p>Washington University</p>
+    <p>660 South Euclid Avenue</p>
+    <p>St. Louis, MO 63110</p>
+    <p>Room 5407C, 4444 Forest Park Blvd. (office)</p>
+    <p>If you are interested in applying for a position in our lab, please contact:</p>
+    <p><a href="mailto:fgomez@wustl.edu">fgomez@wustl.edu</a></p>
+  </div>
+  <div class="contact-form">
+    <h3>Contact Us</h3>
+    <form action="https://formspree.io/f/feliciagomezlab" method="POST">
+      <div class="form-group">
+        <label for="name">Name (required)</label>
+        <div class="name-fields">
+          <input type="text" id="first-name" name="first-name" placeholder="First Name" required="">
+          <input type="text" id="last-name" name="last-name" placeholder="Last Name" required="">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="email">Email (required)</label>
+        <input type="email" id="email" name="email" placeholder="Email" required="">
+      </div>
+      <div class="form-group">
+        <label for="message">Message (required)</label>
+        <textarea id="message" name="message" placeholder="Message" required=""></textarea>
+      </div>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+</div>
 
-<hr>
+<style>
+  .join-us-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .contact-info, .contact-form {
+    flex: 1;
+    padding: 20px;
+  }
+  .contact-info h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  .contact-info p {
+    margin: 5px 0;
+    color: #666;
+  }
+  .contact-info a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  .contact-form h3 {
+    color: #800000;
+    margin-bottom: 15px;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .form-group label {
+    display: block;
+    color: #800000;
+    margin-bottom: 5px;
+  }
+  .name-fields {
+    display: flex;
+    gap: 10px;
+  }
+  .name-fields input, .form-group input[type="email"], .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .name-fields input {
+    flex: 1;
+  }
+  .form-group textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  button {
+    background-color: #999;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #777;
+  }
+  @media (max-width: 600px) {
+    .join-us-container {
+      flex-direction: column;
+    }
+    .contact-info, .contact-form {
+      width: 100%;
+    }
+  }
+</style>
   </section>
 
 
