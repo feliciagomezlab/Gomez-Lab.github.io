@@ -10,7 +10,7 @@ nav:
 <div class="join-us-container">
   <div class="contact-info">
     <h2>Felicia Gomez Lab</h2>
-    <p><strong>Washington University School of Medicine</strong></p>
+    <p>Washington University School of Medicine</p>
     <p>Division of Oncology</p>
     <p>Campus Box 8007</p>
     <p>Washington University</p>
@@ -47,9 +47,9 @@ nav:
   .join-us-container {
     display: flex;
     justify-content: space-between;
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 30px;
   }
   .contact-info, .contact-form {
     flex: 1;
@@ -57,11 +57,13 @@ nav:
   }
   .contact-info h2 {
     color: #333;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    font-size: 1.5em;
   }
   .contact-info p {
-    margin: 5px 0;
+    margin: 8px 0;
     color: #666;
+    line-height: 1.5;
   }
   .contact-info a {
     color: #007bff;
@@ -69,33 +71,37 @@ nav:
   }
   .contact-form h3 {
     color: #800000;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
   }
   .form-group {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
   }
   .form-group label {
     display: block;
     color: #800000;
     margin-bottom: 5px;
+    font-weight: bold;
   }
   .name-fields {
     display: flex;
-    gap: 10px;
+    gap: 15px;
   }
   .name-fields input, .form-group input[type="email"], .form-group textarea {
     width: 100%;
-    padding: 8px;
+    padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    font-size: 1em;
   }
   .name-fields input {
     flex: 1;
   }
   .form-group textarea {
-    height: 100px;
+    height: 120px;
     resize: vertical;
+    width: 100%;
   }
   button {
     background-color: #999;
@@ -104,6 +110,8 @@ nav:
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-size: 1em;
+    margin-top: 10px;
   }
   button:hover {
     background-color: #777;
@@ -113,6 +121,13 @@ nav:
       flex-direction: column;
     }
     .contact-info, .contact-form {
+      width: 100%;
+    }
+    .name-fields {
+      flex-direction: column;
+      gap: 10px;
+    }
+    .name-fields input {
       width: 100%;
     }
   }
