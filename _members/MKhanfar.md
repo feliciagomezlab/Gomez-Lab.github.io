@@ -2,7 +2,7 @@
 name: Mariam Khanfar
 image: images/team/MKhanfar_HSG.jpg
 description: PhD candidate 
-role: pi
+role: Graduate student
 aliases: 
   M.Khanfar
   Mariam
