@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://feliciagomezlab.github.io/Gomez-Lab.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://feliciagomezlab.github.io/Gomez-Lab.github.io/" rel="alternate" type="text/html" /><updated>2025-03-18T18:59:47+00:00</updated><id>https://feliciagomezlab.github.io/Gomez-Lab.github.io/feed.xml</id><title type="html">Gomez Lab</title><entry><title type="html">Galaxy Pipeline</title><link href="https://feliciagomezlab.github.io/Gomez-Lab.github.io/2025/03/10/Galaxy.html" rel="alternate" type="text/html" title="Galaxy Pipeline" /><published>2025-03-10T00:00:00+00:00</published><updated>2025-03-18T18:58:33+00:00</updated><id>https://feliciagomezlab.github.io/Gomez-Lab.github.io/2025/03/10/Galaxy</id><content type="html" xml:base="https://feliciagomezlab.github.io/Gomez-Lab.github.io/2025/03/10/Galaxy.html"><![CDATA[<!-- excerpt start -->
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://feliciagomezlab.github.io/Gomez-Lab.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://feliciagomezlab.github.io/Gomez-Lab.github.io/" rel="alternate" type="text/html" /><updated>2025-03-18T19:03:14+00:00</updated><id>https://feliciagomezlab.github.io/Gomez-Lab.github.io/feed.xml</id><title type="html">Gomez Lab</title><entry><title type="html">Galaxy Pipeline</title><link href="https://feliciagomezlab.github.io/Gomez-Lab.github.io/2025/03/10/Galaxy.html" rel="alternate" type="text/html" title="Galaxy Pipeline" /><published>2025-03-10T00:00:00+00:00</published><updated>2025-03-18T19:02:07+00:00</updated><id>https://feliciagomezlab.github.io/Gomez-Lab.github.io/2025/03/10/Galaxy</id><content type="html" xml:base="https://feliciagomezlab.github.io/Gomez-Lab.github.io/2025/03/10/Galaxy.html"><![CDATA[<!-- excerpt start -->
 
 <p>This guide provides a flexible workflow for analyzing next-generation sequencing (NGS) data using Galaxy. The tutorial walks you through each step of the process, from setting up your Galaxy environment to interpreting results, ensuring a comprehensive approach to variant analysis. Additionally, a <strong><a href="#practice-example">practice exercise</a></strong> is available to reinforce learning and provide hands-on experience for your project.</p>
 
@@ -6,14 +6,14 @@
 
 <h2 id="practice-example">Practice Example</h2>
 
-<div class="tutorial-box">
-  **Goal:** Reinforce learning through hands-on practice.  
-  **Steps:**  
-  - Download the sample dataset from Figshare: [Click to Download Dataset](https://doi.org/10.6084/m9.figshare.28620122)  
-  - Access the example assessment form at: [Practice Exercise](https://docs.google.com/forms/d/e/1FAIpQLSf-G7urZTzoOc5KH99gQ2ixTK2eNJTTlkPi2B7C9lIlLIMwMw/viewform?usp=header)  
-  - Follow the steps provided in this tutorial to analyze a sample dataset.  
-  - Answer the questions based on your findings and submit your responses.
-</div>
+<p><strong>Goal:</strong> Reinforce learning through hands-on practice.<br />
+  <strong>Steps:</strong></p>
+<ul>
+  <li>Download the sample dataset from Figshare: <a href="https://doi.org/10.6084/m9.figshare.28620122">Click to Download Dataset</a></li>
+  <li>Access the example assessment form at: <a href="https://docs.google.com/forms/d/e/1FAIpQLSf-G7urZTzoOc5KH99gQ2ixTK2eNJTTlkPi2B7C9lIlLIMwMw/viewform?usp=header">Practice Exercise</a></li>
+  <li>Follow the steps provided in this tutorial to analyze a sample dataset.</li>
+  <li>Answer the questions based on your findings and submit your responses.</li>
+</ul>
 
 <hr />
 
