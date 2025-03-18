@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://feliciagomezlab.github.io/Gomez-Lab.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://feliciagomezlab.github.io/Gomez-Lab.github.io/" rel="alternate" type="text/html" /><updated>2025-03-13T22:09:39+00:00</updated><id>https://feliciagomezlab.github.io/Gomez-Lab.github.io/feed.xml</id><title type="html">Gomez Lab</title><entry><title type="html">Galaxy Pipeline</title><link href="https://feliciagomezlab.github.io/Gomez-Lab.github.io/2025/03/10/Galaxy.html" rel="alternate" type="text/html" title="Galaxy Pipeline" /><published>2025-03-10T00:00:00+00:00</published><updated>2025-03-13T22:08:25+00:00</updated><id>https://feliciagomezlab.github.io/Gomez-Lab.github.io/2025/03/10/Galaxy</id><content type="html" xml:base="https://feliciagomezlab.github.io/Gomez-Lab.github.io/2025/03/10/Galaxy.html"><![CDATA[<!-- excerpt start -->
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://feliciagomezlab.github.io/Gomez-Lab.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://feliciagomezlab.github.io/Gomez-Lab.github.io/" rel="alternate" type="text/html" /><updated>2025-03-18T17:06:03+00:00</updated><id>https://feliciagomezlab.github.io/Gomez-Lab.github.io/feed.xml</id><title type="html">Gomez Lab</title><entry><title type="html">Galaxy Pipeline</title><link href="https://feliciagomezlab.github.io/Gomez-Lab.github.io/2025/03/10/Galaxy.html" rel="alternate" type="text/html" title="Galaxy Pipeline" /><published>2025-03-10T00:00:00+00:00</published><updated>2025-03-18T17:04:41+00:00</updated><id>https://feliciagomezlab.github.io/Gomez-Lab.github.io/2025/03/10/Galaxy</id><content type="html" xml:base="https://feliciagomezlab.github.io/Gomez-Lab.github.io/2025/03/10/Galaxy.html"><![CDATA[<!-- excerpt start -->
 
 <p>This guide provides a flexible workflow for analyzing next-generation sequencing (NGS) data using Galaxy. The tutorial walks you through each step of the process, from setting up your Galaxy environment to interpreting results, ensuring a comprehensive approach to variant analysis.<br />
 Additionally, a <a href="#practice-example">practice exercise</a> is available at the end of this tutorial to reinforce learning and provide hands-on experience.</p>
@@ -18,9 +18,6 @@ Additionally, a <a href="#practice-example">practice exercise</a> is available a
   <li><a href="#annotate-variants">5. Annotate Variants</a></li>
   <li><a href="#visualize-variants">6. Visualize Variants</a></li>
   <li><a href="#analyze-and-interpret-results">7. Analyze and Interpret Results</a></li>
-  <li><a href="#assessment-optional">8. Assessment (Optional)</a></li>
-  <li><a href="#tips-for-customization">Tips for Customization</a></li>
-  <li><a href="#suggested-illustrations">Suggested Illustrations</a></li>
 </ul>
 
 <hr />
@@ -331,4 +328,4 @@ Additionally, a <a href="#practice-example">practice exercise</a> is available a
 
 <hr />
 
-<p>For further assistance, adapt this pipeline and contact <a href="https://oncology.wustl.edu/people/felicia-i-gomez-phd/">Felicia Gomez</a>!</p>]]></content><author><name>Armel</name></author><category term="tutorial" /><category term="Galaxy" /><category term="Variant Calling" /><summary type="html"><![CDATA[]]></summary></entry></feed>
+<p>For further assistance, adapt this pipeline and contact <a href="https://oncology.wustl.edu/people/felicia-i-gomez-phd/">Felicia Gomez</a>!</p>]]></content><author><name></name></author><category term="tutorial" /><category term="Galaxy" /><category term="Variant Calling" /><summary type="html"><![CDATA[]]></summary></entry></feed>
