@@ -11,9 +11,9 @@ Our lab is more than just a place of work—it’s a vibrant community where inn
 
 {% include section.html %}
 
-<div style="display: flex; flex-direction: column; gap: 20px;">
-  <div style="display: flex; align-items: center;">
-    <img src="{{ site.baseurl }}/images/team/Armel.jpeg" alt="Armel Batchi-Bouyou" style="width: 100px; height: 100px; border-radius: 50%; margin-right: 20px;">
+<div style="display: flex; flex-direction: column; gap: 40px;">
+  <div style="display: flex; flex-direction: row; align-items: center;">
+    <img src="{{ site.baseurl }}/images/team/Armel.jpeg" alt="Armel Batchi-Bouyou" style="width: 120px; height: 120px; border-radius: 50%; margin-right: 30px;">
     <div>
       <h3>Armel Batchi-Bouyou</h3>
       <p>Postdoctoral Research Associate</p>
@@ -21,8 +21,8 @@ Our lab is more than just a place of work—it’s a vibrant community where inn
     </div>
   </div>
 
-  <div style="display: flex; align-items: center;">
-    <img src="{{ site.baseurl }}/images/team/Charlz.jpeg" alt="Charlz Nithin Jerold" style="width: 100px; height: 100px; border-radius: 50%; margin-right: 20px;">
+  <div style="display: flex; flex-direction: row; align-items: center;">
+    <img src="{{ site.baseurl }}/images/team/Charlz.jpeg" alt="Charlz Nithin Jerold" style="width: 120px; height: 120px; border-radius: 50%; margin-right: 30px;">
     <div>
       <h3>Charlz Nithin Jerold</h3>
       <p>Bioinformatics Research Analyst</p>
@@ -30,8 +30,8 @@ Our lab is more than just a place of work—it’s a vibrant community where inn
     </div>
   </div>
 
-  <div style="display: flex; align-items: center;">
-    <img src="{{ site.baseurl }}/images/team/MKhanfar_HSG.jpg" alt="Mariam Khanfar" style="width: 100px; height: 100px; border-radius: 50%; margin-right: 20px;">
+  <div style="display: flex; flex-direction: row; align-items: center;">
+    <img src="{{ site.baseurl }}/images/team/MKhanfar_HSG.jpg" alt="Mariam Khanfar" style="width: 120px; height: 120px; border-radius: 50%; margin-right: 30px;">
     <div>
       <h3>Mariam Khanfar</h3>
       <p>PhD Candidate</p>
