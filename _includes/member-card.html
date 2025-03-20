@@ -1,0 +1,35 @@
+<div class="member-card" style="display: flex; align-items: center; margin-bottom: 20px; padding: 10px; border-bottom: 1px solid #ddd;">
+  <!-- Member Image -->
+  <div class="member-image" style="flex: 0 0 150px; margin-right: 20px;">
+    <img src="{{ site.baseurl }}/{{ member.image }}" alt="{{ member.name }}" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover;">
+  </div>
+  <!-- Member Details -->
+  <div class="member-details" style="flex: 1;">
+    <h3>{{ member.name }}</h3>
+    <p><strong>{{ member.description }}</strong></p>
+    {% if member.bio %}
+      <p>{{ member.bio }}</p>
+    {% endif %}
+    <!-- Links -->
+    <div class="member-links">
+      {% if member.links.email %}
+        <a href="mailto:{{ member.links.email }}" style="margin-right: 10px;">Email</a>
+      {% endif %}
+      {% if member.links.website %}
+        <a href="{{ member.links.website }}" target="_blank" style="margin-right: 10px;">Website</a>
+      {% endif %}
+      {% if member.links.linkedin %}
+        <a href="{{ member.links.linkedin }}" target="_blank" style="margin-right: 10px;">LinkedIn</a>
+      {% endif %}
+      {% if member.links.google-scholar %}
+        <a href="https://scholar.google.com/citations?user={{ member.links.google-scholar }}" target="_blank" style="margin-right: 10px;">Google Scholar</a>
+      {% endif %}
+      {% if member.links.orcid %}
+        <a href="https://orcid.org/{{ member.links.orcid }}" target="_blank" style="margin-right: 10px;">ORCID</a>
+      {% endif %}
+      {% if member.links.CV %}
+        <a href="{{ site.baseurl }}/{{ member.links.CV }}" target="_blank" style="margin-right: 10px;">CV</a>
+      {% endif %}
+    </div>
+  </div>
+</div>
