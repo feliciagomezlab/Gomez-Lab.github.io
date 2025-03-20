@@ -11,8 +11,10 @@ Our lab is more than just a place of work—it’s a vibrant community where inn
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filters="role: pi" %}
-{% include list.html data="members" component="portrait" filters="role: ^(?!pi$)" %}
+<div style="display: flex; flex-direction: column; align-items: flex-start;">
+  {% include list.html data="members" component="portrait" filters="role: pi" %}
+  {% include list.html data="members" component="portrait" filters="role: ^(?!pi$)" %}
+</div>
 
 {% include section.html background="images/stock_image/background.jpg" dark=true %}
 
