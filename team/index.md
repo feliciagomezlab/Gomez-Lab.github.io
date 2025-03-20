@@ -11,8 +11,45 @@ Our lab is more than just a place of work—it’s a vibrant community where inn
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filters="role: pi" %}
-{% include list.html data="members" component="portrait" filters="role: ^(?!pi$)" %}
+<!-- Team Member Section with Vertical Alignment -->
+<div class="team-member-list">
+  <div class="team-member">
+    <div class="team-member-image">
+      <img src="{{ site.baseurl }}/images/team/FG.jpg" alt="Felicia Gomez">
+    </div>
+    <div class="team-member-info">
+      <h3>Felicia Gomez</h3>
+      <p>Principal Investigator</p>
+      <p>Felicia Gomez is the Principal Investigator of the Gomez Lab, specializing in cancer genomics and molecular biology.</p>
+      <a href="https://profiles.wustl.edu/en/persons/felicia-gomez">More Info</a>
+    </div>
+  </div>
+
+  <div class="team-member">
+    <div class="team-member-image">
+      <img src="{{ site.baseurl }}/images/team/Charlz.jpeg" alt="Charlz Nithin Jerold">
+    </div>
+    <div class="team-member-info">
+      <h3>Charlz Nithin Jerold</h3>
+      <p>Bioinformatics Research Analyst</p>
+      <p>Charlz supports bioinformatics analyses for the lab, including variant detection and statistical interpretation.</p>
+      <a href="https://cnithin7.github.io">More Info</a>
+    </div>
+  </div>
+
+  <div class="team-member">
+    <div class="team-member-image">
+      <img src="{{ site.baseurl }}/images/team/Armel.jpg" alt="Armel Batchi-Bouyou">
+    </div>
+    <div class="team-member-info">
+      <h3>Armel Batchi-Bouyou</h3>
+      <p>Postdoctoral Research Associate</p>
+      <p>Armel is a postdoctoral researcher, focusing on the intersection of molecular biology and oncology.</p>
+    </div>
+  </div>
+
+  <!-- Add other team members similarly -->
+</div>
 
 {% include section.html background="images/stock_image/background.jpg" dark=true %}
 
