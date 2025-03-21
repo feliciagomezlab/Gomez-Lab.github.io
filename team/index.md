@@ -28,6 +28,7 @@ Our lab is more than just a place of work—it’s a vibrant community where inn
       </div>
     </div>
   </div>
+  <hr style="border: 1px solid #ccc; width: 100%; margin-top: 20px; margin-bottom: 20px;">
 
   <div style="display: flex; flex-direction: row; align-items: center;">
     <img src="{{ site.baseurl }}/images/team/Charlz.jpeg" alt="Charlz Nithin Jerold" style="width: 120px; height: 120px; border-radius: 50%; margin-right: 30px;">
@@ -45,6 +46,7 @@ Our lab is more than just a place of work—it’s a vibrant community where inn
       </div>
     </div>
   </div>
+  <hr style="border: 1px solid #ccc; width: 100%; margin-top: 20px; margin-bottom: 20px;">
 
   <div style="display: flex; flex-direction: row; align-items: center;">
     <img src="{{ site.baseurl }}/images/team/MKhanfar_HSG.jpg" alt="Mariam Khanfar" style="width: 120px; height: 120px; border-radius: 50%; margin-right: 30px;">
