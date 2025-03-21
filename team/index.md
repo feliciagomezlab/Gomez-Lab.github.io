@@ -13,7 +13,9 @@ Our lab is more than just a place of work—it’s a vibrant community where inn
 
 <div style="display: flex; flex-direction: column; gap: 40px;">
   <div style="display: flex; flex-direction: row; align-items: center;">
-    <img src="{{ site.baseurl }}/images/team/Armel.jpeg" alt="Armel Batchi-Bouyou" style="width: 120px; height: 120px; border-radius: 50%; margin-right: 30px;">
+    <div style="width: 120px; height: 120px; overflow: hidden; margin-right: 30px;">
+      <img src="{{ site.baseurl }}/images/team/Armel.jpeg" alt="Armel Batchi-Bouyou" style="width: 100%; height: 100%; object-fit: cover;">
+    </div>
     <div>
       <h3>Armel Batchi-Bouyou</h3>
       <p>Postdoctoral Research Associate</p>
@@ -31,7 +33,9 @@ Our lab is more than just a place of work—it’s a vibrant community where inn
   <hr style="border: 1px solid #ccc; width: 100%; margin-top: 20px; margin-bottom: 20px;">
 
   <div style="display: flex; flex-direction: row; align-items: center;">
-    <img src="{{ site.baseurl }}/images/team/Charlz.jpeg" alt="Charlz Nithin Jerold" style="width: 120px; height: 120px; border-radius: 50%; margin-right: 30px;">
+    <div style="width: 120px; height: 120px; overflow: hidden; margin-right: 30px;">
+      <img src="{{ site.baseurl }}/images/team/Charlz.jpeg" alt="Charlz Nithin Jerold" style="width: 100%; height: 100%; object-fit: cover;">
+    </div>
     <div>
       <h3>Charlz Nithin Jerold</h3>
       <p>Bioinformatics Research Analyst</p>
@@ -49,7 +53,9 @@ Our lab is more than just a place of work—it’s a vibrant community where inn
   <hr style="border: 1px solid #ccc; width: 100%; margin-top: 20px; margin-bottom: 20px;">
 
   <div style="display: flex; flex-direction: row; align-items: center;">
-    <img src="{{ site.baseurl }}/images/team/MKhanfar_HSG.jpg" alt="Mariam Khanfar" style="width: 120px; height: 120px; border-radius: 50%; margin-right: 30px;">
+    <div style="width: 120px; height: 120px; overflow: hidden; margin-right: 30px;">
+      <img src="{{ site.baseurl }}/images/team/MKhanfar_HSG.jpg" alt="Mariam Khanfar" style="width: 100%; height: 100%; object-fit: cover;">
+    </div>
     <div>
       <h3>Mariam Khanfar</h3>
       <p>PhD Candidate</p>
