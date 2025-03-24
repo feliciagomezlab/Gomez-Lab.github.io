@@ -2,9 +2,9 @@
 title: Gomez Lab 
 subtitle: Division of Oncology 
 description: 
-header: 
+header: /images/logo/Gomez-lab-logo.png
 proofer: false
-header-dark: true
+header-dark: false
 
 # site social media and other links
 links:
