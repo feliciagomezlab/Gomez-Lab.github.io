@@ -70,8 +70,7 @@
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1182/bloodadvances.2023010779
-  title: 'Mutations associated with progression in follicular lymphoma predict inferior
-    outcomes at diagnosis: Alliance A151303'
+  title: 'Mutations associated with progression in follicular lymphoma predict inferior outcomes at diagnosis: Alliance A151303'
   authors:
   - David A. Russler-Germain
   - Kilannin Krysiak
@@ -103,8 +102,7 @@
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1182/blood.2021011894
-  title: "Phase 1/dose expansion trial of brentuximab vedotin and\_lenalidomide in\
-    \ relapsed or refractory diffuse large B-cell lymphoma"
+  title: 'Phase 1/dose expansion trial of brentuximab vedotin and lenalidomide in relapsed or refractory diffuse large B-cell lymphoma'
   authors:
   - Jeffrey P. Ward
   - Melissa M. Berrien-Elliott
@@ -171,62 +169,8 @@
   orcid: 0000-0003-4884-7510
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1101/266262
-  title: Standard operating procedure for somatic variant refinement of tumor sequencing
-    data
-  authors:
-  - Erica K. Barnell
-  - Peter Ronning
-  - Katie M. Campbell
-  - Kilannin Krysiak
-  - Benjamin J. Ainscough
-  - Cody Ramirez
-  - Nick Spies
-  - Jason Kunisaki
-  - Jasreet Hundal
-  - Zachary L. Skidmore
-  - Felicia Gomez
-  - Lee Trani
-  - Matthew Matlock
-  - Alex H. Wagner
-  - S. Joshua Swamidass
-  - Malachi Griffith
-  - Obi L. Griffith
-  publisher: Cold Spring Harbor Laboratory
-  date: '2018-02-16'
-  link: https://doi.org/gkwxnp
-  orcid: 0000-0003-4884-7510
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1182/blood-2016-07-729954
-  title: Recurrent somatic mutations affecting B-cell receptor signaling pathway genes
-    in follicular lymphoma
-  authors:
-  - Kilannin Krysiak
-  - Felicia Gomez
-  - Brian S. White
-  - Matthew Matlock
-  - Christopher A. Miller
-  - Lee Trani
-  - Catrina C. Fronick
-  - Robert S. Fulton
-  - Friederike Kreisel
-  - Amanda F. Cashen
-  - Kenneth R. Carson
-  - Melissa M. Berrien-Elliott
-  - Nancy L. Bartlett
-  - Malachi Griffith
-  - Obi L. Griffith
-  - Todd A. Fehniger
-  publisher: Blood
-  date: '2017-01-26'
-  link: https://doi.org/f9vqnt
-  orcid: 0000-0003-4884-7510
-  plugin: sources.py
-  file: sources.yaml
 - id: doi:10.1038/s41436-018-0278-z
-  title: "Standard operating procedure for somatic variant refinement of sequencing\
-    \ data with paired tumor and\_normal samples"
+  title: Standard operating procedure for somatic variant refinement of sequencing data with paired tumor and normal samples
   authors:
   - Erica K. Barnell
   - Peter Ronning
@@ -253,13 +197,39 @@
   - Malachi Griffith
   - Obi L. Griffith
   publisher: Genetics in Medicine
-  date: '2019-04-01'
-  link: https://doi.org/g89nfb
+  date: "2019-04-01"
+  link: https://doi.org/10.1038/s41436-018-0278-z
+  orcid: 0000-0003-4884-7510
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1182/blood-2016-07-729954
+  title: Recurrent somatic mutations affecting B-cell receptor signaling pathway genes
+    in follicular lymphoma
+  authors:
+  - Kilannin Krysiak
+  - Felicia Gomez
+  - Brian S. White
+  - Matthew Matlock
+  - Christopher A. Miller
+  - Lee Trani
+  - Catrina C. Fronick
+  - Robert S. Fulton
+  - Friederike Kreisel
+  - Amanda F. Cashen
+  - Kenneth R. Carson
+  - Melissa M. Berrien-Elliott
+  - Nancy L. Bartlett
+  - Malachi Griffith
+  - Obi L. Griffith
+  - Todd A. Fehniger
+  publisher: Blood
+  date: '2017-01-26'
+  link: https://doi.org/f9vqnt
+  orcid: 0000-0003-4884-7510
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1371/journal.pone.0050198
-  title: Gene-Centric Meta-Analysis of Lipid Traits in African, East Asian and Hispanic
-    Populations
+  title: 'Gene-Centric Meta-Analysis of Lipid Traits in African, East Asian and Hispanic Populations'
   authors:
   - Clara C. Elbers
   - Yiran Guo
@@ -318,27 +288,28 @@
   - Alex P. Reiner
   - Stephen S. Rich
   - Jerome I. Rotter
-  - "Mich\xE8le M. Sale"
+  - Michèle M. Sale
   - Michael Y. Tsai
   - Ingrid B. Borecki
   - Robert A. Hegele
   - Sekar Kathiresan
   - Michael A. Nalls
-  - Herman A. Taylor
+  - Herman A. Taylor, Jr.
   - Hakon Hakonarson
   - Suthesh Sivapalaratnam
   - Folkert W. Asselbergs
   - Fotios Drenos
   - James G. Wilson
   - Brendan J. Keating
-  publisher: PLoS ONE
-  date: '2012-12-07'
-  link: https://doi.org/gm3fc4
+  publisher: PLOS ONE
+  date: '2012-12-01'
+  link: https://doi.org/10.1371/journal.pone.0050198
+  orcid: 0000-0003-4884-7510
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1007/s00439-013-1284-5
-  title: Patterns of nucleotide and haplotype diversity at ICAM-1 across global human
-    populations with varying levels of malaria exposure
+  title: Patterns of nucleotide and haplotype diversity at ICAM-1 across global
+  human populations with varying levels of malaria exposure
   authors:
   - Felicia Gomez
   - Gil Tomas
@@ -353,14 +324,14 @@
   - Jibril B. Hirbo
   - Jorge Rocha
   - Sarah A. Tishkoff
-  publisher: Human Genetics
-  date: '2013-04-23'
-  link: https://doi.org/f47r55
+  publisher: Springer-Verlag Berlin Heidelberg
+  date: "2013-09-01"
+  link: https://doi.org/10.1007/s00439-013-1284-5
+  orcid: 0000-0003-4884-7510
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1016/j.ajhg.2013.05.014
-  title: Identifying Darwinian Selection Acting on Different Human APOL1 Variants
-    among Diverse African Populations
+  title: "Identifying Darwinian Selection Acting on Different Human APOL1 Variants among Diverse African Populations"
   authors:
   - Wen-Ya Ko
   - Prianka Rajan
@@ -369,20 +340,20 @@
   - Ping An
   - Cheryl A. Winkler
   - Alain Froment
-  - "Thomas\_B. Nyambo"
-  - "Sabah\_A. Omar"
+  - Thomas B. Nyambo
+  - Sabah A. Omar
   - Charles Wambebe
   - Alessia Ranciaro
-  - "Jibril\_B. Hirbo"
-  - "Sarah\_A. Tishkoff"
-  publisher: The American Journal of Human Genetics
-  date: '2013-07-01'
-  link: https://doi.org/f447zc
+  - Jibril B. Hirbo
+  - Sarah A. Tishkoff
+  publisher: The American Society of Human Genetics
+  date: "2013-07-11"
+  link: https://doi.org/10.1016/j.ajhg.2013.05.014
+  orcid: 0000-0003-4884-7510
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1371/journal.pgen.1004508
-  title: Novel Approach Identifies SNPs in SLC2A10 and KCNK9 with Evidence for Parent-of-Origin
-    Effect on Body Mass Index
+  title: 'Novel Approach Identifies SNPs in SLC2A10 and KCNK9 with Evidence for Parent-of-Origin Effect on Body Mass Index'
   authors:
   - Clive J. Hoggart
   - Giulia Venturini
@@ -392,15 +363,15 @@
   - Jing Hua Zhao
   - Alexander Teumer
   - Thomas W. Winkler
-  - "Natalia T\u0161ernikova"
+  - Natalia Tšernikova
   - Jian'an Luan
   - Evelin Mihailov
   - Georg B. Ehret
   - Weihua Zhang
   - David Lamparter
-  - "T\xF5nu Esko"
-  - "Aurelien Mac\xE9"
-  - "Sina R\xFCeger"
+  - Tönu Esko
+  - Aurelien Macé
+  - Sina Rüeger
   - Pierre-Yves Bochud
   - Matteo Barcella
   - Yves Dauvilliers
@@ -422,6 +393,9 @@
   - Georg Homuth
   - Jennifer E. Huffman
   - David Porteous
+  - Generation Scotland Consortium
+  - The LifeLines Cohort study
+  - The GIANT Consortium
   - Darius Moradpour
   - Alex Iranzo
   - Johannes Hebebrand
@@ -438,7 +412,7 @@
   - Robert A. Scott
   - Tim D. Spector
   - Konstantin Strauch
-  - "Henry V\xF6lzke"
+  - Henry Völzke
   - Nicholas J. Wareham
   - Wei Yuan
   - Jordana T. Bell
@@ -459,37 +433,37 @@
   - Timothy M. Frayling
   - Andres Metspalu
   - Marjo-Riitta Jarvelin
-  - "Andr\xE9 Scherag"
+  - André Scherag
   - George Davey Smith
   - Ingrid B. Borecki
   - Valentin Rousson
   - Joel N. Hirschhorn
   - Carlo Rivolta
   - Ruth J. F. Loos
-  - "Zolt\xE1n Kutalik"
-  publisher: PLoS Genetics
-  date: '2014-07-31'
-  link: https://doi.org/f3pkdz
+  - Zoltán Kutalik
+  publisher: PLOS Genetics
+  date: "2014-07-01"
+  link: https://doi.org/10.1371/journal.pgen.1004508
+  orcid: 0000-0003-4884-7510
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1186/s12863-015-0196-x
-  title: Admixture mapping of coronary artery calcification in African Americans from
-    the NHLBI family heart study
+  title: 'Admixture mapping of coronary artery calcification in African Americans from the NHLBI Family Heart Study'
   authors:
   - Felicia Gomez
   - Lihua Wang
   - Haley Abel
   - Qunyuan Zhang
-  - Michael A Province
-  - Ingrid B Borecki
+  - Michael A. Province
+  - Ingrid B. Borecki
   publisher: BMC Genetics
-  date: '2015-04-23'
-  link: https://doi.org/f7ghp7
+  date: "2015-04-23"
+  link: https://doi.org/10.1186/s12863-015-0196-x
+  orcid: 0000-0003-4884-7510
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1093/bioinformatics/btu855
-  title: 'Selection of models for the analysis of risk-factor trees: leveraging biological
-    knowledge to mine large sets of risk factors with application to microbiome data'
+  title: 'Selection of models for the analysis of risk-factor trees: leveraging biological knowledge to mine large sets of risk factors with application to microbiome data'
   authors:
   - Qunyuan Zhang
   - Haley Abel
@@ -501,13 +475,14 @@
   - George M. Weinstock
   - Nita H. Salzman
   - Ingrid B. Borecki
-  publisher: Bioinformatics
-  date: '2015-01-06'
-  link: https://doi.org/f7fb35
+  publisher: Bioinformatics (Oxford University Press)
+  date: "2015-01-06"
+  link: https://doi.org/10.1093/bioinformatics/btu855
+  orcid: 0000-0003-4884-7510
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1038/srep45040
-  title: 1000 Genomes-based meta-analysis identifies 10 novel loci for kidney function
+  title: '1000 Genomes-based meta-analysis identifies 10 novel loci for kidney function'
   authors:
   - Mathias Gorski
   - Peter J. van der Most
@@ -536,14 +511,14 @@
   - Josef Coresh
   - Marilyn C. Cornelis
   - Gary C. Curhan
-  - "Adamo Pio d\u2019Adamo"
+  - Adamo Pio d'Adamo
   - Abbas Dehghan
   - Laura Dengler
   - Jingzhong Ding
   - Gudny Eiriksdottir
   - Karlhans Endlich
   - Stefan Enroth
-  - "T\xF5nu Esko"
+  - Tõnu Esko
   - Oscar H. Franco
   - Paolo Gasparini
   - Christian Gieger
@@ -554,26 +529,26 @@
   - Stephen J. Hancock
   - Tamara B. Harris
   - Catherine Helmer
-  - "Simon H\xF6llerer"
+  - Simon Höllerer
   - Edith Hofer
   - Albert Hofman
   - Elizabeth G. Holliday
   - Georg Homuth
   - Frank B. Hu
   - Cornelia Huth
-  - "Nina Hutri-K\xE4h\xF6nen"
+  - Nina Hutri-Kähönen
   - Shih-Jen Hwang
   - Medea Imboden
-  - "\xC5sa Johansson"
-  - "Mika K\xE4h\xF6nen"
-  - "Wolfgang K\xF6nig"
+  - Åsa Johansson
+  - Mika Kähönen
+  - Wolfgang König
   - Holly Kramer
-  - "Bernhard K. Kr\xE4mer"
+  - Bernhard K. Krämer
   - Ashish Kumar
   - Zoltan Kutalik
   - Jean-Charles Lambert
   - Lenore J. Launer
-  - "Terho Lehtim\xE4ki"
+  - Terho Lehtimäki
   - Martin H. de Borst
   - Gerjan Navis
   - Morris Swertz
@@ -581,7 +556,7 @@
   - Kurt Lohman
   - Ruth J. F. Loos
   - Yingchang Lu
-  - "Leo-Pekka Lyytik\xE4inen"
+  - Leo-Pekka Lyytikäinen
   - Mark A. McEvoy
   - Christa Meisinger
   - Thomas Meitinger
@@ -592,7 +567,7 @@
   - Matthias Nauck
   - Albertine J. Oldehinkel
   - Matthias Olden
-  - Brenda WJH Penninx
+  - Brenda W. J. H. Penninx
   - Giorgio Pistis
   - Peter P. Pramstaller
   - Nicole Probst-Hensch
@@ -619,9 +594,9 @@
   - Andre G. Uitterlinden
   - Sheila Ulivi
   - Jorma S. Viikari
-  - "Uwe V\xF6lker"
+  - Uwe Völker
   - Peter Vollenweider
-  - "Henry V\xF6lzke"
+  - Henry Völzke
   - Dragana Vuckovic
   - Melanie Waldenberger
   - Jie Jin Wang
@@ -631,18 +606,18 @@
   - Harold Snieder
   - Iris M. Heid
   - Caroline S. Fox
-  - "Anna K\xF6ttgen"
+  - Anna Köttgen
   - Cristian Pattaro
-  - "Carsten A. B\xF6ger"
+  - Carsten A. Böger
   - Christian Fuchsberger
-  publisher: Scientific Reports
-  date: '2017-04-28'
-  link: https://doi.org/f95w6c
+  publisher: Scientific Reports (Springer Nature)
+  date: "2017-04-28"
+  link: https://doi.org/10.1038/srep45040
+  orcid: 0000-0003-4884-7510
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1182/blood-2017-09-804641
-  title: 'Single-agent ibrutinib in relapsed or refractory follicular lymphoma: a
-    phase 2 consortium trial'
+  title: 'Single-agent ibrutinib in relapsed or refractory follicular lymphoma: a phase 2 consortium trial'
   authors:
   - Nancy L. Bartlett
   - Brian A. Costello
@@ -660,8 +635,11 @@
   - Obi L. Griffith
   - Felicia Gomez
   - Todd A. Fehniger
-  publisher: Blood
-  date: '2018-01-11'
-  link: https://doi.org/gcwf6h
+  publisher: Blood (The American Society of Hematology)
+  date: "2018-01-11"
+  link: https://doi.org/10.1182/blood-2017-09-804641
+  orcid: 0000-0003-4884-7510
   plugin: sources.py
   file: sources.yaml
+
+
