@@ -133,8 +133,7 @@
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1101/2021.06.25.21258374
-  title: Ultra-Deep Sequencing Reveals the Mutational Landscape of Classical Hodgkin
-    Lymphoma
+  title: Ultra-Deep Sequencing Reveals the Mutational Landscape of Classical Hodgkin Lymphoma
   authors:
   - Felicia Gomez
   - Matthew Mosior
@@ -172,8 +171,7 @@
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1101/266262
-  title: Standard operating procedure for somatic variant refinement of tumor sequencing
-    data
+  title: Standard operating procedure for somatic variant refinement of tumor sequencing data
   authors:
   - Erica K. Barnell
   - Peter Ronning
@@ -199,8 +197,7 @@
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1182/blood-2016-07-729954
-  title: Recurrent somatic mutations affecting B-cell receptor signaling pathway genes
-    in follicular lymphoma
+  title: Recurrent somatic mutations affecting B-cell receptor signaling pathway genes in follicular lymphoma
   authors:
   - Kilannin Krysiak
   - Felicia Gomez
@@ -224,3 +221,514 @@
   orcid: 0000-0003-4884-7510
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.1371/journal.pgen.1005573
+  title: Parent-of-Origin Effects of the APOB Gene on Adiposity in Young Adults
+  authors:
+  - Hagit Hochner
+  - Catherine Allard
+  - Einat Granot-Hershkovitz
+  - Jinbo Chen
+  - Colleen M. Sitlani
+  - Sandra Sazdovska
+  - Thomas Lumley
+  - Barbara McKnight
+  - Kenneth Rice
+  - Daniel A. Enquobahrie
+  - James B. Meigs
+  - Pui Kwok
+  - Marie-France Hivert
+  - Ingrid B. Borecki
+  - Felicia Gomez
+  - Ting Wang
+  - Cornelia van Duijn
+  - Najaf Amin
+  - Jerome I. Rotter
+  - John Stamatoyannopoulos
+  - Vardiella Meiner
+  - Orly Manor
+  - Josée Dupuis
+  - Yechiel Friedlander
+  - David S. Siscovick
+  publisher: PLoS Genetics
+  date: '2015-10-09'
+  link: https://doi.org/10.1371/journal.pgen.1005573
+  orcid: 0000-0003-4884-7510
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1093/bioinformatics/btu855
+  title: 'Selection of models for the analysis of risk-factor trees: leveraging biological knowledge to mine large sets of risk factors with application to microbiome data'
+  authors:
+  - Qunyuan Zhang
+  - Haley Abel
+  - Alan Wells
+  - Petra Lenzini
+  - Felicia Gomez
+  - Michael A. Province
+  - Alan A. Templeton
+  - George M. Weinstock
+  - Nita H. Salzman
+  - Ingrid B. Borecki
+  publisher: Bioinformatics
+  date: '2015-01-06'
+  link: https://doi.org/10.1093/bioinformatics/btu855
+  orcid: 0000-0003-4884-7510
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1186/s12863-015-0196-x
+  title: Admixture mapping of coronary artery calcification in African Americans from the NHLBI family heart study
+  authors:
+  - Felicia Gomez
+  - Lihua Wang
+  - Haley Abel
+  - Qunyuan Zhang
+  - Michael A. Province
+  - Ingrid B. Borecki
+  publisher: BMC Genetics
+  date: '2015-03-21'
+  link: https://doi.org/10.1186/s12863-015-0196-x
+  orcid: 0000-0003-4884-7510
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1371/journal.pgen.1004508
+  title: Novel Approach Identifies SNPs in SLC2A10 and KCNK9 with Evidence for Parent-of-Origin Effect on Body Mass Index
+  authors:
+  - Clive J. Hoggart
+  - Giulia Venturini
+  - Massimo Mangino
+  - Felicia Gomez
+  - Giulia Ascari
+  - Jing Hua Zhao
+  - Alexander Teumer
+  - Thomas W. Winkler
+  - Natalia Tšernikova
+  - Jian'an Luan
+  - Evelin Mihailov
+  - Georg B. Ehret
+  - Weihua Zhang
+  - David Lamparter
+  - Tönu Esko
+  - Aurelien Macé
+  - Sina Rüeger
+  - Pierre-Yves Bochud
+  - Matteo Barcella
+  - Yves Dauvilliers
+  - Beben Benyamin
+  - David M. Evans
+  - Caroline Hayward
+  - Mary F. Lopez
+  - Lude Franke
+  - Alessia Russo
+  - Iris M. Heid
+  - Erika Salvi
+  - Sailaja Vendantam
+  - Dan E. Arking
+  - Eric Boerwinkle
+  - John C. Chambers
+  - Giovanni Fiorito
+  - Harald Grallert
+  - Simonetta Guarrera
+  - Georg Homuth
+  - Jennifer E. Huffman
+  - David Porteous
+  - Darius Moradpour
+  - Alex Iranzo
+  - Johannes Hebebrand
+  - John P. Kemp
+  - Gert J. Lammers
+  - Vincent Aubert
+  - Markus H. Heim
+  - Nicholas G. Martin
+  - Grant W. Montgomery
+  - Rosa Peraita-Adrados
+  - Joan Santamaria
+  - Francesco Negro
+  - Carsten O. Schmidt
+  - Robert A. Scott
+  - Tim D. Spector
+  - Konstantin Strauch
+  - Henry Völzke
+  - Nicholas J. Wareham
+  - Wei Yuan
+  - Jordana T. Bell
+  - Aravinda Chakravarti
+  - Jaspal S. Kooner
+  - Annette Peters
+  - Giuseppe Matullo
+  - Henri Wallaschofski
+  - John B. Whitfield
+  - Fred Paccaud
+  - Peter Vollenweider
+  - Sven Bergmann
+  - Jacques S. Beckmann
+  - Mehdi Tafti
+  - Nicholas D. Hastie
+  - Daniele Cusi
+  - Murielle Bochud
+  - Timothy M. Frayling
+  - Andres Metspalu
+  - Marjo-Riitta Jarvelin
+  - André Scherag
+  - George Davey Smith
+  - Ingrid B. Borecki
+  - Valentin Rousson
+  - Joel N. Hirschhorn
+  - Carlo Rivolta
+  - Ruth J. F. Loos
+  - Zoltán Kutalik
+  publisher: PLOS Genetics
+  date: 2014-07
+  link: https://doi.org/10.1371/journal.pgen.1004508
+  orcid: 0000-0003-4884-7510
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1101/cshperspect.a008524
+  title: 'Genetic Variation and Adaptation in Africa: Implications for Human Evolution and Disease'
+  authors:
+  - Felicia Gomez
+  - Jibril Hirbo
+  - Sarah A. Tishkoff
+  publisher: Cold Spring Harbor Perspectives in Biology
+  date: '2014'
+  link: https://doi.org/10.1101/cshperspect.a008524
+  orcid: 0000-0003-4884-7510
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.ajhg.2013.05.014
+  title: Identifying Darwinian Selection Acting on Different Human APOL1 Variants among Diverse African Populations
+  authors:
+  - Wen-Ya Ko
+  - Prianka Rajan
+  - Felicia Gomez
+  - Laura Scheinfeldt
+  - Ping An
+  - Cheryl A. Winkler
+  - Alain Froment
+  - Thomas B. Nyambo
+  - Sabah A. Omar
+  - Charles Wambebe
+  - Alessia Ranciaro
+  - Jibril B. Hirbo
+  - Sarah A. Tishkoff
+  publisher: American Journal of Human Genetics
+  date: '2013-07-11'
+  link: https://doi.org/10.1016/j.ajhg.2013.05.014
+  orcid: 0000-0003-4884-7510
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1007/s00439-013-1284-5
+  title: Patterns of nucleotide and haplotype diversity at ICAM-1 across global human populations with varying levels of malaria exposure
+  authors:
+  - Felicia Gomez
+  - Gil Tomas
+  - Wen-Ya Ko
+  - Alessia Ranciaro
+  - Alain Froment
+  - Muntaser Ibrahim
+  - Godfrey Lema
+  - Thomas B. Nyambo
+  - Sabah A. Omar
+  - Charles Wambebe
+  - Jibril B. Hirbo
+  - Jorge Rocha
+  - Sarah A. Tishkoff
+  publisher: Human Genetics
+  date: 2013-09
+  link: https://doi.org/10.1007/s00439-013-1284-5
+  orcid: 0000-0003-4884-7510
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1371/journal.pone.0050198
+  title: Gene-Centric Meta-Analysis of Lipid Traits in African, East Asian and Hispanic Populations
+  authors:
+  - Clara C. Elbers
+  - Yiran Guo
+  - Vinicius Tragante
+  - Erik P. A. van Iperen
+  - Matthew B. Lanktree
+  - Berta Almoguera Castillo
+  - Fang Chen
+  - Lisa R. Yanek
+  - Mary K. Wojczynski
+  - Yun R. Li
+  - Bart Ferwerda
+  - Christie M. Ballantyne
+  - Sarah G. Buxbaum
+  - Yii-Der Ida Chen
+  - Wei-Min Chen
+  - L. Adrienne Cupples
+  - Mary Cushman
+  - Yanan Duan
+  - David Duggan
+  - Michele K. Evans
+  - Jyotika K. Fernandes
+  - Myriam Fornage
+  - Melissa Garcia
+  - W. Timothy Garvey
+  - Nicole Glazer
+  - Felicia Gomez
+  - Tamara B. Harris
+  - Indrani Halder
+  - Virginia J. Howard
+  - Margaux F. Keller
+  - M. Ilyas Kamboh
+  - Charles Kooperberg
+  - Stephen B. Kritchevsky
+  - Andrea LaCroix
+  - Kiang Liu
+  - Yongmei Liu
+  - Kiran Musunuru
+  - Anne B. Newman
+  - N. Charlotte Onland-Moret
+  - Jose Ordovas
+  - Inga Peter
+  - Wendy Post
+  - Susan Redline
+  - Steven E. Reis
+  - Richa Saxena
+  - Pamela J. Schreiner
+  - Kelly A. Volcik
+  - Xingbin Wang
+  - Salim Yusuf
+  - Alan B. Zonderland
+  - Sonia S. Anand
+  - Diane M. Becker
+  - Bruce Psaty
+  - Daniel J. Rader
+  - Alex P. Reiner
+  - Stephen S. Rich
+  - Jerome I. Rotter
+  - Michèle M. Sale
+  - Michael Y. Tsai
+  - Ingrid B. Borecki
+  - Robert A. Hegele
+  - Sekar Kathiresan
+  - Michael A. Nalls
+  - Herman A. Taylor, Jr.
+  - Hakon Hakonarson
+  - Suthesh Sivapalaratnam
+  - Folkert W. Asselbergs
+  - Fotios Drenos
+  - James G. Wilson
+  - Brendan J. Keating
+  publisher: PLOS ONE
+  date: 2012-12
+  link: https://doi.org/10.1371/journal.pone.0050198
+  orcid: 0000-0003-4884-7510
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/srep45040
+  title: 1000 Genomes-based meta-analysis identifies 10 novel loci for kidney function
+  authors:
+  - Mathias Gorski
+  - Peter J. van der Most
+  - Alexander Teumer
+  - Audrey Y. Chu
+  - Man Li
+  - Vladan Mijatovic
+  - Ilja M. Nolte
+  - Massimiliano Cocca
+  - Daniel Taliun
+  - Felicia Gomez
+  - Yong Li
+  - Bamidele Tayo
+  - Adrienne Tin
+  - Mary F. Feitosa
+  - Thor Aspelund
+  - John Attia
+  - Reiner Biffar
+  - Murielle Bochud
+  - Eric Boerwinkle
+  - Ingrid Borecki
+  - Erwin P. Bottinger
+  - Ming-Huei Chen
+  - Vincent Chouraki
+  - Marina Ciullo
+  - Josef Coresh
+  - Marilyn C. Cornelis
+  - Gary C. Curhan
+  - Adamo Pio d'Adamo
+  - Abbas Dehghan
+  - Laura Dengler
+  - Jingzhong Ding
+  - Gudny Eiriksdottir
+  - Karlhans Endlich
+  - Stefan Enroth
+  - Tõnu Esko
+  - Oscar H. Franco
+  - Paolo Gasparini
+  - Christian Gieger
+  - Giorgia Girotto
+  - Omri Gottesman
+  - Vilmundur Gudnason
+  - Ulf Gyllensten
+  - Stephen J. Hancock
+  - Tamara B. Harris
+  - Catherine Helmer
+  - Simon Höllerer
+  - Edith Hofer
+  - Albert Hofman
+  - Elizabeth G. Holliday
+  - Georg Homuth
+  - Frank B. Hu
+  - Cornelia Huth
+  - Nina Hutri-Kähönen
+  - Shih-Jen Hwang
+  - Medea Imboden
+  - Asa Johansson
+  - Mika Kähönen
+  - Wolfgang König
+  - Holly Kramer
+  - Bernhard K. Krämer
+  - Ashish Kumar
+  - Zoltan Kutalik
+  - Jean-Charles Lambert
+  - Lenore J. Launer
+  - Terho Lehtimäki
+  - Martin H. de Borst
+  - Gerjan Navis
+  - Morris Swertz
+  - Yongmei Liu
+  - Kurt Lohman
+  - Ruth J. F. Loos
+  - Yingchang Lu
+  - Leo-Pekka Lyytikäinen
+  - Mark A. McEvoy
+  - Christa Meisinger
+  - Thomas Meitinger
+  - Andres Metspalu
+  - Marie Metzger
+  - Evelin Mihailov
+  - Paul Mitchell
+  - Matthias Nauck
+  - Albertine J. Oldehinkel
+  - Matthias Olden
+  - Brenda WJH Penninx
+  - Giorgio Pistis
+  - Peter P. Pramstaller
+  - Nicole Probst-Hensch
+  - Olli T. Raitakari
+  - Rainer Rettig
+  - Paul M. Ridker
+  - Fernando Rivadeneira
+  - Antonietta Robino
+  - Sylvia E. Rosas
+  - Douglas Ruderfer
+  - Daniela Ruggiero
+  - Yasaman Saba
+  - Cinzia Sala
+  - Helena Schmidt
+  - Reinhold Schmidt
+  - Rodney J. Scott
+  - Sanaz Sedaghat
+  - Albert V. Smith
+  - Rossella Sorice
+  - Benedicte Stengel
+  - Sylvia Stracke
+  - Konstantin Strauch
+  - Daniela Toniolo
+  - Andre G. Uitterlinden
+  - Sheila Ulivi
+  - Jorma S. Viikari
+  - Uwe Völker
+  - Peter Vollenweider
+  - Henry Völzke
+  - Dragana Vuckovic
+  - Melanie Waldenberger
+  - Jie Jin Wang
+  - Qiong Yang
+  - Daniel I. Chasman
+  - Gerard Tromp
+  - Harold Snieder
+  - Iris M. Heid
+  - Caroline S. Fox
+  - Anna Köttgen
+  - Cristian Pattaro
+  - Carsten A. Böger
+  - Christian Fuchsberger
+  publisher: Scientific Reports
+  date: '2017-04-28'
+  link: https://doi.org/10.1038/srep45040
+  orcid: 0000-0003-4884-7510
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1007/978-1-4614-7181-3
+  title: Primates, Pathogens, and Evolution : Impact of Natural Selection Due to Malarial Disease on Human Genetic Variation
+  authors:
+  - Felicia Gomez
+  - Wen-Ya Ko
+  - Avery Davis
+  - Sarah A. Tishkoff
+  publisher: Springer
+  date: '2013-01-01'
+  link: https://doi.org/10.1007/978-1-4614-7181-3
+  orcid: 0000-0003-4884-7510
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1182/bloodadvances.2022007792
+  title: Neoantigen landscape supports feasibility of personalized cancer vaccine for follicular lymphoma
+  authors:
+  - Cody A. Ramirez
+  - Michelle Becker-Hapak
+  - Kartik Singhal
+  - David A. Russler-Germain
+  - Felix Frenkel
+  - Erica K. Barnell
+  - Ethan D. McClain
+  - Sweta Desai
+  - Timothy Schappe
+  - Onyinyechi C. Onyeador
+  - Olga Kudryashova
+  - Vladislav Belousov
+  - Alexander Bagaev
+  - Elena Ocheredko
+  - Susanna Kiwala
+  - Jasreet Hundal
+  - Zachary L. Skidmore
+  - Marcus P. Watkins
+  - Thomas B. Mooney
+  - Jason R. Walker
+  - Kilannin Krysiak
+  - Felicia Gomez
+  - Catrina C. Fronick
+  - Robert S. Fulton
+  - Robert D. Schreiber
+  - Neha Mehta-Shah
+  - Amanda F. Cashen
+  - Brad S. Kahl
+  - Ravshan Ataullakhanov
+  - Nancy L. Bartlett
+  - Malachi Griffith
+  - Obi L. Griffith
+  - Todd A. Fehniger
+  publisher: Blood Advances
+  date: '2024-08-13'
+  link: https://doi.org/10.1182/bloodadvances.2022007792
+  orcid: 0000-0003-4884-7510
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1182/blood-2017-09-804641
+  title: Single-agent ibrutinib in relapsed or refractory follicular lymphoma: a phase 2 consortium trial
+  authors:
+  - Nancy L. Bartlett
+  - Brian A. Costello
+  - Betsy R. LaPlant
+  - Stephen M. Ansell
+  - John G. Kuruvilla
+  - Craig B. Reeder
+  - Lim S. Thye
+  - Daniel M. Anderson
+  - Kilannin Krysiak
+  - Cody Ramirez
+  - Jing Qi
+  - Barry A. Siegel
+  - Malachi Griffith
+  - Obi L. Griffith
+  - Felicia Gomez
+  - Todd A. Fehniger
+  publisher: Blood
+  date: '2018-01-11'
+  link: https://doi.org/10.1182/blood-2017-09-804641
+  orcid: 0000-0003-4884-7510
+  plugin: sources.py
+  file: sources.yaml
+
