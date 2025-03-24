@@ -26,8 +26,8 @@
   date: '2024-10-04'
   link: https://doi.org/g62727
   orcid: 0000-0003-4884-7510
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1158/2767-9764.CRC-23-0140
   title: Ultra-Deep Sequencing Reveals the Mutational Landscape of Classical Hodgkin
     Lymphoma
