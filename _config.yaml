@@ -1,11 +1,12 @@
 # site properties and page defaults
 title: Gomez Lab 
-subtitle: Division of Oncology 
+logo-text: false
+subtitle: 
 description: 
 header: 
 footer: 
 proofer: false
-header-dark: true
+header-dark: false
 
 # site social media and other links
 links:
