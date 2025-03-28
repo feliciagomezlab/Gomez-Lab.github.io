@@ -53,7 +53,7 @@ Our lab is more than just a place of work—it’s a vibrant community where inn
   <hr style="border: 1px solid #ccc; width: 100%; margin-top: 20px; margin-bottom: 20px;">
 
   <div style="display: flex; flex-direction: row; align-items: center;">
-    <div style="width: 150px; height: 150px; overflow: hidden; margin-right: 30px;">
+    <div style="width: 250px; height: 250px; overflow: hidden; margin-right: 30px;">
       <img src="{{ site.baseurl }}/images/team/MKhanfar_HSG.jpg" alt="Mariam Khanfar" style="width: 100%; height: 100%; object-fit: cover;">
     </div>
     <div>
