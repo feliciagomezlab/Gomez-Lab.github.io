@@ -14,7 +14,7 @@ Our lab is more than just a place of work—it’s a vibrant community where inn
 <div style="display: flex; flex-direction: column; gap: 40px;">
   <div style="display: flex; flex-direction: row; align-items: center;">
     <div style="width: 220px; height: 220px; overflow: hidden; margin-right: 30px;">
-      <img src="/images/team/Batchi_Armel.jpg" alt="Armel Batchi-Bouyou" style="width: 100%; height: 100%; object-fit: cover;">
+      <img src="{{ site.baseurl }}/images/team/Batchi_Armel.jpg" alt="Armel Batchi-Bouyou" style="width: 100%; height: 100%; object-fit: cover;">
     </div>
     <div>
       <h3>Armel Batchi-Bouyou</h3>
@@ -34,7 +34,7 @@ Our lab is more than just a place of work—it’s a vibrant community where inn
 
   <div style="display: flex; flex-direction: row; align-items: center;">
     <div style="width: 220px; height: 220px; overflow: hidden; margin-right: 30px;">
-      <img src="images/team/Charlz.jpeg" alt="Charlz Nithin Jerold" style="width: 100%; height: 100%; object-fit: cover;">
+      <img src="{{ site.baseurl }}/images/team/Charlz.jpeg" alt="Charlz Nithin Jerold" style="width: 100%; height: 100%; object-fit: cover;">
     </div>
     <div>
       <h3>Charlz Nithin Jerold</h3>
@@ -54,7 +54,7 @@ Our lab is more than just a place of work—it’s a vibrant community where inn
 
   <div style="display: flex; flex-direction: row; align-items: center;">
     <div style="width: 220px; height: 220px; overflow: hidden; margin-right: 30px;">
-      <img src="images/team/MKhanfar_HSG.jpg" alt="Mariam Khanfar" style="width: 100%; height: 100%; object-fit: cover;">
+      <img src="{{ site.baseurl }}/images/team/MKhanfar_HSG.jpg" alt="Mariam Khanfar" style="width: 100%; height: 100%; object-fit: cover;">
     </div>
     <div>
       <h3>Mariam Khanfar</h3>
