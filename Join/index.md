@@ -81,10 +81,7 @@ nav:
     margin-bottom: 5px;
     font-weight: bold;
   }
-  .name-fields {
-    display: flex;
-    gap: 15px;
-  }
+  
   .name-fields input, .form-group input[type="email"], .form-group textarea {
     width: 100%;
     padding: 10px;
@@ -93,9 +90,7 @@ nav:
     box-sizing: border-box;
     font-size: 1em;
   }
-  .name-fields input {
-    flex: 1;
-  }
+  
   .form-group textarea {
     height: 120px;
     resize: vertical;
@@ -121,12 +116,7 @@ nav:
     .contact-info, .contact-form {
       width: 100%;
     }
-    .name-fields {
-      flex-direction: column;
-      gap: 10px;
-    }
-    .name-fields input {
-      width: 100%;
-    }
+    
+    
   }
 </style>
