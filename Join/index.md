@@ -25,10 +25,8 @@ nav:
     <form action="https://formspree.io/f/feliciagomezlab" method="POST">
       <div class="form-group">
         <label for="name">Name (required)</label>
-        <div class="name-fields">
-          <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
-          <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
-        </div>
+        <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
+<input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
       </div>
       <div class="form-group">
         <label for="email">Email (required)</label>
