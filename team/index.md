@@ -34,7 +34,7 @@ Our lab is more than just a place of work—it’s a vibrant community where inn
 
   <div style="display: flex; flex-direction: row; align-items: center;">
     <div style="width: 220px; height: 220px; overflow: hidden; margin-right: 30px;">
-      <img src="{{ site.baseurl }}/images/team/Charlz.jpeg" alt="Charlz Nithin Jerold" style="width: 100%; height: 100%; object-fit: cover;">
+      <img src="{{ site.baseurl }}/images/team/Charlz.jpeg" alt="Charlz Nithin Jerold" style="width: 200%; height: 200%; object-fit: cover;">
     </div>
     <div>
       <h3>Charlz Nithin Jerold</h3>
