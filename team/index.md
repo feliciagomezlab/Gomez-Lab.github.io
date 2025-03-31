@@ -56,8 +56,9 @@ Our lab is more than just a place of work—it’s a vibrant community where inn
   </div>
   <hr style="border: 1px solid #ccc; width: 100%; margin-top: 10px; margin-bottom: 10px;">
 
+<div style="display: flex; flex-direction: column; gap: 40px;">
   <div style="display: flex; flex-direction: row; align-items: center;">
-    <div style="width: 500px; height: 500px; overflow: hidden; margin-right: 30px;">
+    <div style="width: 500px; height: 220px; overflow: hidden; margin-right: 30px;">
       <img src="{{ site.baseurl }}/images/team/Charlz.jpeg" alt="Charlz Nithin Jerold" style="width: 500px; height: 220px; object-fit: cover;">
     </div>
     <div>
@@ -76,6 +77,7 @@ Our lab is more than just a place of work—it’s a vibrant community where inn
   </div>
   <hr style="border: 1px solid #ccc; width: 100%; margin-top: 10px; margin-bottom: 10px;">
 
+<div style="display: flex; flex-direction: column; gap: 40px;">
   <div style="display: flex; flex-direction: row; align-items: center;">
     <div style="width: 500px; height: 220px; overflow: hidden; margin-right: 30px;">
       <img src="{{ site.baseurl }}/images/team/MKhanfar_HSG.jpg" alt="Mariam Khanfar" style="width: 500px; height: 220px; object-fit: cover;">
@@ -97,7 +99,8 @@ Our lab is more than just a place of work—it’s a vibrant community where inn
 </div>
 <hr style="border: 1px solid #ccc; width: 100%; margin-top: 10px; margin-bottom: 10px;">
 
-<div style="display: flex; flex-direction: row; align-items: center;">
+<div style="display: flex; flex-direction: column; gap: 40px;">
+  <div style="display: flex; flex-direction: row; align-items: center;">
     <div style="width: 500px; height: 220px; overflow: hidden; margin-right: 30px;">
       <img src="{{ site.baseurl }}/images/team/Siva.jpg" alt="Sivasankar Annamalai Sharavanan" style="width: 500px; height: 220px; object-fit: cover;">
     </div>
