@@ -119,7 +119,6 @@ Our lab is more than just a place of work—it’s a vibrant community where inn
 <hr style="border: 1px solid #ccc; width: 100%; margin-top: 10px; margin-bottom: 10px;">
 
 {% include section.html %}
-## Funding
 
 {% capture content %}
 [![NCI](https://feliciagomezlab.github.io/Gomez-Lab.github.io/images/funding/nci-logo.png)](https://www.cancer.gov/)
