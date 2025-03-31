@@ -95,6 +95,7 @@ Our lab is more than just a place of work—it’s a vibrant community where inn
     </div>
   </div>
 </div>
+<hr style="border: 1px solid #ccc; width: 100%; margin-top: 10px; margin-bottom: 10px;">
 
 <div style="display: flex; flex-direction: row; align-items: center;">
     <div style="width: 500px; height: 220px; overflow: hidden; margin-right: 30px;">
