@@ -13,7 +13,7 @@ Our lab is more than just a place of work—it’s a vibrant community where inn
 
 <div style="display: flex; flex-direction: column; gap: 40px;">
   <div style="display: flex; flex-direction: row; align-items: center;">
-    <div style="width: 500px; height: 220px; overflow: hidden; margin-right: 30px;">
+    <div style="width: 100%; height: 100%; overflow: hidden; margin-right: 30px;">
       <img src="{{ site.baseurl }}/images/team/FG.jpg" alt="Felicia Gomez" style="width: 500px; height: 220px; object-fit: cover;">
     </div>
     <div>
@@ -79,7 +79,7 @@ Our lab is more than just a place of work—it’s a vibrant community where inn
 
 <div style="display: flex; flex-direction: column; gap: 40px;">
   <div style="display: flex; flex-direction: row; align-items: center;">
-    <div style="width: 500px; height: 220px; overflow: hidden; margin-right: 30px;">
+    <div style="width: 100%; height: 100%; overflow: hidden; margin-right: 30px;">
       <img src="{{ site.baseurl }}/images/team/MKhanfar_HSG.jpg" alt="Mariam Khanfar" style="width: 500px; height: 220px; object-fit: cover;">
     </div>
     <div>
@@ -117,8 +117,6 @@ Our lab is more than just a place of work—it’s a vibrant community where inn
   </div>
 </div>
 <hr style="border: 1px solid #ccc; width: 100%; margin-top: 10px; margin-bottom: 10px;">
-
-{% include section.html background="images/stock_image/background.jpg" dark=true %}
 
 {% include section.html %}
 ## Funding
