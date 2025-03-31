@@ -33,8 +33,8 @@ Our lab is more than just a place of work—it’s a vibrant community where inn
   <hr style="border: 1px solid #ccc; width: 100%; margin-top: 20px; margin-bottom: 20px;">
 
   <div style="display: flex; flex-direction: row; align-items: center;">
-    <div style="width: 220px; height: 220px; overflow: hidden; margin-right: 30px;">
-      <img src="{{ site.baseurl }}/images/team/Charlz.jpeg" alt="Charlz Nithin Jerold" style="width: 500px; height: 500px; object-fit: cover;">
+    <div style="width: 500px; height: 500px; overflow: hidden; margin-right: 30px;">
+      <img src="{{ site.baseurl }}/images/team/Charlz.jpeg" alt="Charlz Nithin Jerold" style="width: 100px; height: 100px; object-fit: cover;">
     </div>
     <div>
       <h3>Charlz Nithin Jerold</h3>
