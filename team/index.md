@@ -14,7 +14,7 @@ Our lab is more than just a place of work—it’s a vibrant community where inn
 <div style="display: flex; flex-direction: column; gap: 40px;">
   <div style="display: flex; flex-direction: row; align-items: center;">
     <div style="width: 100%; height: 100%; overflow: hidden; margin-right: 30px;">
-      <img src="{{ site.baseurl }}/images/team/FG.jpg" alt="Felicia Gomez" style="width: 500px; height: 220px; object-fit: cover;">
+      <img src="{{ site.baseurl }}/images/team/FG.jpg" alt="Felicia Gomez" style="width: 220px; height: 500px; object-fit: cover;">
     </div>
     <div>
       <h3>Felicia Gomez</h3>
@@ -58,6 +58,28 @@ Our lab is more than just a place of work—it’s a vibrant community where inn
 
 <div style="display: flex; flex-direction: column; gap: 40px;">
   <div style="display: flex; flex-direction: row; align-items: center;">
+    <div style="width: 100%; height: 100%; overflow: hidden; margin-right: 30px;">
+      <img src="{{ site.baseurl }}/images/team/MKhanfar_HSG.jpg" alt="Mariam Khanfar" style="width: 220px; height: 500px; object-fit: cover;">
+    </div>
+    <div>
+      <h3>Mariam Khanfar</h3>
+      <p>PhD Candidate</p>
+      <p>Mariam is a PhD candidate studying Hodgkin lymphoma and the tumor microenvironment. Her work applies genomic and RNA technologies, such as whole-exome sequencing and single-cell genomics, to advance cancer research and improve our understanding of tumor-immune interactions.</p>
+      <div>
+        <a href="https://www.linkedin.com/in/mariam-khanfar/" target="_blank" title="LinkedIn">
+          <i class="fa-brands fa-linkedin" style="font-size: 20px; margin-right: 10px;"></i>
+        </a>
+        <a href="https://scholar.google.com/citations?user=0000-0002-3650-2665" target="_blank" title="Google Scholar">
+          <i class="fa-brands fa-google" style="font-size: 20px;"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<hr style="border: 1px solid #ccc; width: 100%; margin-top: 10px; margin-bottom: 10px;">
+
+<div style="display: flex; flex-direction: column; gap: 40px;">
+  <div style="display: flex; flex-direction: row; align-items: center;">
     <div style="width: 500px; height: 220px; overflow: hidden; margin-right: 30px;">
       <img src="{{ site.baseurl }}/images/team/Charlz.jpeg" alt="Charlz Nithin Jerold" style="width: 500px; height: 220px; object-fit: cover;">
     </div>
@@ -76,28 +98,6 @@ Our lab is more than just a place of work—it’s a vibrant community where inn
     </div>
   </div>
   <hr style="border: 1px solid #ccc; width: 100%; margin-top: 10px; margin-bottom: 10px;">
-
-<div style="display: flex; flex-direction: column; gap: 40px;">
-  <div style="display: flex; flex-direction: row; align-items: center;">
-    <div style="width: 100%; height: 100%; overflow: hidden; margin-right: 30px;">
-      <img src="{{ site.baseurl }}/images/team/MKhanfar_HSG.jpg" alt="Mariam Khanfar" style="width: 500px; height: 220px; object-fit: cover;">
-    </div>
-    <div>
-      <h3>Mariam Khanfar</h3>
-      <p>PhD Candidate</p>
-      <p>Mariam is a PhD candidate studying Hodgkin lymphoma and the tumor microenvironment. Her work applies genomic and RNA technologies, such as whole-exome sequencing and single-cell genomics, to advance cancer research and improve our understanding of tumor-immune interactions.</p>
-      <div>
-        <a href="https://www.linkedin.com/in/mariam-khanfar/" target="_blank" title="LinkedIn">
-          <i class="fa-brands fa-linkedin" style="font-size: 20px; margin-right: 10px;"></i>
-        </a>
-        <a href="https://scholar.google.com/citations?user=0000-0002-3650-2665" target="_blank" title="Google Scholar">
-          <i class="fa-brands fa-google" style="font-size: 20px;"></i>
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
-<hr style="border: 1px solid #ccc; width: 100%; margin-top: 10px; margin-bottom: 10px;">
 
 <div style="display: flex; flex-direction: column; gap: 40px;">
   <div style="display: flex; flex-direction: row; align-items: center;">
