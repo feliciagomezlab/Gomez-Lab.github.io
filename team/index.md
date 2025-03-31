@@ -13,8 +13,8 @@ Our lab is more than just a place of work—it’s a vibrant community where inn
 
 <div style="display: flex; flex-direction: column; gap: 40px;">
   <div style="display: flex; flex-direction: row; align-items: center;">
-    <div style="width: 100%; height: 100%; overflow: hidden; margin-right: 30px;">
-      <img src="{{ site.baseurl }}/images/team/FG.jpg" alt="Felicia Gomez" style="width: 220px; height: 500px; object-fit: cover;">
+    <div style="width: 70%; height: 70%; overflow: hidden; margin-right: 30px;">
+      <img src="{{ site.baseurl }}/images/team/FG.jpg" alt="Felicia Gomez" style="width: 250px; height: 250px; object-fit: cover;">
     </div>
     <div>
       <h3>Felicia Gomez</h3>
@@ -58,8 +58,8 @@ Our lab is more than just a place of work—it’s a vibrant community where inn
 
 <div style="display: flex; flex-direction: column; gap: 40px;">
   <div style="display: flex; flex-direction: row; align-items: center;">
-    <div style="width: 100%; height: 100%; overflow: hidden; margin-right: 30px;">
-      <img src="{{ site.baseurl }}/images/team/MKhanfar_HSG.jpg" alt="Mariam Khanfar" style="width: 220px; height: 500px; object-fit: cover;">
+    <div style="width: 70%; height: 70%; overflow: hidden; margin-right: 30px;">
+      <img src="{{ site.baseurl }}/images/team/MKhanfar_HSG.jpg" alt="Mariam Khanfar" style="width: 250px; height: 250px; object-fit: cover;">
     </div>
     <div>
       <h3>Mariam Khanfar</h3>
