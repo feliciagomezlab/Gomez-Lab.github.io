@@ -25,8 +25,10 @@ nav:
     <form action="https://formspree.io/f/feliciagomezlab" method="POST">
       <div class="form-group">
         <label for="name">Name (required)</label>
-        <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
-<input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
+        <div class="name-fields">
+          <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
+          <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
+        </div>
       </div>
       <div class="form-group">
         <label for="email">Email (required)</label>
@@ -74,6 +76,8 @@ nav:
   }
   .form-group {
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column; /* Stack label and input/textarea vertically */
   }
   .form-group label {
     display: block;
@@ -81,7 +85,10 @@ nav:
     margin-bottom: 5px;
     font-weight: bold;
   }
-  
+  .name-fields {
+    display: flex;
+    gap: 10px; /* Space between First Name and Last Name inputs */
+  }
   .name-fields input, .form-group input[type="email"], .form-group textarea {
     width: 100%;
     padding: 10px;
@@ -90,7 +97,6 @@ nav:
     box-sizing: border-box;
     font-size: 1em;
   }
-  
   .form-group textarea {
     height: 120px;
     resize: vertical;
@@ -116,7 +122,9 @@ nav:
     .contact-info, .contact-form {
       width: 100%;
     }
-    
-    
+    .name-fields {
+      flex-direction: column;
+      gap: 5px;
+    }
   }
 </style>
