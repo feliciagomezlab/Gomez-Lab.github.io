@@ -24,7 +24,7 @@ Our lab is more than just a place of work—it’s a vibrant community where inn
         <a href="https://www.linkedin.com/in/armel-batchi-bouyou/" target="_blank" title="LinkedIn">
           <i class="fa-brands fa-linkedin" style="font-size: 20px; margin-right: 10px;"></i>
         </a>
-        <a href="https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID" target="_blank" title="Google Scholar">
+        <a href="https://scholar.google.com/citations?user=ZNnklUsAAAAJ&hl=en" target="_blank" title="Google Scholar">
           <i class="fa-brands fa-google" style="font-size: 20px;"></i>
         </a>
       </div>
