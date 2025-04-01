@@ -76,6 +76,8 @@ nav:
   }
   .form-group {
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
   }
   .form-group label {
     display: block;
@@ -86,6 +88,7 @@ nav:
   .name-fields {
     display: flex;
     gap: 10px;
+    width: 100%;
   }
   .name-fields input {
     flex: 1;
