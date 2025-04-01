@@ -26,7 +26,7 @@ nav:
       <div class="form-group">
         <label for="name">Name (required)</label>
         <div class="name-fields">
-          <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
+          <input type="text" id="first-name" name="first-name" placeholder="First Name" required><br>
           <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
         </div>
       </div>
@@ -76,8 +76,6 @@ nav:
   }
   .form-group {
     margin-bottom: 20px;
-    display: flex;
-    flex-direction: column; /* Stack label and input/textarea vertically */
   }
   .form-group label {
     display: block;
@@ -86,8 +84,11 @@ nav:
     font-weight: bold;
   }
   .name-fields {
-    display: flex;
-    gap: 10px; /* Space between First Name and Last Name inputs */
+    display: block;
+  }
+  .name-fields input {
+    width: 100%;
+    margin-bottom: 10px;
   }
   .name-fields input, .form-group input[type="email"], .form-group textarea {
     width: 100%;
@@ -96,6 +97,9 @@ nav:
     border-radius: 4px;
     box-sizing: border-box;
     font-size: 1em;
+  }
+  .name-fields input {
+    flex: 1;
   }
   .form-group textarea {
     height: 120px;
@@ -124,7 +128,10 @@ nav:
     }
     .name-fields {
       flex-direction: column;
-      gap: 5px;
+      gap: 10px;
+    }
+    .name-fields input {
+      width: 100%;
     }
   }
 </style>
