@@ -5,16 +5,14 @@ nav:
   tooltip: Join the Team
 ---
 
+
 # {% include icon.html icon="fa-solid fa-handshake-angle" %} Join the Team
-
-
-# Kelly Bolton Lab
 
 <div style="display: flex; justify-content: space-between; font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px;">
 
   <!-- Left Column: Lab Details -->
   <div style="width: 45%; color: #333;">
-    <h2 style="font-size: 24px; font-weight: bold; margin-bottom: 10px;">KELLY BOLTON LAB</h2>
+    <h2 style="font-size: 24px; font-weight: bold; margin-bottom: 10px;">FELICIA GOMEZ LAB</h2>
     <p style="font-size: 16px; line-height: 1.5; margin: 5px 0;">
       Washington University School of Medicine<br>
       Division of Oncology<br>
@@ -26,7 +24,12 @@ nav:
     </p>
     <p style="font-size: 14px; margin-top: 20px; line-height: 1.5;">
       If you are interested in applying for a position in our lab, please contact<br>
-      <a href="mailto:bolton@wustl.edu" style="color: #333; text-decoration: underline;">bolton@wustl.edu</a>
+      <a href="mailto:fgomez@wustl.edu" style="color: #333; text-decoration: underline;">fgomez@wustl.edu</a>
+    </p>
+    <p style="font-size: 14px; line-height: 1.5;">
+      <a href="https://profiles.wustl.edu/en/persons/felicia-gomez" style="color: #333; text-decoration: underline;">Website</a> | 
+      <a href="https://orcid.org/0000-0003-4884-7510" style="color: #333; text-decoration: underline;">ORCID: 0000-0003-4884-7510</a> | 
+      <a href="images/Felicia Gomez WUSM CV 12.17.24.docx" style="color: #333; text-decoration: underline;">CV</a>
     </p>
   </div>
 
