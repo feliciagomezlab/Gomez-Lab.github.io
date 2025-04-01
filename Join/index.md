@@ -24,9 +24,11 @@ nav:
     <h3>Contact Us</h3>
     <form action="https://formspree.io/f/feliciagomezlab" method="POST">
       <div class="form-group">
-        <label for="first-name">Name (required)</label>
-        <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
-        <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
+        <label for="name">Name (required)</label>
+        <div class="name-fields">
+          <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
+          <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
+        </div>
       </div>
       <div class="form-group">
         <label for="email">Email (required)</label>
@@ -81,16 +83,25 @@ nav:
     margin-bottom: 5px;
     font-weight: bold;
   }
-  .form-group input[type="text"],
-  .form-group input[type="email"],
-  .form-group textarea {
+  .name-fields {
+    display: flex;
+    gap: 10px;
+  }
+  .name-fields input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+  }
+  .form-group input[type="email"], .form-group textarea {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     font-size: 1em;
-    margin-bottom: 10px;
   }
   .form-group textarea {
     height: 120px;
@@ -114,6 +125,13 @@ nav:
       flex-direction: column;
     }
     .contact-info, .contact-form {
+      width: 100%;
+    }
+    .name-fields {
+      flex-direction: column;
+      gap: 10px;
+    }
+    .name-fields input {
       width: 100%;
     }
   }
