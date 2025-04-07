@@ -7,8 +7,6 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-{% include section.html %}
-
 ## Selected Publications
 
 {% assign grouped_papers = site.data.citations | group_by_exp: "item", "item.date | slice: 0, 4" | sort: "name" | reverse %}
