@@ -16,6 +16,7 @@ links:
   
 ### jekyll settings
 heading_anchors: false
+
 # front matter defaults
 defaults:
   # all markdown files
