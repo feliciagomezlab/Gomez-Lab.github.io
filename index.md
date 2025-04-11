@@ -31,27 +31,3 @@ Currently, our research is focused on the genomics of hematological cancers.  Ch
   title="Our Research"
   text=text
 %}
-
-{% capture text %}
-
-
-{%
-  include button.html
-  link="team"
-  text="Our team"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/stock_image/Sequencer.jpg"
-  link="team"
-  title="Meet our Team!"
-  flip=true
-  style="bare"
-  text=text
-%}
