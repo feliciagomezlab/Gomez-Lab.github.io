@@ -5,9 +5,10 @@ nav:
   tooltip: Published works
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %} Research
+<h1>{% include icon.html icon="fa-solid fa-microscope" %} <span style="pointer-events: none; text-decoration: none; color: inherit;">Research</span></h1>
 
-## Selected Publications
+<h2><span style="pointer-events: none; text-decoration: none; color: inherit;">Selected Publications</span></h2>
+
 
 {% assign grouped_papers = site.data.citations | group_by_exp: "item", "item.date | slice: 0, 4" | sort: "name" | reverse %}
 
