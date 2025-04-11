@@ -5,7 +5,7 @@ nav:
   tooltip: Published works
 ---
 
-<h1>{% include icon.html icon="fa-solid fa-microscope" %}Research</h1>
+<h1>Research</h1>
 
 {% include section.html %}
 
