@@ -7,7 +7,7 @@ We are further driven to increase the application of genomic tools and technolog
 
 {% include section.html %}
 
-<h1>Highlights<h1>
+<h2>Highlights<h2>
 
 {% capture text %}
 
