@@ -11,31 +11,51 @@ Our lab is more than just a place of work—it’s a vibrant community where inn
 
 {% include section.html %}
 
-<div style="display: flex; flex-direction: column; gap: 40px;">
-  <div style="display: flex; flex-direction: row; align-items: center;">
-    <div style="width: 70%; height: 70%; overflow: hidden; margin-right: 30px;">
-      <img src="{{ site.baseurl }}/images/team/FG.jpg" alt="Felicia Gomez" style="width: 250px; height: 270px; object-fit: cover;">
-    </div>
+<<div style="display: flex; flex-direction: row; align-items: center; gap: 30px; margin-bottom: 40px;">
+  <div style="width: 250px; height: 270px; overflow: hidden; flex-shrink: 0;">
+    <img src="{{ site.baseurl }}/images/team/FG.jpg" alt="Felicia Gomez" style="width: 100%; height: 100%; object-fit: cover;">
+  </div>
+  <div>
+    <h3>Felicia Gomez</h3>
+    <p><strong>Principal Investigator</strong></p>
+    <p>Dr. Gomez is an Assistant Professor in the Department of Medicine – Division of Oncology at Washington University School of Medicine. Dr. Gomez completed her undergraduate training at Skidmore College in Saratoga Springs, NY, and her doctoral training in human evolutionary genetics with Drs. Sarah Tishkoff (UPenn) and Alison Brooks (GWU). She has more than 15 years’ experience in the fields of genetics, population genetics, bioinformatics, and studying the role our genome plays in the development of complex diseases. She also has a longstanding commitment to genomic research and community involvement that increases the presence of underserved and underrepresented populations in biomedical research. Dr. Gomez has received numerous research and scholastic awards from: Phi Beta Kappa, The Ford Foundation, Sigma Xi, The American Anthropological Association, and The American Association of Physical Anthropology. She has also received research-training awards from the NSF, NHLBI, and the NCI. Dr. Gomez currently trains bioinformatics graduate students and staff at Washington University School of Medicine. She teaches a course on precision medicine for senior medical students at Washington University School of Medicine, and she is an instructor for the Advanced Sequencing Technologies and Bioinformatics Analysis Course at Cold Spring Harbor, NY.</p>
     <div>
-      <h3>Felicia Gomez</h3>
-      <p><strong>Principal Investigator</strong></p>
-      <p>Dr. Gomez is an Assistant Professor in the Department of Medicine – Division of Oncology at Washington University School of Medicine. Dr. Gomez completed her undergraduate training at Skidmore College in Saratoga Springs, NY, and her doctoral training in human evolutionary genetics with Drs. Sarah Tishkoff (UPenn) and Alison Brooks (GWU). She has more than 15 years’ experience in the fields of genetics, population genetics, bioinformatics, and studying the role our genome plays in the development of complex diseases. She also has a longstanding commitment to genomic research and community involvement that increases the presence of underserved and underrepresented populations in biomedical research. Dr. Gomez has received numerous research and scholastic awards from: Phi Beta Kappa, The Ford Foundation, Sigma Xi, The American Anthropological Association, and The American Association of Physical Anthropology. She has also received research-training awards from the NSF, NHLBI, and the NCI. Dr. Gomez currently trains bioinformatics graduate students and staff at Washington University School of Medicine. She teaches a course on precision medicine for senior medical students at Washington University School of Medicine, and she is an instructor for the Advanced Sequencing Technologies and Bioinformatics Analysis Course at Cold Spring Harbor, NY.</p>
-      <div>
-        <a href="https://profiles.wustl.edu/en/persons/felicia-gomez" target="_blank" title="Website">
-          <i class="fa-solid fa-globe" style="font-size: 20px; margin-right: 10px;"></i>
-        </a>
-        <a href="mailto:fgomez@wustl.edu" title="Email">
-          <i class="fa-solid fa-envelope" style="font-size: 20px; margin-right: 10px;"></i>
-        </a>
-        <a href="https://orcid.org/0000-0003-4884-7510" target="_blank" title="ORCID">
-          <i class="fa-brands fa-orcid" style="font-size: 20px;"></i>
-        </a>
-      </div>
+      <a href="https://profiles.wustl.edu/en/persons/felicia-gomez" target="_blank" title="Website">
+        <i class="fa-solid fa-globe" style="font-size: 20px; margin-right: 10px;"></i>
+      </a>
+      <a href="mailto:fgomez@wustl.edu" title="Email">
+        <i class="fa-solid fa-envelope" style="font-size: 20px; margin-right: 10px;"></i>
+      </a>
+      <a href="https://orcid.org/0000-0003-4884-7510" target="_blank" title="ORCID">
+        <i class="fa-brands fa-orcid" style="font-size: 20px;"></i>
+      </a>
     </div>
   </div>
 </div>
+<hr style="border: 1px solid #ccc; width: 100%; margin: 10px 0;">
 
-<hr style="border: 1px solid #ccc; width: 100%; margin-top: 10px; margin-bottom: 10px;">
+<div style="display: flex; flex-direction: row; align-items: center; gap: 30px; margin-bottom: 40px;">
+  <div style="width: 250px; height: 270px; overflow: hidden; flex-shrink: 0;">
+    <img src="{{ site.baseurl }}/images/team/Batchi_Armel.jpg" alt="Felicia Gomez" style="width: 100%; height: 100%; object-fit: cover;">
+  </div>
+  <div>
+    <h3>Felicia Gomez</h3>
+    <p><strong>Principal Investigator</strong></p>
+    <p>Dr. Gomez is an Assistant Professor in the Department of Medicine – Division of Oncology at Washington University School of Medicine. ...</p>
+    <div>
+      <a href="https://profiles.wustl.edu/en/persons/felicia-gomez" target="_blank" title="Website">
+        <i class="fa-solid fa-globe" style="font-size: 20px; margin-right: 10px;"></i>
+      </a>
+      <a href="mailto:fgomez@wustl.edu" title="Email">
+        <i class="fa-solid fa-envelope" style="font-size: 20px; margin-right: 10px;"></i>
+      </a>
+      <a href="https://orcid.org/0000-0003-4884-7510" target="_blank" title="ORCID">
+        <i class="fa-brands fa-orcid" style="font-size: 20px;"></i>
+      </a>
+    </div>
+  </div>
+</div>
+<hr style="border: 1px solid #ccc; width: 100%; margin: 10px 0;">
 
 <div style="display: flex; flex-direction: column; gap: 40px;">
   <div style="display: flex; flex-direction: row; align-items: center;">
