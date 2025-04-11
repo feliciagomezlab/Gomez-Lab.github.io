@@ -28,7 +28,7 @@ link="https://www.google.com/maps/place/Mid+Campus+Center/@38.6362236,-90.261930
 {%
   include figure.html
   image="images/location/MCC.jpg"
-  caption="Mid Campus Center – the single cell of our lab’s research, where each idea is cultivated and multiplied."
+  caption=""
 %}
 
 {% endcapture %}
