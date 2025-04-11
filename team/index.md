@@ -9,40 +9,33 @@ nav:
 
 Our lab is more than just a place of work—it’s a vibrant community where innovation thrives, and young scientists are nurtured through hands-on experience. We believe in the power of teamwork and foster a supportive environment where creativity and curiosity drive our pursuit of groundbreaking discoveries.
 
+Our lab brings together scientists committed to advancing bioinformatics, genomics, and precision oncology. Get to know our team below.
+
 {% include section.html %}
 
-<div style="display: flex; flex-direction: column; gap: 40px;">
+<div style="display: flex; flex-direction: column; gap: 60px;">
+
   {% assign sorted_team = site.members | sort: 'order' %}
   {% for member in sorted_team %}
-    <div style="display: flex; flex-direction: row; align-items: center;">
-      <div style="width: 70%; height: 70%; overflow: hidden; margin-right: 30px;">
-        <img src="{{ site.baseurl }}{{ member.image }}" alt="{{ member.title }}" style="width: 250px; height: 270px; object-fit: cover;">
+    <div style="display: flex; flex-direction: row; align-items: flex-start;">
+      <div style="width: 250px; height: 270px; overflow: hidden; margin-right: 30px;">
+        <img src="{{ site.baseurl }}/images/team/{{ member.image }}" alt="{{ member.title }}" style="width: 250px; height: 270px; object-fit: cover;">
       </div>
       <div>
         <h3><a href="{{ member.url }}">{{ member.title }}</a></h3>
-        <p>{{ member.role }}</p>
-        <p>{{ member.content | markdownify }}</p>
-        <div>
-          {% if member.website %}
-            <a href="{{ member.website }}" target="_blank" title="Website"><i class="fa-solid fa-globe" style="font-size: 20px; margin-right: 10px;"></i></a>
-          {% endif %}
-          {% if member.email %}
-            <a href="mailto:{{ member.email }}" title="Email"><i class="fa-solid fa-envelope" style="font-size: 20px; margin-right: 10px;"></i></a>
-          {% endif %}
-          {% if member.linkedin %}
-            <a href="{{ member.linkedin }}" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin" style="font-size: 20px; margin-right: 10px;"></i></a>
-          {% endif %}
-          {% if member.scholar %}
-            <a href="{{ member.scholar }}" target="_blank" title="Google Scholar"><i class="fa-brands fa-google" style="font-size: 20px;"></i></a>
-          {% endif %}
-          {% if member.orcid %}
-            <a href="{{ member.orcid }}" target="_blank" title="ORCID"><i class="fa-brands fa-orcid" style="font-size: 20px;"></i></a>
-          {% endif %}
+        <p><strong>Role:</strong> {{ member.role }}</p>
+        <p>{{ member.bio | markdownify }}</p>
+        <div style="margin-top: 10px;">
+          {% if member.github %}<a href="{{ member.github }}"><i class="fab fa-github"></i></a>{% endif %}
+          {% if member.twitter %}<a href="{{ member.twitter }}"><i class="fab fa-twitter"></i></a>{% endif %}
+          {% if member.linkedin %}<a href="{{ member.linkedin }}"><i class="fab fa-linkedin"></i></a>{% endif %}
+          {% if member.orcid %}<a href="{{ member.orcid }}"><i class="fab fa-orcid"></i></a>{% endif %}
+          {% if member.website %}<a href="{{ member.website }}"><i class="fas fa-link"></i></a>{% endif %}
         </div>
       </div>
     </div>
-    <hr style="border: 1px solid #ccc; width: 100%; margin-top: 10px; margin-bottom: 10px;">
   {% endfor %}
+
 </div>
 
 {% include section.html %}
