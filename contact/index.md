@@ -5,7 +5,7 @@ nav:
   tooltip: Email, address, and location
 ---
 
-# {% include icon.html icon="fa-regular fa-envelope" %}Contact
+<h1>{% include icon.html icon="fa-regular fa-envelope" %}Contact</h1>
 
 
 {%
@@ -13,12 +13,6 @@ nav:
   type="email"
   text="fgomez@wustl.edu"
   link="fgomez@wustl.edu"
-%}
-{%
-  include button.html
-  type="phone"
-  text="Phone Number"
-  link=""
 %}
 {%
   include button.html
