@@ -39,6 +39,7 @@ collections:
   # generate page for each member
   members:
     output: true
+    permalink: /members/:name/
   # generate page for each post
   posts:
     output: true
