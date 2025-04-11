@@ -35,12 +35,6 @@ link="https://www.google.com/maps/place/Mid+Campus+Center/@38.6362236,-90.261930
 
 {% capture col2 %}
 
-{%
-  include figure.html
-  image="images/suite10.jpg"
-  caption="Suite 10200 – the nucleus within, driving the key mutations and insights that power our cancer research."
-%}
-
 {% endcapture %}
 
 {% include cols.html col1=col1 col2=col2 %}
