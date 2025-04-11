@@ -5,7 +5,7 @@ nav:
   tooltip: Software, datasets, and more
 ---
 
-<h1>{% include icon.html icon="fa-solid fa-wrench" %}Projects</h1>
+<h1>Projects</h1>
 
 <div style="margin-bottom: 60px;">
   <h2>Genomics of Hodgkin and Non-Hodgkin Lymphoma</h2>
