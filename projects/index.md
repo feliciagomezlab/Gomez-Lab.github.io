@@ -4,9 +4,10 @@ nav:
   order: 2
   tooltip: Software, datasets, and more
 ---
-</h1>{% include icon.html icon="fa-solid fa-wrench" %}Projects</h1>
 
-</h2>Hodgkin Lymphoma Research Project</h2>
+<h1>{% include icon.html icon="fa-solid fa-wrench" %}Projects</h1>
+
+<h2>Hodgkin Lymphoma Research Project</h2>
 
 **Overview**  
 Although Hodgkin lymphoma (HL) is relatively uncommon (~7000–7500 new cases diagnosed annually in the United States), it comprises ~10% of lymphomas in the western world. The treatment of HL is relatively successful. However, patients who relapse or are refractory to treatment have few secondary treatment options, and overall survival remains low in this patient population.
