@@ -16,7 +16,13 @@ nav:
   <p><strong>Objective</strong><br>
   A better understanding of the pathobiology of this disease is an important clinical goal. This project aims to address these challenges by using cutting-edge genomic technologies to study Hodgkin lymphoma, which is defined by a rare malignant cell population. Traditional methods struggle with such cancers, leaving many aspects of its biology poorly understood.</p>
 
-  <img src="path/to/image" alt="Hodgkin Lymphoma" style="width:100%; max-width:600px; margin-top:20px;">
+  <div style="display: flex; gap: 20px; align-items: flex-start; margin-top: 20px;">
+    <img src="path/to/image" alt="Hodgkin Lymphoma" style="width: 50%; max-width: 400px;">
+    <p style="flex: 1; font-size: 0.95rem;">
+      <strong>Legend:</strong><br>
+      Ancestry admixture proportion was calculated for each patient. The probability of ancestry from each of nine major geographical ancestral groups was determined using a support vector machine (SVM) with the HGDP as the reference panel. The percentage of ancestry from each global population for each patient is shown on the y-axis. The patients are grouped by their self-reported race.
+    </p>
+  </div>
 </div>
 
 <hr>
