@@ -9,7 +9,7 @@ nav:
 
 {% include section.html %}
 
-## Selected Publications
+<h2>Selected Publications</h2>
 
 {% assign grouped_papers = site.data.citations | group_by_exp: "item", "item.date | slice: 0, 4" | sort: "name" | reverse %}
 
