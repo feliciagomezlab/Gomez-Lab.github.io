@@ -7,7 +7,6 @@ nav:
 
 <h1>{% include icon.html icon="fa-regular fa-envelope" %}Contact</h1>
 
-
 {%
   include button.html
   type="email"
@@ -18,26 +17,14 @@ nav:
   include button.html
   type="address"
   tooltip="Our location on Google Maps for easy navigation"
-link="https://www.google.com/maps/place/Mid+Campus+Center/@38.6362236,-90.2619309,15z/data=!4m6!3m5!1s0x87d8b4df564ad7d1:0xddebd7786d830554!8m2!3d38.6362236!4d-90.2619309!16s%2Fg%2F11dxqfct18?entry=ttu"
+  link="https://www.google.com/maps/place/Mid+Campus+Center/@38.6362236,-90.2619309,15z/data=!4m6!3m5!1s0x87d8b4df564ad7d1:0xddebd7786d830554!8m2!3d38.6362236!4d-90.2619309!16s%2Fg%2F11dxqfct18?entry=ttu"
 %}
 
 {% include section.html %}
 
-{% capture col1 %}
-
-{%
-  include figure.html
-  image="images/location/MCC.jpg"
-  caption=""
-%}
-
-{% endcapture %}
-
-{% capture col2 %}
-
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 %}
+<div style="text-align: center;">
+  {% include figure.html image="images/location/MCC.jpg" caption="" %}
+</div>
 
 {% include section.html dark=true %}
 
