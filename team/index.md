@@ -14,7 +14,7 @@ Our lab is more than just a place of work—it’s a vibrant community where inn
 <!-- Felicia Gomez -->
 <div style="display: flex; flex-direction: row; align-items: flex-start; gap: 30px; margin-bottom: 40px;">
   <div style="flex-shrink: 0;">
-    <img src="{{ site.baseurl }}/images/team/FG.jpg" alt="Felicia Gomez" style="width: 250px; height: 330px; object-fit: cover; border-radius: 8px;">
+    <img src="{{ site.baseurl }}/images/team/FG.jpg" alt="Felicia Gomez" style="width: 250px; height: 290px; object-fit: cover; border-radius: 8px;">
   </div>
   <div style="max-width: 700px;">
     <h3>Felicia Gomez</h3>
