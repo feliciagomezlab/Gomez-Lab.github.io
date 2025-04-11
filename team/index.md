@@ -12,8 +12,10 @@ Our lab is more than just a place of work—it’s a vibrant community where inn
 {% include section.html %}
 
 <div style="display: flex; flex-direction: column; gap: 40px;">
-  <div style="display: flex; flex-direction: row; align-items: flex-start; gap: 30px;">
-    <img src="{{ site.baseurl }}/images/team/FG.jpg" alt="Felicia Gomez" style="width: 180px; height: auto; border-radius: 10px;">
+  <div style="display: flex; flex-direction: row; align-items: center;">
+    <div style="width: 70%; height: 70%; overflow: hidden; margin-right: 30px;">
+      <img src="{{ site.baseurl }}/images/team/FG.jpg" alt="Felicia Gomez" style="width: 250px; height: 270px; object-fit: cover;">
+    </div>
     <div>
       <h3>Felicia Gomez</h3>
       <p><strong>Principal Investigator</strong></p>
