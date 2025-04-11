@@ -15,8 +15,8 @@ Currently, our research is focused on the genomics of hematological cancers.  Ch
 
 {%
   include button.html
-  link="research"
-  text="See our publications"
+  link="team"
+  text="Meet Our Team"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
