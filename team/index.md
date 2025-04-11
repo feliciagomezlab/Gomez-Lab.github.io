@@ -24,7 +24,7 @@ Our lab brings together scientists committed to advancing bioinformatics, genomi
       <div>
         <h3><a href="{{ member.url }}">{{ member.title }}</a></h3>
         <p><strong>Role:</strong> {{ member.role }}</p>
-        <p>{{ member.bio | markdownify }}</p>
+        <p>{{ member.content | markdownify }}</p>
         <div style="margin-top: 10px;">
           {% if member.github %}<a href="{{ member.github }}"><i class="fab fa-github"></i></a>{% endif %}
           {% if member.twitter %}<a href="{{ member.twitter }}"><i class="fab fa-twitter"></i></a>{% endif %}
