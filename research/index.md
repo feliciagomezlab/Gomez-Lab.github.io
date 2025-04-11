@@ -15,7 +15,7 @@ nav:
 
 {% for group in grouped_papers %}
 
-## {{ group.name }}
+<h2>{{ group.name }}</h2>
 
 {% for item in group.items %}
 <div style="background: #f8f9fa; padding: 20px; border-radius: 10px; box-shadow: 0px 4px 8px rgba(0,0,0,0.1); margin-bottom: 24px; display: flex; justify-content: space-between; align-items: center;">
