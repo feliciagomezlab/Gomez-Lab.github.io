@@ -1,16 +1,17 @@
 ---
 ---
 
-Our Lab brings together specialists in medical, data-driven, genetic research to investigate the genetic factors driving Hodgkin and Non-Hodgkin lymphomas and multiple myeloma. Our work focuses on understanding how somatic mutations influence disease characteristics and treatment responses. Despite the challenges posed by the rarity of malignant Hodgkin-Reed-Sternberg cells in classic Hodgkin lymphoma (cHL), we employ ultra-deep exome-wide sequencing and specialized analysis techniques to identify these mutations and explore their association with clinical outcomes. Our mission is to push the boundaries of cancer research, integrating advanced genomic profiling and bioinformatics to inform and improve oncology practices.
+The Gomez Lab is an interdisciplinary team of scientists who develop and apply computational methods to high-throughput genomic data. We do this work to understand the etiology of cancer and to improve and personalize cancer care.  
+We are further driven to increase the application of genomic tools and technologies to populations that are underserved and underrepresented in cancer genomics. Equity in cancer research and care is the framework that drives our research. 
+
 
 {% include section.html %}
 
-## Highlights
+<h1>Highlights<h1>
 
 {% capture text %}
 
-Explore our extensive range of publications to gain deeper insights into our work.
-
+Currently, our research is focused on the genomics of hematological cancers.  Check out our work related to Hodgkin lymphoma and multiple myeloma.
 
 {%
   include button.html
