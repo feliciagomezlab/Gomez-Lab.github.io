@@ -34,12 +34,11 @@ Currently, our research is focused on the genomics of hematological cancers.  Ch
 
 {% capture text %}
 
-Science in Progress: Cool Stuff We’re Figuring Out
 
 {%
   include button.html
-  link="projects"
-  text="Browse our projects"
+  link="team"
+  text="Our team"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -50,32 +49,9 @@ Science in Progress: Cool Stuff We’re Figuring Out
 {%
   include feature.html
   image="images/stock_image/Sequencer.jpg"
-  link="projects"
-  title="Our Projects"
+  link="team"
+  title="Meet our Team!"
   flip=true
   style="bare"
-  text=text
-%}
-
-{% capture text %}
-
-Code, Cells, and Breakthroughs: Meet the Innovators Behind Our Lab
-
-{%
-  include button.html
-  link="team"
-  text="Meet our team"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/stock_image/photo.jpg"
-  link="team"
-  title="Our Team"
   text=text
 %}
