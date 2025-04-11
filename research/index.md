@@ -12,6 +12,7 @@ nav:
 {% assign grouped_papers = site.data.citations | group_by_exp: "item", "item.date | slice: 0, 4" | sort: "name" | reverse %}
 
 {% for group in grouped_papers %}
+
 ## {{ group.name }}
 
 {% for item in group.items %}
