@@ -2,7 +2,7 @@
 ---
 <style>
   header img[src*="logo"] {
-    height: 100px !important;
+    height: 200px !important;
   }
 </style>
 
