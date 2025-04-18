@@ -1,5 +1,8 @@
 ---
 ---
+<p style="text-align: center; margin-top: 40px;">
+  <img src="/images/logo.png" alt="Gomez Lab Logo" style="height: 200px;"/>
+</p>
 
 
 The Gomez Lab is an interdisciplinary team of scientists who develop and apply computational methods to high-throughput genomic data. We do this work to understand the etiology of cancer and to improve and personalize cancer care.  
