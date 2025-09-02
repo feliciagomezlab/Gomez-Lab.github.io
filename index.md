@@ -26,7 +26,7 @@ Currently, our research is focused on the genomics of hematological cancers.  Ch
 
 {%
   include feature.html
-  image="images/stock_image/CancerAi.jpg"
+  image=""
   link="research"
   title="Our Research"
   text=text
