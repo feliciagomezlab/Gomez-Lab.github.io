@@ -16,4 +16,4 @@ We’re a research lab dedicated to cutting-edge discoveries, collaboration, and
 
  Let’s push the boundaries of science together!
 
-Visit **[feliciagomezlab.github.io/Gomez-Lab.github.io](https://feliciagomezlab.github.io/Gomez-Lab.github.io)** 🚀
+Visit **[feliciagomezlab.org](http://feliciagomezlab.org)** 🚀
