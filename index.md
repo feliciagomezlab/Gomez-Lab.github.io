@@ -6,14 +6,6 @@ We are further driven to increase the application of genomic tools and technolog
 
 {% include section.html %}
 
-<h2>Highlights</h2>
-
-<div class="highlights-text">
-  <p>
-    Currently, our research is focused on the genomics of hematological cancers. 
-    Check out our work related to Hodgkin lymphoma and multiple myeloma.
-  </p>
-
   {%
     include button.html
     link="team"
