@@ -35,26 +35,6 @@ Our lab is more than just a place of work—it’s a vibrant community where inn
 </div>
 <hr>
 
-<!-- Armel Batchi-Bouyou -->
-<div style="display: flex; flex-direction: row; align-items: flex-start; gap: 30px; margin-bottom: 40px;">
-  <div style="flex-shrink: 0;">
-    <img src="{{ site.baseurl }}/images/team/Batchi_Armel.jpg" alt="Armel Batchi-Bouyou" style="width: 250px; height: 270px; object-fit: cover; border-radius: 8px;">
-  </div>
-  <div style="max-width: 700px;">
-    <h3>Armel Batchi-Bouyou</h3>
-    <p><strong>Postdoctoral Research Associate</strong></p>
-    <p>Armel is a postdoctoral research associate in the Gomez Lab, focusing on cancer genomics and molecular mechanisms of cancer. He plays a key role in developing new analytical approaches for cancer data and integrating multi-omics datasets to drive discovery in oncology research.</p>
-    <div style="margin-top: 10px;">
-      <a href="https://www.linkedin.com/in/armel-batchi-bouyou/" target="_blank" title="LinkedIn">
-        <i class="fa-brands fa-linkedin" style="font-size: 20px; margin-right: 10px;"></i>
-      </a>
-      <a href="https://scholar.google.com/citations?user=ZNnklUsAAAAJ&hl=en" target="_blank" title="Google Scholar">
-        <i class="fa-brands fa-google" style="font-size: 20px;"></i>
-      </a>
-    </div>
-  </div>
-</div>
-<hr>
 
 <!-- Mariam Khanfar -->
 <div style="display: flex; flex-direction: row; align-items: flex-start; gap: 30px; margin-bottom: 40px;">
@@ -124,6 +104,9 @@ Our lab is more than just a place of work—it’s a vibrant community where inn
 [![WashU](https://feliciagomezlab.github.io/Gomez-Lab.github.io/images/funding/Washu_medicine.png)](https://medicine.wustl.edu/)
 
 [![AGRS](https://feliciagomezlab.github.io/Gomez-Lab.github.io/images/funding/ACS-1.png)](https://www.americanresearchgrants.org/)
+
+[![SCC](https://feliciagomezlab.github.io/Gomez-Lab.github.io/images/funding/siteman-logo-bg.png)](https://siteman.wustl.edu/visiting/main-campus/)
+
 {% endcapture %}
 
 {% include grid.html content=content %}
