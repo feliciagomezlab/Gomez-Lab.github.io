@@ -14,4 +14,3 @@ We are further driven to increase the application of genomic tools and technolog
     flip=true
     style="bare"
   %}
-</div>
