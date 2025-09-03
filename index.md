@@ -3,7 +3,7 @@
 
 <!-- 🔔 Callout message below pointing user to top-right links -->
 <div style="text-align: left; padding: 0.5em 1em; background-color: #f0f8ff; border-left: 4px solid #007bff; margin-bottom: 1em; font-weight: bold;">
-  Click top-right for <span style="color: #007bff;">KISC Galaxy Exercise</span> and <span style="color: #28a745;">Dataset</span> links
+  Click here for <span style="color: #007bff;">KISC Galaxy Exercise</span> and <span style="color: #28a745;">Dataset</span> links
 </div>
 
 <!-- ✅ Top-Right Embedded Galaxy Exercise and Dataset Button -->
