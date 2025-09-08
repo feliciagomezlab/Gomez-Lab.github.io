@@ -27,4 +27,4 @@ nav:
 </div>
 
 <!-- Existing tutorial list -->
-{% include list.html data="posts" component="post-excerpt" filter="hidden != true" %}
+{% include list.html data="posts" component="post-excerpt" %}
