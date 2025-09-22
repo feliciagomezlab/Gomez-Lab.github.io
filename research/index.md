@@ -19,7 +19,7 @@ nav:
 
 {% for item in group.items %}
   {% unless item.id == "doi:10.1101/266262" or item.id == "doi:10.1101/2021.06.25.21258374" %}
-  <div style="background: #f8f9fa; padding: 20px; border-radius: 10px; box-shadow: 0px 4px 8px rgba(0,0,0,0.1); margin-bottom: 24px; display: flex; justify-content: space-between; align-items: center;">
+  <div style="background: #f8f9fa; padding: 20px; border-radius: 10px; box-shadow: 0px 4px 8px rgba(0,0,0,0.1); margin-bottom: 24px;">
 
     <div style="flex: 1;">
       <h3 style="margin-top: 0; font-size: 20px;">
@@ -30,8 +30,17 @@ nav:
       <p><strong>Authors:</strong> {{ item.authors | join: ", " }}</p>
       <p><strong>Published in:</strong> {{ item.publisher }} ({{ item.date }})</p>
       <p><strong>DOI:</strong> <a href="{{ item.link }}" style="color: #007bff;">{{ item.id }}</a></p>
+
+      <!-- Altmetric full details badge -->
+      <div class="altmetric-embed" 
+           data-badge-type="details" 
+           data-doi="{{ item.id | remove: 'doi:' }}">
+      </div>
     </div>
   </div>
   {% endunless %}
 {% endfor %}
 {% endfor %}
+
+<!-- Load Altmetric script once -->
+<script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
