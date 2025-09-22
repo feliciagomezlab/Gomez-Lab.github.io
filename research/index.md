@@ -48,6 +48,7 @@ nav:
   </div>
   {% endunless %}
 {% endfor %}
+{% endfor %}
 
-<!-- Altmetric script -->
+<!-- Load Altmetric script once -->
 <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
