@@ -17,7 +17,7 @@ Moments from our lab — celebrating science, collaboration, and community.
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start;">
   <div style="width: 320px; text-align: center;">
-    <img src="korean_fest.jpg" 
+    <img src="images/Lab news/korean-fest.jpg" 
          alt="Korean Fest at Tower Grove Park" 
          style="width: 100%; border-radius: 10px;">
   </div>
