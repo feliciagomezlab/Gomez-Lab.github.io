@@ -24,10 +24,6 @@ nav:
     <h3>🎉 Lab Outing with Jennifer Foltz Lab</h3>
     <p><strong>September 2025:</strong> The Gomez Lab and Jennifer Foltz Lab came together to enjoy the 
     <em>Korean Festival at Tower Grove Park</em> — a day filled with amazing food, music, and cultural celebration.</p>
-    <p>
-      These community outings foster collaboration, friendship, and creativity within our research teams, 
-      reminding us that great science thrives in great company.
-    </p>
   </div>
 </div>
 <hr>
