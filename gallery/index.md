@@ -50,8 +50,8 @@ nav:
       <strong>PD-L1</strong>, and <strong>ERK1/2</strong> pathway activation.
     </p>
     <div style="margin-top: 10px;">
-      <a href="{{ site.baseurl }}/files/siteman_2025_poster.pdf" target="_blank" title="View Poster PDF">
-        <i class="fa-solid fa-file-pdf" style="font-size: 20px; margin-right: 8px;"></i>
+      <a href="{{ site.baseurl }}/images/siteman2025poster.png" target="_blank" title="View Poster">
+        <i class="fa-solid fa-file-png" style="font-size: 20px; margin-right: 8px;"></i>
       </a>
       <a href="https://siteman.wustl.edu/" target="_blank" title="Siteman Cancer Center Website">
         <i class="fa-solid fa-globe" style="font-size: 20px;"></i>
