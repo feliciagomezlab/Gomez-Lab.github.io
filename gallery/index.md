@@ -41,8 +41,8 @@ nav:
   </div>
   <div style="max-width: 700px;">
     <h3>🧬 Poster Presentation at Siteman Cancer Center Research Retreat</h3>
-    <p><strong>October 2025:</strong> Mariam Khanfar, Charlz Jerold, and the <em>Felicia Gomez Lab</em> 
-    presented their research poster titled <em>“Characterizing the Expression Profile of Hodgkin Reed Sternberg Cells 
+    <p><strong>October 2025:</strong> Felicia Gomez
+    presented a research poster titled <em>“Characterizing the Expression Profile of Hodgkin Reed Sternberg Cells 
     using Single Nuclei RNA Sequencing”</em> at the <strong>Siteman Cancer Center Research Retreat</strong>.</p>
     <p>
       This project integrates exome and single-nuclei RNA sequencing to identify and characterize putative Hodgkin Reed Sternberg (HRS) 
