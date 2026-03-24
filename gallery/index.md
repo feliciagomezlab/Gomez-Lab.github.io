@@ -17,7 +17,7 @@ nav:
 <!-- CSHL Teaching Assistant -->
 <div style="display: flex; flex-direction: row; align-items: flex-start; gap: 30px; margin-bottom: 40px; margin-top: 40px;">
   <div style="flex-shrink: 0;">
-    <img src="{{ site.baseurl }}/images/cshl_course.jpg" 
+    <img src="{{ site.baseurl }}/images/CSHL_charlz.jpg" 
          alt="Cold Spring Harbor Laboratory Course" 
          style="width: 320px; height: auto; border-radius: 10px;">
   </div>
