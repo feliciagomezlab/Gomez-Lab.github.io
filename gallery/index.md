@@ -12,7 +12,34 @@ nav:
 {% include section.html %}
 
 ## 📰 News & Highlights
+<hr>
 
+<!-- CSHL Teaching Assistant -->
+<div style="display: flex; flex-direction: row; align-items: flex-start; gap: 30px; margin-bottom: 40px; margin-top: 40px;">
+  <div style="flex-shrink: 0;">
+    <img src="{{ site.baseurl }}/images/cshl_course.jpg" 
+         alt="Cold Spring Harbor Laboratory Course" 
+         style="width: 320px; height: auto; border-radius: 10px;">
+  </div>
+  <div style="max-width: 700px;">
+    <h3>🧬 Teaching at Cold Spring Harbor Laboratory</h3>
+    <p><strong>2025:</strong> Charlz served as a Teaching Assistant for the 
+    <em>Advanced Sequencing Technologies & Bioinformatics Analysis</em> course at 
+    <strong>Cold Spring Harbor Laboratory</strong>, marking his first experience in an instructional role at an international training program.</p>
+
+    <p>
+      During the course, Charlz actively contributed to hands-on training sessions, guiding participants through 
+      practical workflows in sequencing data analysis, including alignment, variant detection, and downstream 
+      bioinformatics interpretation. He worked closely with students from diverse research backgrounds, helping 
+      translate complex computational concepts into reproducible analytical steps.
+    </p>
+
+    <p>
+      This experience highlights his growing role in scientific mentorship and education, as well as the lab’s 
+      continued engagement in training the next generation of researchers in advanced genomics and computational biology.
+    </p>
+  </div>
+</div>
 <!-- Korean Fest 2025 -->
 <div style="display: flex; flex-direction: row; align-items: flex-start; gap: 30px; margin-bottom: 40px;">
   <div style="flex-shrink: 0;">
